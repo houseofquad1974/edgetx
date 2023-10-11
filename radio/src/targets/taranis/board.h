@@ -226,7 +226,7 @@ bool UNEXPECTED_SHUTDOWN();
 void backlightInit();
 void backlightDisable();
 void backlightFullOn();
-uint8_t isBacklightEnabled();
+bool isBacklightEnabled();
 
 #if defined(PCBX9E) || defined(PCBX9DP)
   void backlightEnable(uint8_t level, uint8_t color);
