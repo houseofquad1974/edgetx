@@ -417,6 +417,7 @@ static bool adc_disable_dma(DMA_TypeDef* DMAx, uint32_t stream)
   while (LL_DMA_IsEnabledStream(DMAx, stream)) {
     if (--timeout == 0) {
       // Timeout. Failed to disable DMA
+      TRACE("Timeout when disabling DMA");
       return false;
     }
   }
@@ -462,6 +463,10 @@ static void adc_start_read(const stm32_adc_t* ADCs, uint8_t n_ADC)
       if (DMAx && adc_disable_dma(DMAx, stream)) {
         _adc_started_mask |= adc_mask;
         adc_start_dma_conversion(ADCx, DMAx, stream);
+        TRACE("Start DMA(ADC%d): _adc_started_mask=%x,adc_mask=%x", 2 - n_ADC, _adc_started_mask, adc_mask);
+      }
+      else {
+        TRACE("Failed in disabling ADC DMA stream!!");
       }
 
     } else {
@@ -495,8 +500,28 @@ bool stm32_hal_adc_start_read(const stm32_adc_t* ADCs, uint8_t n_ADC,
 static void copy_adc_values(uint16_t* src, const stm32_adc_t* adc,
                             const stm32_adc_input_t* inputs)
 {
+  if (adc->n_channels <= 7) {
+    TRACE("Addr: %X %d %d %d %d %d %d %d", (uint32_t) src, src[0], src[1], src[2], src[3], src[4], src[5], src[6]);
+  }
+
+//TRACE("ADC%d:offset=%d,n_channels=%d,inputMask=%d,inhibitMask=%d", adc->ADCx, adc->offset, adc->n_channels, _adc_input_mask, _adc_inhibit_mask);
+/*if (adc->n_channels > 7) {
+  TRACE("ADC: src=%d, %d %d %d %d %d %d %d %d %d %d %d %d %d %d", adc->ADCx, 
+        adc->channels[0], adc->channels[1], adc->channels[2], adc->channels[3], adc->channels[4], 
+        adc->channels[5], adc->channels[6], adc->channels[7], adc->channels[8], adc->channels[9],
+        adc->channels[10], adc->channels[11], adc->channels[12], adc->channels[13]);
+}
+else {
+  TRACE("ADC: src=%d, %d %d %d %d %d %d %d", adc->ADCx, 
+        adc->channels[0], adc->channels[1], adc->channels[2], adc->channels[3], adc->channels[4], 
+        adc->channels[5], adc->channels[6], adc->channels[7]);
+}*/
   for (uint8_t i=0; i < adc->n_channels; i++) {
     uint8_t channel = adc->channels[i];
+
+/*    if (channel == 11 || channel == 15) {
+      TRACE("Channel %d Start: %X=%d", channel, (uint32_t) src, *src);
+    }*/
 
     // if input disabled, skip
     if (~_adc_input_mask & (1 << channel)) {
@@ -521,6 +546,9 @@ static void copy_adc_values(uint16_t* src, const stm32_adc_t* adc,
     }
 #endif
 
+/*    if (channel == 11 || channel == 15) {
+      TRACE("Channel %d End", channel);
+    }*/
     src++;
   }
 }
