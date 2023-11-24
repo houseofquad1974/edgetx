@@ -330,9 +330,6 @@ class EdgeTxStyles
     lv_style_set_text_font(&font_bold, getFont(FONT(BOLD)));
   }
 
-  applyColors();
-}
-
   void applyColors()
   {
     // Always update colors in case theme changes
