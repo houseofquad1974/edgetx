@@ -386,7 +386,7 @@ void usePreviewStyle()
 {
   if (!previewStyles) previewStyles = new EdgeTxStyles();
   styles = previewStyles;
-  styles->init();
+  styles->applyColors();
 }
 
 void useMainStyle() { styles = mainStyles; }
