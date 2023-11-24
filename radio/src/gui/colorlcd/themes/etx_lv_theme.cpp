@@ -316,12 +316,12 @@ class EdgeTxStyles
     lv_style_set_bg_color(&bg_color_black, lv_color_black());
     lv_style_init(&fg_color_black);
     lv_style_set_text_color(&fg_color_black, lv_color_black());
-      lv_style_init(&fg_color_white);
-      lv_style_set_text_color(&fg_color_white, lv_color_white());
+    lv_style_init(&fg_color_white);
+    lv_style_set_text_color(&fg_color_white, lv_color_white());
     lv_style_init(&border_color_black);
     lv_style_set_border_color(&border_color_black, lv_color_black());
-      lv_style_init(&border_color_white);
-      lv_style_set_border_color(&border_color_white, lv_color_white());
+    lv_style_init(&border_color_white);
+    lv_style_set_border_color(&border_color_white, lv_color_white());
 
     // Fonts
     lv_style_init(&font_std);
@@ -329,6 +329,9 @@ class EdgeTxStyles
     lv_style_init(&font_bold);
     lv_style_set_text_font(&font_bold, getFont(FONT(BOLD)));
   }
+
+  applyColors();
+}
 
   void applyColors()
   {
