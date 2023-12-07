@@ -21,7 +21,10 @@
 
 #include "stm32_hal_ll.h"
 #include "stm32_gpio_driver.h"
+#include "stm32_gpio.h"
 #include "stm32_spi.h"
+
+#include "hal/gpio.h"
 
 #include "opentx.h"
 
@@ -387,15 +390,10 @@ void audioMuteInit()
 #if defined(PCBX12S)
 void audioShutdownInit()
 {
-  LL_GPIO_InitTypeDef pinInit;
-  LL_GPIO_StructInit(&pinInit);
-
-  pinInit.Mode = LL_GPIO_MODE_OUTPUT;
-  pinInit.Pin = AUDIO_SHUTDOWN_GPIO_PIN;
-  LL_GPIO_Init(AUDIO_SHUTDOWN_GPIO, &pinInit);
+  gpio_init(AUDIO_SHUTDOWN_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW);
 
   // we never RESET it, there is a 2s delay on STARTUP
-  LL_GPIO_SetOutputPin(AUDIO_SHUTDOWN_GPIO, AUDIO_SHUTDOWN_GPIO_PIN);
+  gpio_set(AUDIO_SHUTDOWN_GPIO);
 }
 #endif
 

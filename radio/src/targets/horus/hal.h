@@ -602,8 +602,7 @@
 
 // Audio
 #if defined(PCBX12S)
-  #define AUDIO_SHUTDOWN_GPIO           GPIOI
-  #define AUDIO_SHUTDOWN_GPIO_PIN       LL_GPIO_PIN_9  // PI.09
+  #define AUDIO_SHUTDOWN_GPIO           GPIO_PIN(GPIOI, 9)  // PI.09
   #define AUDIO_XDCS_GPIO               GPIOI
   #define AUDIO_XDCS_GPIO_PIN           LL_GPIO_PIN_0  // PI.00
   #define AUDIO_CS_GPIO                 GPIOH
