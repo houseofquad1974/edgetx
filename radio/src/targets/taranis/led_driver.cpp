@@ -33,20 +33,20 @@ static const uint32_t fsLeds[] = {FSLED_GPIO_PIN_1, FSLED_GPIO_PIN_2,
 void ledInit()
 {
 #if defined(LED_GREEN_GPIO)
-  gpio_init(LED_GREEN_GPIO, GPIO_OUT);
+  gpio_init(LED_GREEN_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW);
 #endif
 
 #if defined(LED_RED_GPIO)
-  gpio_init(LED_RED_GPIO, GPIO_OUT);
+  gpio_init(LED_RED_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW);
 #endif
 
 #if defined(LED_BLUE_GPIO)
-  gpio_init(LED_BLUE_GPIO, GPIO_OUT);
+  gpio_init(LED_BLUE_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW);
 #endif
 
 #if defined(FUNCTION_SWITCHES)
   for (int i = 0; i < DIM(fsLeds); i++) {
-    gpio_init(fsLeds[i], GPIO_OUT);
+    gpio_init(fsLeds[i], GPIO_OUT, GPIO_PIN_SPEED_LOW);
   }
 #endif
 }

@@ -145,6 +145,21 @@ static void disable_usart_clock(USART_TypeDef* USARTx)
 
 }
 
+static gpio_speed_t _get_pin_speed(uint32_t baudrate)
+{
+  // 1 Mbps and above
+  if (baudrate >= 1000000) {
+    return GPIO_PIN_SPEED_VERY_HIGH;
+  }
+  // 400kbps and above
+  else if (baudrate >= 400000) {
+    return GPIO_PIN_SPEED_HIGH;
+  }
+
+  // under 400kbps
+  return GPIO_PIN_SPEED_LOW;
+}
+
 static gpio_af_t _get_usart_af(USART_TypeDef* USARTx)
 {
   if (USARTx == USART1 || USARTx == USART2 || USARTx == USART3) {
@@ -221,10 +236,10 @@ bool stm32_usart_init(const stm32_usart_t* usart, const etx_serial_init* params)
 
   gpio_af_t af = _get_usart_af(usart->USARTx);
   if (usart->rxGPIO != GPIO_UNDEF) {
-    gpio_init_af(usart->rxGPIO, af);
+    gpio_init_af(usart->rxGPIO, af, _get_pin_speed(params->baudrate));
   }
   if (usart->txGPIO != GPIO_UNDEF) {
-    gpio_init_af(usart->txGPIO, af);
+    gpio_init_af(usart->txGPIO, af, _get_pin_speed(params->baudrate));
   }
   
   LL_USART_InitTypeDef usartInit;
@@ -311,10 +326,10 @@ void stm32_usart_deinit(const stm32_usart_t* usart)
 
   // Reconfigure pin as input
   if (usart->rxGPIO != GPIO_UNDEF) {
-    gpio_init(usart->rxGPIO, GPIO_IN);
+    gpio_init(usart->rxGPIO, GPIO_IN, GPIO_PIN_SPEED_LOW);
   }
   if (usart->txGPIO != GPIO_UNDEF) {
-    gpio_init(usart->txGPIO, GPIO_IN);
+    gpio_init(usart->txGPIO, GPIO_IN, GPIO_PIN_SPEED_LOW);
   }
 }
 

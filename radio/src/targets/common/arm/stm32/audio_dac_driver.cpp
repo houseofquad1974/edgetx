@@ -76,7 +76,7 @@ void dacInit()
   dacTimerInit();
 
 #if defined(AUDIO_MUTE_GPIO)
-  gpio_init(AUDIO_MUTE_GPIO, GPIO_OUT);
+  gpio_init(AUDIO_MUTE_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW);
   setMutePin(true);
 #endif
 

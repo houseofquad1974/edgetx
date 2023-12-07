@@ -27,16 +27,16 @@
 void ledInit()
 {
 #if defined(LED_GPIO)
-  gpio_init(LED_GPIO, GPIO_OUT);
+  gpio_init(LED_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW);
 #endif
 #if defined(LED_RED_GPIO)
-  gpio_init(LED_RED_GPIO, GPIO_OUT);
+  gpio_init(LED_RED_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW);
 #endif
 #if defined(LED_GREEN_GPIO)
-  gpio_init(LED_GREEN_GPIO, GPIO_OUT);
+  gpio_init(LED_GREEN_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW);
 #endif
 #if defined(LED_BLUE_GPIO)
-  gpio_init(LED_BLUE_GPIO, GPIO_OUT);
+  gpio_init(LED_BLUE_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW);
 #endif
 }
 
@@ -45,7 +45,7 @@ void ledInit()
 // Single GPIO for dual color LED
 void ledOff()
 {
-  gpio_init(LED_GPIO, GPIO_IN_PU);
+  gpio_init(LED_GPIO, GPIO_IN_PU, GPIO_PIN_SPEED_LOW);
 }
 
 void ledRed()

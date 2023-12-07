@@ -70,8 +70,8 @@ extern lcdSpiInitFucPtr lcdOnFunction;
 
 #define SET_LCD_DATA()                gpio_write(LCD_SPI_MOSI_GPIO, 1)
 #define CLR_LCD_DATA()                gpio_write(LCD_SPI_MOSI_GPIO, 0)
-#define SET_LCD_DATA_INPUT()          gpio_init(LCD_SPI_MOSI_GPIO, GPIO_IN_PU)
-#define SET_LCD_DATA_OUTPUT()         gpio_init(LCD_SPI_MOSI_GPIO, GPIO_OUT)
+#define SET_LCD_DATA_INPUT()          gpio_init(LCD_SPI_MOSI_GPIO, GPIO_IN_PU, GPIO_PIN_SPEED_LOW)
+#define SET_LCD_DATA_OUTPUT()         gpio_init(LCD_SPI_MOSI_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW)
 #define READ_LCD_DATA_PIN()           gpio_read(LCD_SPI_MOSI_GPIO)
 
 

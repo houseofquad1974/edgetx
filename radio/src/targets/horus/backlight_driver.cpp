@@ -33,10 +33,10 @@
 void backlightInit()
 {
   // PIN init
-  gpio_init_af(BACKLIGHT_GPIO, BACKLIGHT_GPIO_AF);
+  gpio_init_af(BACKLIGHT_GPIO, BACKLIGHT_GPIO_AF, GPIO_PIN_SPEED_LOW);
 
 #if defined(KEYS_BACKLIGHT_GPIO)
-  gpio_init(KEYS_BACKLIGHT_GPIO, GPIO_OUT);
+  gpio_init(KEYS_BACKLIGHT_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW);
 #endif
 
   // TIMER init

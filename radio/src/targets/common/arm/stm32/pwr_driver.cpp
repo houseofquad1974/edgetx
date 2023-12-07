@@ -28,46 +28,46 @@
 void pwrInit()
 {
 #if defined(INTMODULE_BOOTCMD_GPIO)
-  gpio_init(INTMODULE_BOOTCMD_GPIO, GPIO_OUT);
+  gpio_init(INTMODULE_BOOTCMD_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW);
   gpio_write(INTMODULE_BOOTCMD_GPIO, INTMODULE_BOOTCMD_DEFAULT);
 #endif
 
   // Internal module power
 #if defined(HARDWARE_INTERNAL_MODULE)
-  gpio_init(INTMODULE_PWR_GPIO, GPIO_OUT);
+  gpio_init(INTMODULE_PWR_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW);
   INTERNAL_MODULE_OFF();
 #endif
 
   // External module power
-  gpio_init(EXTMODULE_PWR_GPIO, GPIO_OUT);
+  gpio_init(EXTMODULE_PWR_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW);
   EXTERNAL_MODULE_PWR_OFF();
 
   // PWR switch
-  gpio_init(PWR_SWITCH_GPIO, GPIO_IN_PU);
+  gpio_init(PWR_SWITCH_GPIO, GPIO_IN_PU, GPIO_PIN_SPEED_LOW);
 
 #if defined(PWR_EXTRA_SWITCH_GPIO)
   // PWR Extra switch
-  gpio_init(PWR_EXTRA_SWITCH_GPIO, GPIO_IN_PU);
+  gpio_init(PWR_EXTRA_SWITCH_GPIO, GPIO_IN_PU, GPIO_PIN_SPEED_LOW);
 #endif
 
 #if defined(PCBREV_HARDCODED)
   hardwareOptions.pcbrev = PCBREV_HARDCODED;
 #elif defined(PCBREV_GPIO)
   #if defined(PCBREV_GPIO_PULL_DOWN)
-    gpio_init(PCBREV_GPIO, GPIO_IN_PD);
+    gpio_init(PCBREV_GPIO, GPIO_IN_PD, GPIO_PIN_SPEED_LOW);
   #endif
-  gpio_init(PCBREV_GPIO, GPIO_IN_PU);
+  gpio_init(PCBREV_GPIO, GPIO_IN_PU, GPIO_PIN_SPEED_LOW);
   hardwareOptions.pcbrev = PCBREV_VALUE();
 #elif defined(PCBREV_GPIO_1) && defined(PCBREV_GPIO_2)
-  gpio_init(PCBREV_GPIO_1, GPIO_IN_PU);
-  gpio_init(PCBREV_GPIO_2, GPIO_IN_PU);
+  gpio_init(PCBREV_GPIO_1, GPIO_IN_PU, GPIO_PIN_SPEED_LOW);
+  gpio_init(PCBREV_GPIO_2, GPIO_IN_PU, GPIO_PIN_SPEED_LOW);
   hardwareOptions.pcbrev = PCBREV_VALUE();
 #endif
 }
 
 void pwrOn()
 {
-  gpio_init(PWR_ON_GPIO, GPIO_OUT);
+  gpio_init(PWR_ON_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW);
   gpio_set(PWR_ON_GPIO);
 }
 

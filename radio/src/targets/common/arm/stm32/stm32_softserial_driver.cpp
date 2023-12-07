@@ -99,7 +99,7 @@ static bool _softserial_init_rx(const stm32_softserial_rx_port* port,
   NVIC_EnableIRQ(port->TIM_IRQn);
 
   if (port->dir_GPIO != GPIO_UNDEF) {
-    gpio_init(port->dir_GPIO, GPIO_OUT);
+    gpio_init(port->dir_GPIO, GPIO_OUT, GPIO_PIN_SPEED_MEDIUM);
     if (!port->dir_Input) {
       gpio_clear(port->dir_GPIO);
     } else {
@@ -126,7 +126,7 @@ static bool _softserial_init_rx(const stm32_softserial_rx_port* port,
 static void _softserial_deinit_gpio(const stm32_softserial_rx_port* port)
 {
   // Reconfigure pin as input
-  gpio_init(port->GPIO, GPIO_IN);
+  gpio_init(port->GPIO, GPIO_IN, GPIO_PIN_SPEED_LOW);
   // LL_GPIO_InitTypeDef pinInit;
   // LL_GPIO_StructInit(&pinInit);
 

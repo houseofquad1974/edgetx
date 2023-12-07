@@ -27,6 +27,7 @@ typedef uint32_t gpio_t;
 
 typedef uint8_t  gpio_mode_t;
 typedef uint8_t  gpio_af_t;
+typedef uint8_t  gpio_speed_t;
 
 typedef enum {
     GPIO_RISING = 1,
@@ -36,8 +37,8 @@ typedef enum {
 
 typedef void (*gpio_cb_t)();
 
-void gpio_init(gpio_t pin, gpio_mode_t mode);
-void gpio_init_af(gpio_t pin, gpio_af_t af);
+void gpio_init(gpio_t pin, gpio_mode_t mode, gpio_speed_t speed);
+void gpio_init_af(gpio_t pin, gpio_af_t af, gpio_speed_t speed);
 void gpio_init_int(gpio_t pin, gpio_mode_t mode, gpio_flank_t flank, gpio_cb_t cb);
 void gpio_init_analog(gpio_t pin);
 

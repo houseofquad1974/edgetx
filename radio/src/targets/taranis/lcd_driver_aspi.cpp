@@ -201,14 +201,14 @@ void lcdRefresh()
 
 void lcdHardwareInit()
 {
-  gpio_init(LCD_MOSI_GPIO, GPIO_OUT);
-  gpio_init(LCD_CLK_GPIO, GPIO_OUT);
-  gpio_init(LCD_A0_GPIO, GPIO_OUT);
+  gpio_init(LCD_MOSI_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW);
+  gpio_init(LCD_CLK_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW);
+  gpio_init(LCD_A0_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW);
   
-  gpio_init(LCD_NCS_GPIO, GPIO_OUT);
+  gpio_init(LCD_NCS_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW);
   LCD_NCS_HIGH();
   
-  gpio_init(LCD_RST_GPIO, GPIO_OUT);
+  gpio_init(LCD_RST_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW);
 }
 
 /*

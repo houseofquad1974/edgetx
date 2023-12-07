@@ -290,7 +290,7 @@ void boardOff()
 #if defined(AUDIO_SPEAKER_ENABLE_GPIO)
 void initSpeakerEnable()
 {
-  gpio_init(AUDIO_SPEAKER_ENABLE_GPIO, GPIO_OUT);
+  gpio_init(AUDIO_SPEAKER_ENABLE_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW);
 }
 
 void enableSpeaker()
@@ -307,7 +307,7 @@ void disableSpeaker()
 #if defined(HEADPHONE_TRAINER_SWITCH_GPIO)
 void initHeadphoneTrainerSwitch()
 {
-  gpio_init(HEADPHONE_TRAINER_SWITCH_GPIO, GPIO_OUT);
+  gpio_init(HEADPHONE_TRAINER_SWITCH_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW);
 }
 
 void enableHeadphone()
@@ -324,7 +324,7 @@ void enableTrainer()
 #if defined(JACK_DETECT_GPIO)
 void initJackDetect(void)
 {
-  gpio_init(JACK_DETECT_GPIO, GPIO_IN_PU);
+  gpio_init(JACK_DETECT_GPIO, GPIO_IN_PU, GPIO_PIN_SPEED_LOW);
 }
 
 bool isJackPlugged()

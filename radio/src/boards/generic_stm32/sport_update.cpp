@@ -45,7 +45,7 @@ void sportUpdateInit()
   }
 #endif
 
-  gpio_init(SPORT_UPDATE_PWR_GPIO, GPIO_OUT);
+  gpio_init(SPORT_UPDATE_PWR_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW);
 #endif
 }
 

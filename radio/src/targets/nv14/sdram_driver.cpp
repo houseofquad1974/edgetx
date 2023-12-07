@@ -66,54 +66,54 @@ extern "C" void SDRAM_GPIOConfig(void)
   */
 
   /* GPIOC configuration */
-  gpio_init_af(GPIO_PIN(GPIOC, 3), GPIO_AF_FMC);
+  gpio_init_af(GPIO_PIN(GPIOC, 3), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
 
   /* GPIOH configuration */
-  gpio_init_af(GPIO_PIN(GPIOH, 3), GPIO_AF_FMC);
-  gpio_init_af(GPIO_PIN(GPIOH, 5), GPIO_AF_FMC);
+  gpio_init_af(GPIO_PIN(GPIOH, 3), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
+  gpio_init_af(GPIO_PIN(GPIOH, 5), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
 
   /* GPIOD configuration */
-  gpio_init_af(GPIO_PIN(GPIOD, 0), GPIO_AF_FMC);
-  gpio_init_af(GPIO_PIN(GPIOD, 1), GPIO_AF_FMC);
-  gpio_init_af(GPIO_PIN(GPIOD, 8), GPIO_AF_FMC);
-  gpio_init_af(GPIO_PIN(GPIOD, 9), GPIO_AF_FMC);
-  gpio_init_af(GPIO_PIN(GPIOD, 10), GPIO_AF_FMC);
-  gpio_init_af(GPIO_PIN(GPIOD, 14), GPIO_AF_FMC);
-  gpio_init_af(GPIO_PIN(GPIOD, 15), GPIO_AF_FMC);
+  gpio_init_af(GPIO_PIN(GPIOD, 0), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
+  gpio_init_af(GPIO_PIN(GPIOD, 1), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
+  gpio_init_af(GPIO_PIN(GPIOD, 8), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
+  gpio_init_af(GPIO_PIN(GPIOD, 9), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
+  gpio_init_af(GPIO_PIN(GPIOD, 10), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
+  gpio_init_af(GPIO_PIN(GPIOD, 14), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
+  gpio_init_af(GPIO_PIN(GPIOD, 15), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
 
   /* GPIOE configuration */
-  gpio_init_af(GPIO_PIN(GPIOE, 0), GPIO_AF_FMC);
-  gpio_init_af(GPIO_PIN(GPIOE, 1), GPIO_AF_FMC);
-  gpio_init_af(GPIO_PIN(GPIOE, 7), GPIO_AF_FMC);
-  gpio_init_af(GPIO_PIN(GPIOE, 8), GPIO_AF_FMC);
-  gpio_init_af(GPIO_PIN(GPIOE, 9), GPIO_AF_FMC);
-  gpio_init_af(GPIO_PIN(GPIOE, 10), GPIO_AF_FMC);
-  gpio_init_af(GPIO_PIN(GPIOE, 11), GPIO_AF_FMC);
-  gpio_init_af(GPIO_PIN(GPIOE, 12), GPIO_AF_FMC);
-  gpio_init_af(GPIO_PIN(GPIOE, 13), GPIO_AF_FMC);
-  gpio_init_af(GPIO_PIN(GPIOE, 14), GPIO_AF_FMC);
-  gpio_init_af(GPIO_PIN(GPIOE, 15), GPIO_AF_FMC);
+  gpio_init_af(GPIO_PIN(GPIOE, 0), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
+  gpio_init_af(GPIO_PIN(GPIOE, 1), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
+  gpio_init_af(GPIO_PIN(GPIOE, 7), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
+  gpio_init_af(GPIO_PIN(GPIOE, 8), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
+  gpio_init_af(GPIO_PIN(GPIOE, 9), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
+  gpio_init_af(GPIO_PIN(GPIOE, 10), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
+  gpio_init_af(GPIO_PIN(GPIOE, 11), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
+  gpio_init_af(GPIO_PIN(GPIOE, 12), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
+  gpio_init_af(GPIO_PIN(GPIOE, 13), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
+  gpio_init_af(GPIO_PIN(GPIOE, 14), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
+  gpio_init_af(GPIO_PIN(GPIOE, 15), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
 
   /* GPIOF configuration */
-  gpio_init_af(GPIO_PIN(GPIOF, 0), GPIO_AF_FMC);
-  gpio_init_af(GPIO_PIN(GPIOF, 1), GPIO_AF_FMC);
-  gpio_init_af(GPIO_PIN(GPIOF, 2), GPIO_AF_FMC);
-  gpio_init_af(GPIO_PIN(GPIOF, 3), GPIO_AF_FMC);
-  gpio_init_af(GPIO_PIN(GPIOF, 4), GPIO_AF_FMC);
-  gpio_init_af(GPIO_PIN(GPIOF, 5), GPIO_AF_FMC);
-  gpio_init_af(GPIO_PIN(GPIOF, 11), GPIO_AF_FMC);
-  gpio_init_af(GPIO_PIN(GPIOF, 12), GPIO_AF_FMC);
-  gpio_init_af(GPIO_PIN(GPIOF, 13), GPIO_AF_FMC);
-  gpio_init_af(GPIO_PIN(GPIOF, 14), GPIO_AF_FMC);
-  gpio_init_af(GPIO_PIN(GPIOF, 15), GPIO_AF_FMC);
+  gpio_init_af(GPIO_PIN(GPIOF, 0), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
+  gpio_init_af(GPIO_PIN(GPIOF, 1), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
+  gpio_init_af(GPIO_PIN(GPIOF, 2), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
+  gpio_init_af(GPIO_PIN(GPIOF, 3), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
+  gpio_init_af(GPIO_PIN(GPIOF, 4), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
+  gpio_init_af(GPIO_PIN(GPIOF, 5), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
+  gpio_init_af(GPIO_PIN(GPIOF, 11), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
+  gpio_init_af(GPIO_PIN(GPIOF, 12), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
+  gpio_init_af(GPIO_PIN(GPIOF, 13), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
+  gpio_init_af(GPIO_PIN(GPIOF, 14), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
+  gpio_init_af(GPIO_PIN(GPIOF, 15), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
 
   /* GPIOG configuration */
-  gpio_init_af(GPIO_PIN(GPIOG, 0), GPIO_AF_FMC);
-  gpio_init_af(GPIO_PIN(GPIOG, 1), GPIO_AF_FMC);
-  gpio_init_af(GPIO_PIN(GPIOG, 4), GPIO_AF_FMC);
-  gpio_init_af(GPIO_PIN(GPIOG, 5), GPIO_AF_FMC);
-  gpio_init_af(GPIO_PIN(GPIOG, 8), GPIO_AF_FMC);
-  gpio_init_af(GPIO_PIN(GPIOG, 15), GPIO_AF_FMC);
+  gpio_init_af(GPIO_PIN(GPIOG, 0), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
+  gpio_init_af(GPIO_PIN(GPIOG, 1), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
+  gpio_init_af(GPIO_PIN(GPIOG, 4), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
+  gpio_init_af(GPIO_PIN(GPIOG, 5), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
+  gpio_init_af(GPIO_PIN(GPIOG, 8), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
+  gpio_init_af(GPIO_PIN(GPIOG, 15), GPIO_AF_FMC, GPIO_PIN_SPEED_HIGH);
 }
 
 void SDRAM_InitSequence(void)

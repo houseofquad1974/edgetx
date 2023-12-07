@@ -31,14 +31,14 @@
 
 void backlightLowInit( void )
 {
-  gpio_init(BACKLIGHT_GPIO, GPIO_OUT);
+  gpio_init(BACKLIGHT_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW);
   gpio_clear(BACKLIGHT_GPIO);
 }
 
 void backlightInit()
 {
   // PIN init
-  gpio_init_af(BACKLIGHT_GPIO, BACKLIGHT_GPIO_AF);
+  gpio_init_af(BACKLIGHT_GPIO, BACKLIGHT_GPIO_AF, GPIO_PIN_SPEED_LOW);
 
   stm32_timer_enable_clock(BACKLIGHT_TIMER);
   BACKLIGHT_TIMER->ARR = 100;

@@ -62,7 +62,7 @@ static inline unsigned _get_mode(GPIO_TypeDef* port, int pin_num)
 }
 
 
-void gpio_init(gpio_t pin, gpio_mode_t mode)
+void gpio_init(gpio_t pin, gpio_mode_t mode, gpio_speed_t speed)
 {
   GPIO_TypeDef* port = _port(pin);
   int pin_num = _pin_num(pin);
@@ -79,7 +79,7 @@ void gpio_init(gpio_t pin, gpio_mode_t mode)
   port->OTYPER |=  (((mode >> 4) & 0x1) << pin_num);
 
   // pin speed to max
-  port->OSPEEDR |= (3 << (2 * pin_num));
+  port->OSPEEDR |= (speed << (2 * pin_num));
 }
 
 void gpio_init_int(gpio_t pin, gpio_mode_t mode, gpio_flank_t flank, gpio_cb_t cb)
@@ -87,7 +87,7 @@ void gpio_init_int(gpio_t pin, gpio_mode_t mode, gpio_flank_t flank, gpio_cb_t c
   int port_num = _port_num(pin);
   int pin_num = _pin_num(pin);
 
-  gpio_init(pin, mode);
+  gpio_init(pin, mode, GPIO_PIN_SPEED_LOW);
 
   // enable specific pin as exti sources
   LL_APB2_GRP1_EnableClock(LL_APB2_GRP1_PERIPH_SYSCFG);
@@ -103,7 +103,7 @@ void gpio_int_disable(gpio_t pin)
   stm32_exti_disable(1 << pin_num);
 }
 
-void gpio_init_af(gpio_t pin, gpio_af_t af)
+void gpio_init_af(gpio_t pin, gpio_af_t af, gpio_speed_t speed)
 {
   GPIO_TypeDef* port = _port(pin);
   int pin_num = _pin_num(pin);
@@ -115,7 +115,7 @@ void gpio_init_af(gpio_t pin, gpio_af_t af)
   port->AFR[(pin_num > 7) ? 1 : 0] &= ~(0xf << ((pin_num & 0x07) * 4));
   port->AFR[(pin_num > 7) ? 1 : 0] |= (af << ((pin_num & 0x07) * 4));
   // pin speed to max
-  port->OSPEEDR |= (3 << (2 * pin_num));
+  port->OSPEEDR |= (speed << (2 * pin_num));
 }
 
 void gpio_init_analog(gpio_t pin)
