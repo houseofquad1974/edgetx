@@ -1750,9 +1750,8 @@
 
 #if defined(RADIO_MT12)
   #define LED_STRIP_LENGTH                  7
-  #define LED_STRIP_GPIO                    GPIOA
-  #define LED_STRIP_GPIO_PIN_DATA           LL_GPIO_PIN_8 // PA.08 / TIM1_CH1
-  #define LED_STRIP_GPIO_PIN_AF             LL_GPIO_AF_1   // TIM1 / TIM2
+  #define LED_STRIP_GPIO                    GPIO_PIN(GPIOA, 8) // PA.08 / TIM1_CH1
+  #define LED_STRIP_GPIO_AF                 LL_GPIO_AF_1   // TIM1 / TIM2
   #define LED_STRIP_TIMER                   TIM1
   #define LED_STRIP_TIMER_FREQ              (PERI2_FREQUENCY * TIMER_MULT_APB2)
   #define LED_STRIP_TIMER_CHANNEL           LL_TIM_CHANNEL_CH1
