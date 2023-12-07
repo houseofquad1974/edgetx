@@ -21,12 +21,14 @@
 
 #include "stm32_hal.h"
 #include "stm32_hal_ll.h"
+#include "stm32_gpio.h"
 
 #include "hal/adc_driver.h"
 #include "hal/trainer_driver.h"
 #include "hal/switch_driver.h"
 #include "hal/rotary_encoder.h"
 #include "hal/usb_driver.h"
+#include "hal/gpio.h"
 
 #include "board.h"
 #include "boards/generic_stm32/module_ports.h"
@@ -149,14 +151,8 @@ void boardOff()
 
 #if defined(PCBX12S)
   // Shutdown the Audio amp
-  GPIO_InitTypeDef GPIO_InitStructure;
-  GPIO_InitStructure.GPIO_Pin = AUDIO_SHUTDOWN_GPIO_PIN;
-  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_OUT;
-  GPIO_InitStructure.GPIO_Speed = GPIO_Speed_25MHz;
-  GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
-  GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_UP;
-  GPIO_Init(AUDIO_SHUTDOWN_GPIO, &GPIO_InitStructure);
-  GPIO_ResetBits(AUDIO_SHUTDOWN_GPIO, AUDIO_SHUTDOWN_GPIO_PIN);
+  gpio_init(AUDIO_SHUTDOWN_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW);
+  gpio_clear(AUDIO_SHUTDOWN_GPIO);
 #endif
 
   // Shutdown the Haptic
