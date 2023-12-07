@@ -39,8 +39,8 @@
 
 void battery_charge_init()
 {
-  gpio_init(PWR_CHARGE_FINISHED_GPIO, GPIO_IN_PU);
-  gpio_init(PWR_CHARGING_GPIO, GPIO_IN_PU);
+  gpio_init(PWR_CHARGE_FINISHED_GPIO, GPIO_IN_PU, GPIO_PIN_SPEED_LOW);
+  gpio_init(PWR_CHARGING_GPIO, GPIO_IN_PU, GPIO_PIN_SPEED_LOW);
 }
 
 #define CHARGE_SAMPLES 10

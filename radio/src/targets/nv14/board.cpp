@@ -72,7 +72,7 @@ void delay_self(int count)
 
 static uint8_t boardGetPcbRev()
 {
-  gpio_init(INTMODULE_PWR_GPIO, GPIO_IN);
+  gpio_init(INTMODULE_PWR_GPIO, GPIO_IN, GPIO_PIN_SPEED_LOW);
   delay_ms(1); // delay to let the input settle, else it does not work properly
 
   // detect NV14 vs EL18
@@ -104,7 +104,7 @@ void boardBootloaderInit()
 
 static void monitorInit()
 {
-  gpio_init(VBUS_MONITOR_GPIO, GPIO_IN);
+  gpio_init(VBUS_MONITOR_GPIO, GPIO_IN, GPIO_PIN_SPEED_LOW);
 }
 
 void boardInit()

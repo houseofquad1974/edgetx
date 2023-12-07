@@ -40,7 +40,7 @@ void hapticOn(uint32_t pwmPercent)
 
 void hapticInit(void)
 {
-  gpio_init_af(HAPTIC_GPIO, HAPTIC_GPIO_AF);
+  gpio_init_af(HAPTIC_GPIO, HAPTIC_GPIO_AF, GPIO_PIN_SPEED_LOW);
 
   stm32_timer_enable_clock(HAPTIC_GPIO_TIMER);
   HAPTIC_GPIO_TIMER->ARR = 100;

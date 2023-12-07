@@ -227,11 +227,11 @@ extern "C" void TIM8_BRK_TIM12_IRQHandler()
 
 void toplcdInit()
 {
-  gpio_init(TOPLCD_GPIO_DATA, GPIO_OUT);
-  gpio_init(TOPLCD_GPIO_WR, GPIO_OUT);
-  gpio_init(TOPLCD_GPIO_CS1, GPIO_OUT);
-  gpio_init(TOPLCD_GPIO_CS2, GPIO_OUT);
-  gpio_init(TOPLCD_GPIO_BL, GPIO_OUT);
+  gpio_init(TOPLCD_GPIO_DATA, GPIO_OUT, GPIO_PIN_SPEED_LOW);
+  gpio_init(TOPLCD_GPIO_WR, GPIO_OUT, GPIO_PIN_SPEED_LOW);
+  gpio_init(TOPLCD_GPIO_CS1, GPIO_OUT, GPIO_PIN_SPEED_LOW);
+  gpio_init(TOPLCD_GPIO_CS2, GPIO_OUT, GPIO_PIN_SPEED_LOW);
+  gpio_init(TOPLCD_GPIO_BL, GPIO_OUT, GPIO_PIN_SPEED_LOW);
 
   BL_ON();
 

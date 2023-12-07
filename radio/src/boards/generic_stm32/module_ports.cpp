@@ -137,8 +137,8 @@ static void _extmod_set_inverted(uint8_t enable)
 
 static void _extmod_init_inverter()
 {
-  gpio_init(EXTMODULE_TX_INVERT_GPIO, GPIO_OUT);
-  gpio_init(EXTMODULE_RX_INVERT_GPIO, GPIO_OUT);
+  gpio_init(EXTMODULE_TX_INVERT_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW);
+  gpio_init(EXTMODULE_RX_INVERT_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW);
 
   // this sets the output to idle-low as is
   // the default in EdgeTX on external module
@@ -237,8 +237,8 @@ static void _sport_set_inverted(uint8_t enable)
 
 static void _sport_init_inverter()
 {
-  gpio_init(TELEMETRY_TX_REV_GPIO, GPIO_OUT);
-  gpio_init(TELEMETRY_RX_REV_GPIO, GPIO_OUT);
+  gpio_init(TELEMETRY_TX_REV_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW);
+  gpio_init(TELEMETRY_RX_REV_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW);
   _sport_set_inverted(false);
 }
 #endif
@@ -269,7 +269,7 @@ DEFINE_STM32_SERIAL_PORT(SportModule, sportUSART, TELEMETRY_FIFO_SIZE, 0);
 
 static void _sport_direction_init()
 {
-  gpio_init(TELEMETRY_DIR_GPIO, GPIO_OUT);
+  gpio_init(TELEMETRY_DIR_GPIO, GPIO_OUT, GPIO_PIN_SPEED_MEDIUM);
 }
 
 #if defined(TELEMETRY_TIMER)
@@ -505,7 +505,7 @@ void boardInitModulePorts()
   if (hardwareOptions.pcbrev == PCBREV_NV14) {
     // pin must be pulled to V+ (voltage of board - VCC is not enough to fully close transistor)
     // for additional transistor to ensuring module is completely disabled
-    gpio_init(EXTMODULE_PWR_FIX_GPIO, GPIO_OD);
+    gpio_init(EXTMODULE_PWR_FIX_GPIO, GPIO_OD, GPIO_PIN_SPEED_LOW);
     gpio_set(EXTMODULE_PWR_FIX_GPIO);
   }
 #endif

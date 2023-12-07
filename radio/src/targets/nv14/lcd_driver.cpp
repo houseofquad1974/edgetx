@@ -109,40 +109,40 @@ static void LCD_AF_GPIOConfig(void)
   */
 
   // GPIOG configuration
-  gpio_init_af(GPIO_PIN(GPIOG, 7), GPIO_AF_LTDC);
+  gpio_init_af(GPIO_PIN(GPIOG, 7), GPIO_AF_LTDC, GPIO_PIN_SPEED_LOW);
 
   // GPIOI configuration
-  gpio_init_af(GPIO_PIN(GPIOI, 12), GPIO_AF_LTDC);
-  gpio_init_af(GPIO_PIN(GPIOI, 13), GPIO_AF_LTDC);
+  gpio_init_af(GPIO_PIN(GPIOI, 12), GPIO_AF_LTDC, GPIO_PIN_SPEED_LOW);
+  gpio_init_af(GPIO_PIN(GPIOI, 13), GPIO_AF_LTDC, GPIO_PIN_SPEED_LOW);
 
   // GPIOJ configuration
-  gpio_init_af(GPIO_PIN(GPIOJ, 2), GPIO_AF_LTDC);
-  gpio_init_af(GPIO_PIN(GPIOJ, 3), GPIO_AF_LTDC);
-  gpio_init_af(GPIO_PIN(GPIOJ, 4), GPIO_AF_LTDC);
-  gpio_init_af(GPIO_PIN(GPIOJ, 5), GPIO_AF_LTDC);
-  gpio_init_af(GPIO_PIN(GPIOJ, 6), GPIO_AF_LTDC);
-  gpio_init_af(GPIO_PIN(GPIOJ, 9), GPIO_AF_LTDC);
-  gpio_init_af(GPIO_PIN(GPIOJ, 10), GPIO_AF_LTDC);
-  gpio_init_af(GPIO_PIN(GPIOJ, 11), GPIO_AF_LTDC);
-  gpio_init_af(GPIO_PIN(GPIOJ, 15), GPIO_AF_LTDC);
+  gpio_init_af(GPIO_PIN(GPIOJ, 2), GPIO_AF_LTDC, GPIO_PIN_SPEED_LOW);
+  gpio_init_af(GPIO_PIN(GPIOJ, 3), GPIO_AF_LTDC, GPIO_PIN_SPEED_LOW);
+  gpio_init_af(GPIO_PIN(GPIOJ, 4), GPIO_AF_LTDC, GPIO_PIN_SPEED_LOW);
+  gpio_init_af(GPIO_PIN(GPIOJ, 5), GPIO_AF_LTDC, GPIO_PIN_SPEED_LOW);
+  gpio_init_af(GPIO_PIN(GPIOJ, 6), GPIO_AF_LTDC, GPIO_PIN_SPEED_LOW);
+  gpio_init_af(GPIO_PIN(GPIOJ, 9), GPIO_AF_LTDC, GPIO_PIN_SPEED_LOW);
+  gpio_init_af(GPIO_PIN(GPIOJ, 10), GPIO_AF_LTDC, GPIO_PIN_SPEED_LOW);
+  gpio_init_af(GPIO_PIN(GPIOJ, 11), GPIO_AF_LTDC, GPIO_PIN_SPEED_LOW);
+  gpio_init_af(GPIO_PIN(GPIOJ, 15), GPIO_AF_LTDC, GPIO_PIN_SPEED_LOW);
 
   // GPIOK configuration
-  gpio_init_af(GPIO_PIN(GPIOK, 0), GPIO_AF_LTDC);
-  gpio_init_af(GPIO_PIN(GPIOK, 1), GPIO_AF_LTDC);
-  gpio_init_af(GPIO_PIN(GPIOK, 2), GPIO_AF_LTDC);
-  gpio_init_af(GPIO_PIN(GPIOK, 3), GPIO_AF_LTDC);
-  gpio_init_af(GPIO_PIN(GPIOK, 4), GPIO_AF_LTDC);
-  gpio_init_af(GPIO_PIN(GPIOK, 5), GPIO_AF_LTDC);
-  gpio_init_af(GPIO_PIN(GPIOK, 6), GPIO_AF_LTDC);
-  gpio_init_af(GPIO_PIN(GPIOK, 7), GPIO_AF_LTDC);
+  gpio_init_af(GPIO_PIN(GPIOK, 0), GPIO_AF_LTDC, GPIO_PIN_SPEED_LOW);
+  gpio_init_af(GPIO_PIN(GPIOK, 1), GPIO_AF_LTDC, GPIO_PIN_SPEED_LOW);
+  gpio_init_af(GPIO_PIN(GPIOK, 2), GPIO_AF_LTDC, GPIO_PIN_SPEED_LOW);
+  gpio_init_af(GPIO_PIN(GPIOK, 3), GPIO_AF_LTDC, GPIO_PIN_SPEED_LOW);
+  gpio_init_af(GPIO_PIN(GPIOK, 4), GPIO_AF_LTDC, GPIO_PIN_SPEED_LOW);
+  gpio_init_af(GPIO_PIN(GPIOK, 5), GPIO_AF_LTDC, GPIO_PIN_SPEED_LOW);
+  gpio_init_af(GPIO_PIN(GPIOK, 6), GPIO_AF_LTDC, GPIO_PIN_SPEED_LOW);
+  gpio_init_af(GPIO_PIN(GPIOK, 7), GPIO_AF_LTDC, GPIO_PIN_SPEED_LOW);
 }
 
 static void lcdSpiConfig(void)
 {
-  gpio_init(LCD_SPI_SCK_GPIO, GPIO_OUT);
-  gpio_init(LCD_SPI_MOSI_GPIO, GPIO_OUT);
-  gpio_init(LCD_SPI_CS_GPIO, GPIO_OUT);
-  gpio_init(LCD_NRST_GPIO, GPIO_OUT);
+  gpio_init(LCD_SPI_SCK_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW);
+  gpio_init(LCD_SPI_MOSI_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW);
+  gpio_init(LCD_SPI_CS_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW);
+  gpio_init(LCD_NRST_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW);
 
   /* Set the chip select pin aways low */
   CLR_LCD_CS();

@@ -42,7 +42,7 @@ void hapticOn(uint32_t pwmPercent)
 
 void hapticInit()
 {
-  gpio_init_af(HAPTIC_GPIO, HAPTIC_GPIO_AF);
+  gpio_init_af(HAPTIC_GPIO, HAPTIC_GPIO_AF, GPIO_PIN_SPEED_LOW);
 
   stm32_timer_enable_clock(HAPTIC_TIMER);
   HAPTIC_TIMER->ARR = 100;
@@ -64,7 +64,7 @@ void hapticInit()
 // No PWM before X9D+
 void hapticInit()
 {
-  gpio_init(HAPTIC_GPIO, GPIO_OUT);
+  gpio_init(HAPTIC_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW);
 }
 
 void hapticOff()

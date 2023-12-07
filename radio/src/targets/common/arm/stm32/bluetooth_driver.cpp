@@ -61,7 +61,7 @@ void* _bt_usart_ctx = nullptr;
 void bluetoothInit(uint32_t baudrate, bool enable)
 {
 #if defined(BT_EN_GPIO)
-  gpio_init(BT_EN_GPIO, GPIO_OUT);
+  gpio_init(BT_EN_GPIO, GPIO_OUT, GPIO_PIN_SPEED_LOW);
 #endif
 
 #if !defined(BOOT)

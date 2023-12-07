@@ -39,7 +39,7 @@
 #if defined(AUX_SERIAL_PWR_GPIO) || defined(AUX2_SERIAL_PWR_GPIO)
 static void _aux_pwr(gpio_t pin, uint8_t on)
 {
-  gpio_init(pin, GPIO_OUT);
+  gpio_init(pin, GPIO_OUT, GPIO_PIN_SPEED_LOW);
   gpio_write(pin, on);
 }
 #endif

@@ -71,8 +71,8 @@ void lcdWriteCommand(uint8_t byte)
 
 void lcdHardwareInit()
 {
-  gpio_init_af(LCD_MOSI_GPIO, LCD_GPIO_AF);
-  gpio_init_af(LCD_CLK_GPIO, LCD_GPIO_AF);
+  gpio_init_af(LCD_MOSI_GPIO, LCD_GPIO_AF, GPIO_PIN_SPEED_HIGH);
+  gpio_init_af(LCD_CLK_GPIO, LCD_GPIO_AF, GPIO_PIN_SPEED_HIGH);
 
   // APB1 clock / 2 = 133nS per clock
   LCD_SPI->CR1 = 0; // Clear any mode error
@@ -81,11 +81,11 @@ void lcdHardwareInit()
   LCD_SPI->CR1 |= SPI_CR1_MSTR;	// Make sure in case SSM/SSI needed to be set first
   LCD_SPI->CR1 |= SPI_CR1_SPE;
 
-  gpio_init(LCD_NCS_GPIO, GPIO_OUT);
+  gpio_init(LCD_NCS_GPIO, GPIO_OUT, GPIO_PIN_SPEED_MEDIUM);
   LCD_NCS_HIGH();
 
-  gpio_init(LCD_RST_GPIO, GPIO_OUT);
-  gpio_init(LCD_A0_GPIO, GPIO_OUT);
+  gpio_init(LCD_RST_GPIO, GPIO_OUT, GPIO_PIN_SPEED_MEDIUM);
+  gpio_init(LCD_A0_GPIO, GPIO_OUT, GPIO_PIN_SPEED_HIGH);
 
   LCD_DMA_Stream->CR &= ~DMA_SxCR_EN; // Disable DMA
   LCD_DMA->HIFCR = LCD_DMA_FLAGS; // Write ones to clear bits

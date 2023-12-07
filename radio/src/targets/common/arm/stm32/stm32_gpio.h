@@ -65,3 +65,10 @@ enum {
     GPIO_AF15,
     GPIO_AF_UNDEF
 };
+
+enum {
+  GPIO_PIN_SPEED_LOW       = 0x00,
+  GPIO_PIN_SPEED_MEDIUM    = 0x01,
+  GPIO_PIN_SPEED_HIGH      = 0x02,
+  GPIO_PIN_SPEED_VERY_HIGH = 0x03,
+};

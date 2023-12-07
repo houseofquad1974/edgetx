@@ -35,8 +35,8 @@
 #elif defined(PCBX9E)
 void backlightInit()
 {
-  gpio_init_af(BACKLIGHT_GPIO_1, BACKLIGHT_GPIO_AF);
-  gpio_init_af(BACKLIGHT_GPIO_2, BACKLIGHT_GPIO_AF);
+  gpio_init_af(BACKLIGHT_GPIO_1, BACKLIGHT_GPIO_AF, GPIO_PIN_SPEED_LOW);
+  gpio_init_af(BACKLIGHT_GPIO_2, BACKLIGHT_GPIO_AF, GPIO_PIN_SPEED_LOW);
   stm32_timer_enable_clock(BACKLIGHT_TIMER);
   BACKLIGHT_TIMER->ARR = 100;
   BACKLIGHT_TIMER->PSC = BACKLIGHT_TIMER_FREQ / 50000 - 1; // 20us * 100 = 2ms => 500Hz
@@ -72,8 +72,8 @@ uint8_t isBacklightEnabled()
 #elif defined(PCBX9DP)
 void backlightInit()
 {
-  gpio_init_af(BACKLIGHT_GPIO_1, BACKLIGHT_GPIO_AF);
-  gpio_init_af(BACKLIGHT_GPIO_2, BACKLIGHT_GPIO_AF);
+  gpio_init_af(BACKLIGHT_GPIO_1, BACKLIGHT_GPIO_AF, GPIO_PIN_SPEED_LOW);
+  gpio_init_af(BACKLIGHT_GPIO_2, BACKLIGHT_GPIO_AF, GPIO_PIN_SPEED_LOW);
   stm32_timer_enable_clock(BACKLIGHT_TIMER);
   BACKLIGHT_TIMER->ARR = 100;
   BACKLIGHT_TIMER->PSC = BACKLIGHT_TIMER_FREQ / 50000 - 1; // 20us * 100 = 2ms => 500Hz
@@ -110,7 +110,7 @@ uint8_t isBacklightEnabled()
 #elif defined(PCBX7) || defined(PCBXLITE) || defined(PCBX9LITE)
 void backlightInit()
 {
-  gpio_init_af(BACKLIGHT_GPIO, BACKLIGHT_GPIO_AF);
+  gpio_init_af(BACKLIGHT_GPIO, BACKLIGHT_GPIO_AF, GPIO_PIN_SPEED_LOW);
   stm32_timer_enable_clock(BACKLIGHT_TIMER);
 
 #if defined(BACKLIGHT_BDTR) // TODO perhaps it can be always done
@@ -151,7 +151,7 @@ uint8_t isBacklightEnabled()
 #else
 void backlightInit()
 {
-  gpio_init_af(BACKLIGHT_GPIO, BACKLIGHT_GPIO_AF);
+  gpio_init_af(BACKLIGHT_GPIO, BACKLIGHT_GPIO_AF, GPIO_PIN_SPEED_LOW);
   stm32_timer_enable_clock(BACKLIGHT_TIMER);  
   
   BACKLIGHT_TIMER->ARR = 100;
