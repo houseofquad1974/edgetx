@@ -26,11 +26,22 @@
 
 #include "stm32_hal.h"
 
+#ifdef STM32H7
+  #define FLASH_CR FLASH->CR1
+#else
+  #define FLASH_CR FLASH->CR
+#endif
+
+#ifndef FLASH_CR_START
+  #define FLASH_CR_START FLASH_CR_STRT
+#endif
+
+
 void waitFlashIdle()
 {
   do {
     WDG_RESET();
-  } while (FLASH->SR & FLASH_SR_BSY);
+  } while (__HAL_FLASH_GET_FLAG(FLASH_FLAG_BSY));
 }
 
 //After reset, write is not allowed in the Flash control register (FLASH_CR) to protect the
@@ -44,14 +55,19 @@ void waitFlashIdle()
 //FLASH_CR register.
 void unlockFlash()
 {
+#ifdef STM32H7
+  FLASH->KEYR1 = FLASH_KEY1;
+  FLASH->KEYR1 = FLASH_KEY2;
+#else
   FLASH->KEYR = 0x45670123;
   FLASH->KEYR = 0xCDEF89AB;
+#endif
 }
 
 void lockFlash()
 {
   waitFlashIdle();
-  FLASH->CR |= FLASH_CR_LOCK;
+  FLASH_CR |= FLASH_CR_LOCK;
 }
 
 #define SECTOR_MASK               ((uint32_t)0xFFFFFF07)
@@ -62,18 +78,18 @@ void eraseSector(uint32_t sector)
 
   waitFlashIdle();
 
-  FLASH->CR &= ~FLASH_CR_PSIZE;
-  FLASH->CR |= FLASH_CR_PSIZE_0;
-  FLASH->CR &= SECTOR_MASK;
-  FLASH->CR |= FLASH_CR_SER | (sector << 3);
-  FLASH->CR |= FLASH_CR_STRT;
+  FLASH_CR &= ~FLASH_CR_PSIZE;
+  FLASH_CR |= FLASH_CR_PSIZE_0;
+  FLASH_CR &= SECTOR_MASK;
+  FLASH_CR |= FLASH_CR_SER | (sector << 3);
+  FLASH_CR |= FLASH_CR_START;
 
   /* Wait for operation to be completed */
   waitFlashIdle();
 
   /* if the erase operation is completed, disable the SER Bit */
-  FLASH->CR &= (~FLASH_CR_SER);
-  FLASH->CR &= SECTOR_MASK;
+  FLASH_CR &= (~FLASH_CR_SER);
+  FLASH_CR &= SECTOR_MASK;
 
   WDG_ENABLE(WDG_DURATION);
 }
@@ -142,15 +158,15 @@ void flashWrite(uint32_t * address, const uint32_t * buffer) // page size is 256
     // Wait for last operation to be completed
     waitFlashIdle();
 
-    FLASH->CR &= ~FLASH_CR_PSIZE;
-    FLASH->CR |= FLASH_CR_PSIZE_0;
-    FLASH->CR |= FLASH_CR_PG;
+    FLASH_CR &= ~FLASH_CR_PSIZE;
+    FLASH_CR |= FLASH_CR_PSIZE_0;
+    FLASH_CR |= FLASH_CR_PG;
 
     *address = *buffer;
 
     /* Wait for operation to be completed */
     waitFlashIdle();
-    FLASH->CR &= ~FLASH_CR_PG;
+    FLASH_CR &= ~FLASH_CR_PG;
 
     /* Check the written value */
     if (*address != *buffer) {

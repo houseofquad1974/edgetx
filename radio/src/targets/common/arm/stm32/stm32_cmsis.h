@@ -25,7 +25,15 @@
 extern "C" {
 #endif
 
-#if defined(STM32F4)
+#if defined(STM32H7)
+
+  // Workaround to prevent the other CMSIS header to be included
+  // and fix some missing items in the old one
+  #include "thirdparty/CMSIS/Include/cmsis_compiler.h"
+  #define __CORE_CM7_H_GENERIC
+
+  #include "CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h"
+#elif defined(STM32F4)
 
   // Workaround to prevent the other CMSIS header to be included
   // and fix some missing items in the old one
