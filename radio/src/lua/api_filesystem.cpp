@@ -21,6 +21,7 @@
 
 #define LUA_LIB
 
+#include "opentx.h"
 #include "lua_api.h"
 #include "api_filesystem.h"
 
