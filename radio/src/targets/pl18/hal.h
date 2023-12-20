@@ -238,12 +238,12 @@
 
 // Left, right stick end buttons on PL18EV
 #define ADC_CHANNEL_EXT3                LL_ADC_CHANNEL_4    // ADC3_IN4    -> ADC3_IN4
-#define ADC_CHANNEL_EXT4                LL_ADC_CHANNEL_3    // ADC123_IN3  -> ADC1_IN3
+#define ADC_CHANNEL_EXT4                LL_ADC_CHANNEL_3    // ADC123_IN3  -> ADC3_IN3
 
 // Analog switches
-#define ADC_CHANNEL_SWB                 LL_ADC_CHANNEL_11   // ADC123_IN11 -> ADC3_IN11
-#define ADC_CHANNEL_SWD                 LL_ADC_CHANNEL_10   // ADC123_IN10 -> ADC3_IN10
-#define ADC_CHANNEL_SWE                 LL_ADC_CHANNEL_12   // ADC123_IN12 -> ADC3_IN12
+#define ADC_CHANNEL_SWB                 LL_ADC_CHANNEL_11   // ADC123_IN11 -> ADC1_IN11
+#define ADC_CHANNEL_SWD                 LL_ADC_CHANNEL_10   // ADC123_IN10 -> ADC1_IN10
+#define ADC_CHANNEL_SWE                 LL_ADC_CHANNEL_12   // ADC123_IN12 -> ADC1_IN12
 #define ADC_CHANNEL_SWF                 LL_ADC_CHANNEL_8    // ADC12_IN8   -> ADC1_IN8
 #define ADC_CHANNEL_SWG                 LL_ADC_CHANNEL_9    // ADC12_IN9   -> ADC1_IN9
 #define ADC_CHANNEL_SWH                 LL_ADC_CHANNEL_8    // ADC3_IN8    -> ADC3_IN8
@@ -257,8 +257,9 @@
 #define ADC_EXT                         ADC3
 
 #define ADC_EXT_CHANNELS						\
-  { ADC_CHANNEL_POT3, ADC_CHANNEL_SLIDER1, ADC_CHANNEL_EXT3, \
-    ADC_CHANNEL_SWB, ADC_CHANNEL_SWD, ADC_CHANNEL_SWE, ADC_CHANNEL_SWH \
+  { ADC_CHANNEL_POT3, ADC_CHANNEL_SLIDER1, \
+    ADC_CHANNEL_EXT3, ADC_CHANNEL_EXT4, \
+    ADC_CHANNEL_SWH \
   }
 
 #define ADC_SAMPTIME                    LL_ADC_SAMPLINGTIME_28CYCLES
