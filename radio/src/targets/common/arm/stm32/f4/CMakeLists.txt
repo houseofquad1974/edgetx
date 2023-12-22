@@ -74,6 +74,7 @@ set(STM32_STDPERIPH_SRC
   ${STM32_STDPERIPH_DIR}/src/stm32f4xx_gpio.c
   ${STM32_STDPERIPH_DIR}/src/stm32f4xx_dbgmcu.c
   ${STM32_STDPERIPH_DIR}/src/stm32f4xx_rcc.c
+  ${STM32_STDPERIPH_DIR}/src/stm32f4xx_spi.c
   ${STM32_STDPERIPH_DIR}/src/stm32f4xx_flash.c
 )
 
