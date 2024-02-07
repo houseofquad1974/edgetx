@@ -906,366 +906,324 @@ Mode 4:
     </message>
 </context>
 <context>
-    <name>Boards</name>
+    <name>BoardJson</name>
     <message>
-        <location filename="../firmwares/boards.cpp" line="697"/>
-        <source>Left Horizontal</source>
-        <translation>左・横</translation>
-    </message>
-    <message>
-        <location filename="../firmwares/boards.cpp" line="698"/>
-        <source>Left Vertical</source>
-        <translation>左・縦</translation>
-    </message>
-    <message>
-        <location filename="../firmwares/boards.cpp" line="699"/>
-        <source>Right Vertical</source>
-        <translation>右・縦</translation>
-    </message>
-    <message>
-        <location filename="../firmwares/boards.cpp" line="700"/>
-        <source>Right Horizontal</source>
-        <translation>右・横</translation>
-    </message>
-    <message>
-        <location filename="../firmwares/boards.cpp" line="701"/>
-        <source>Aux. 1</source>
-        <translation>AUX. 1</translation>
-    </message>
-    <message>
-        <location filename="../firmwares/boards.cpp" line="702"/>
-        <source>Aux. 2</source>
-        <translation>AUX. 2</translation>
-    </message>
-    <message>
-        <location filename="../firmwares/boards.cpp" line="720"/>
-        <location filename="../firmwares/boards.cpp" line="727"/>
+        <location filename="../firmwares/boardjson.cpp" line="57"/>
         <source>Rud</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/boards.cpp" line="721"/>
-        <location filename="../firmwares/boards.cpp" line="728"/>
+        <location filename="../firmwares/boardjson.cpp" line="58"/>
         <source>Ele</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/boards.cpp" line="722"/>
-        <location filename="../firmwares/boards.cpp" line="729"/>
+        <location filename="../firmwares/boardjson.cpp" line="59"/>
         <source>Thr</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/boards.cpp" line="723"/>
-        <location filename="../firmwares/boards.cpp" line="730"/>
+        <location filename="../firmwares/boardjson.cpp" line="60"/>
         <source>Ail</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/boards.cpp" line="737"/>
-        <source>P1</source>
+        <location filename="../firmwares/boardjson.cpp" line="61"/>
+        <source>ST</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/boards.cpp" line="738"/>
-        <source>P2</source>
+        <location filename="../firmwares/boardjson.cpp" line="62"/>
+        <source>TH</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/boards.cpp" line="739"/>
-        <source>P3</source>
+        <location filename="../firmwares/boardjson.cpp" line="798"/>
+        <location filename="../firmwares/boardjson.cpp" line="804"/>
+        <location filename="../firmwares/boardjson.cpp" line="813"/>
+        <location filename="../firmwares/boardjson.cpp" line="823"/>
+        <source>Load Board Hardware Definition</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/boardjson.cpp" line="799"/>
+        <source>Board: %1
+Error: Unable to load file %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/boardjson.cpp" line="805"/>
+        <source>Board: %1
+Error: Unable to open file %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/boardjson.cpp" line="814"/>
+        <source>Board: %1
+Error: Unable to read file %2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/boardjson.cpp" line="824"/>
+        <source>Board: %1
+Error: %2 is not a valid json formatted file.
+Error code: %3
+Error description: %4</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Boards</name>
+    <message>
+        <location filename="../firmwares/boards.cpp" line="345"/>
+        <source>Left Horizontal</source>
+        <translation>左・横</translation>
+    </message>
+    <message>
+        <location filename="../firmwares/boards.cpp" line="346"/>
+        <source>Left Vertical</source>
+        <translation>左・縦</translation>
+    </message>
+    <message>
+        <location filename="../firmwares/boards.cpp" line="347"/>
+        <source>Right Vertical</source>
+        <translation>右・縦</translation>
+    </message>
+    <message>
+        <location filename="../firmwares/boards.cpp" line="348"/>
+        <source>Right Horizontal</source>
+        <translation>右・横</translation>
+    </message>
+    <message>
+        <location filename="../firmwares/boards.cpp" line="349"/>
+        <source>Aux. 1</source>
+        <translation>AUX. 1</translation>
+    </message>
+    <message>
+        <location filename="../firmwares/boards.cpp" line="350"/>
+        <source>Aux. 2</source>
+        <translation>AUX. 2</translation>
+    </message>
+    <message>
+        <location filename="../firmwares/boards.cpp" line="366"/>
+        <source>LH</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/boards.cpp" line="367"/>
+        <source>LV</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/boards.cpp" line="368"/>
+        <source>RV</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/boards.cpp" line="369"/>
+        <source>RH</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/boards.cpp" line="378"/>
+        <location filename="../firmwares/boards.cpp" line="380"/>
+        <source>TILT_X</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/boards.cpp" line="379"/>
+        <location filename="../firmwares/boards.cpp" line="381"/>
+        <source>TILT_Y</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/boards.cpp" line="386"/>
+        <location filename="../firmwares/boards.cpp" line="395"/>
+        <location filename="../firmwares/boards.cpp" line="425"/>
+        <location filename="../firmwares/boards.cpp" line="435"/>
+        <location filename="../firmwares/boards.cpp" line="443"/>
+        <location filename="../firmwares/boards.cpp" line="455"/>
+        <location filename="../firmwares/boards.cpp" line="462"/>
+        <source>SL1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/boards.cpp" line="394"/>
+        <location filename="../firmwares/boards.cpp" line="433"/>
+        <source>P4</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/boards.cpp" line="396"/>
+        <location filename="../firmwares/boards.cpp" line="426"/>
+        <location filename="../firmwares/boards.cpp" line="436"/>
+        <location filename="../firmwares/boards.cpp" line="444"/>
+        <location filename="../firmwares/boards.cpp" line="456"/>
+        <location filename="../firmwares/boards.cpp" line="463"/>
+        <source>SL2</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/boards.cpp" line="397"/>
+        <location filename="../firmwares/boards.cpp" line="464"/>
+        <source>SL3</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/boards.cpp" line="398"/>
+        <location filename="../firmwares/boards.cpp" line="465"/>
+        <source>SL4</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/boards.cpp" line="434"/>
+        <source>P5</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/boards.cpp" line="740"/>
+        <source>Slider</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/boards.cpp" line="742"/>
+        <source>Multipos Switch</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../firmwares/boards.cpp" line="744"/>
-        <location filename="../firmwares/boards.cpp" line="749"/>
-        <location filename="../firmwares/boards.cpp" line="759"/>
-        <location filename="../firmwares/boards.cpp" line="768"/>
-        <location filename="../firmwares/boards.cpp" line="777"/>
-        <location filename="../firmwares/boards.cpp" line="784"/>
-        <location filename="../firmwares/boards.cpp" line="792"/>
-        <location filename="../firmwares/boards.cpp" line="798"/>
-        <location filename="../firmwares/boards.cpp" line="803"/>
-        <location filename="../firmwares/boards.cpp" line="808"/>
-        <location filename="../firmwares/boards.cpp" line="815"/>
-        <location filename="../firmwares/boards.cpp" line="823"/>
-        <location filename="../firmwares/boards.cpp" line="833"/>
-        <location filename="../firmwares/boards.cpp" line="847"/>
-        <location filename="../firmwares/boards.cpp" line="871"/>
-        <location filename="../firmwares/boards.cpp" line="887"/>
-        <location filename="../firmwares/boards.cpp" line="904"/>
-        <source>S1</source>
+        <source>Axis X</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/boards.cpp" line="745"/>
-        <source>POT1</source>
+        <location filename="../firmwares/boards.cpp" line="746"/>
+        <source>Axis Y</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/boards.cpp" line="755"/>
-        <location filename="../firmwares/boards.cpp" line="766"/>
-        <source>F1</source>
+        <location filename="../firmwares/boards.cpp" line="748"/>
+        <source>Switch</source>
+        <translation type="unfinished">スイッチ</translation>
+    </message>
+    <message>
+        <location filename="../firmwares/boards.cpp" line="387"/>
+        <location filename="../firmwares/boards.cpp" line="391"/>
+        <location filename="../firmwares/boards.cpp" line="402"/>
+        <location filename="../firmwares/boards.cpp" line="407"/>
+        <location filename="../firmwares/boards.cpp" line="413"/>
+        <location filename="../firmwares/boards.cpp" line="417"/>
+        <location filename="../firmwares/boards.cpp" line="422"/>
+        <location filename="../firmwares/boards.cpp" line="430"/>
+        <location filename="../firmwares/boards.cpp" line="440"/>
+        <location filename="../firmwares/boards.cpp" line="448"/>
+        <location filename="../firmwares/boards.cpp" line="460"/>
+        <source>P1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/boards.cpp" line="756"/>
-        <location filename="../firmwares/boards.cpp" line="767"/>
-        <source>F2</source>
+        <location filename="../firmwares/boards.cpp" line="392"/>
+        <location filename="../firmwares/boards.cpp" line="403"/>
+        <location filename="../firmwares/boards.cpp" line="408"/>
+        <location filename="../firmwares/boards.cpp" line="418"/>
+        <location filename="../firmwares/boards.cpp" line="423"/>
+        <location filename="../firmwares/boards.cpp" line="431"/>
+        <location filename="../firmwares/boards.cpp" line="441"/>
+        <location filename="../firmwares/boards.cpp" line="449"/>
+        <location filename="../firmwares/boards.cpp" line="461"/>
+        <source>P2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/boards.cpp" line="757"/>
-        <source>F3</source>
+        <location filename="../firmwares/boards.cpp" line="393"/>
+        <location filename="../firmwares/boards.cpp" line="409"/>
+        <location filename="../firmwares/boards.cpp" line="424"/>
+        <location filename="../firmwares/boards.cpp" line="432"/>
+        <location filename="../firmwares/boards.cpp" line="442"/>
+        <location filename="../firmwares/boards.cpp" line="450"/>
+        <source>P3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/boards.cpp" line="758"/>
-        <source>F4</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../firmwares/boards.cpp" line="760"/>
-        <location filename="../firmwares/boards.cpp" line="769"/>
-        <location filename="../firmwares/boards.cpp" line="778"/>
-        <location filename="../firmwares/boards.cpp" line="785"/>
-        <location filename="../firmwares/boards.cpp" line="793"/>
-        <location filename="../firmwares/boards.cpp" line="804"/>
-        <location filename="../firmwares/boards.cpp" line="809"/>
-        <location filename="../firmwares/boards.cpp" line="816"/>
-        <location filename="../firmwares/boards.cpp" line="824"/>
-        <location filename="../firmwares/boards.cpp" line="835"/>
-        <location filename="../firmwares/boards.cpp" line="849"/>
-        <location filename="../firmwares/boards.cpp" line="873"/>
-        <location filename="../firmwares/boards.cpp" line="889"/>
-        <location filename="../firmwares/boards.cpp" line="905"/>
-        <source>S2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../firmwares/boards.cpp" line="761"/>
-        <location filename="../firmwares/boards.cpp" line="770"/>
-        <location filename="../firmwares/boards.cpp" line="818"/>
-        <location filename="../firmwares/boards.cpp" line="826"/>
-        <location filename="../firmwares/boards.cpp" line="838"/>
-        <location filename="../firmwares/boards.cpp" line="852"/>
-        <location filename="../firmwares/boards.cpp" line="865"/>
-        <location filename="../firmwares/boards.cpp" line="878"/>
-        <location filename="../firmwares/boards.cpp" line="894"/>
-        <source>LS</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../firmwares/boards.cpp" line="762"/>
-        <location filename="../firmwares/boards.cpp" line="771"/>
-        <location filename="../firmwares/boards.cpp" line="819"/>
-        <location filename="../firmwares/boards.cpp" line="827"/>
-        <location filename="../firmwares/boards.cpp" line="839"/>
-        <location filename="../firmwares/boards.cpp" line="853"/>
-        <location filename="../firmwares/boards.cpp" line="866"/>
-        <location filename="../firmwares/boards.cpp" line="879"/>
-        <location filename="../firmwares/boards.cpp" line="895"/>
-        <source>RS</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../firmwares/boards.cpp" line="779"/>
-        <location filename="../firmwares/boards.cpp" line="786"/>
-        <location filename="../firmwares/boards.cpp" line="842"/>
-        <location filename="../firmwares/boards.cpp" line="856"/>
-        <location filename="../firmwares/boards.cpp" line="882"/>
-        <location filename="../firmwares/boards.cpp" line="898"/>
-        <source>TltX</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../firmwares/boards.cpp" line="780"/>
-        <location filename="../firmwares/boards.cpp" line="787"/>
-        <location filename="../firmwares/boards.cpp" line="843"/>
-        <location filename="../firmwares/boards.cpp" line="857"/>
-        <location filename="../firmwares/boards.cpp" line="883"/>
-        <location filename="../firmwares/boards.cpp" line="899"/>
-        <source>TltY</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../firmwares/boards.cpp" line="794"/>
-        <location filename="../firmwares/boards.cpp" line="817"/>
-        <location filename="../firmwares/boards.cpp" line="825"/>
-        <location filename="../firmwares/boards.cpp" line="906"/>
-        <source>S3</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../firmwares/boards.cpp" line="834"/>
-        <location filename="../firmwares/boards.cpp" line="872"/>
-        <source>6P</source>
-        <translation type="unfinished">6P</translation>
-    </message>
-    <message>
-        <location filename="../firmwares/boards.cpp" line="836"/>
-        <location filename="../firmwares/boards.cpp" line="850"/>
-        <source>L1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../firmwares/boards.cpp" line="837"/>
-        <location filename="../firmwares/boards.cpp" line="851"/>
-        <source>L2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../firmwares/boards.cpp" line="840"/>
-        <location filename="../firmwares/boards.cpp" line="854"/>
-        <location filename="../firmwares/boards.cpp" line="880"/>
-        <location filename="../firmwares/boards.cpp" line="896"/>
+        <location filename="../firmwares/boards.cpp" line="374"/>
+        <location filename="../firmwares/boards.cpp" line="376"/>
         <source>JSx</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/boards.cpp" line="841"/>
-        <location filename="../firmwares/boards.cpp" line="855"/>
-        <location filename="../firmwares/boards.cpp" line="881"/>
-        <location filename="../firmwares/boards.cpp" line="897"/>
+        <location filename="../firmwares/boards.cpp" line="375"/>
+        <location filename="../firmwares/boards.cpp" line="377"/>
         <source>JSy</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/boards.cpp" line="848"/>
-        <location filename="../firmwares/boards.cpp" line="888"/>
-        <source>6POS</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../firmwares/boards.cpp" line="862"/>
-        <source>VRA</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../firmwares/boards.cpp" line="863"/>
-        <source>VRB</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../firmwares/boards.cpp" line="864"/>
-        <source>VRC</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../firmwares/boards.cpp" line="874"/>
-        <source>EX1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../firmwares/boards.cpp" line="875"/>
-        <source>EX2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../firmwares/boards.cpp" line="876"/>
-        <source>EX3</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../firmwares/boards.cpp" line="877"/>
-        <source>EX4</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../firmwares/boards.cpp" line="890"/>
+        <location filename="../firmwares/boards.cpp" line="451"/>
         <source>EXT1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/boards.cpp" line="891"/>
+        <location filename="../firmwares/boards.cpp" line="452"/>
         <source>EXT2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/boards.cpp" line="892"/>
+        <location filename="../firmwares/boards.cpp" line="453"/>
         <source>EXT3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/boards.cpp" line="893"/>
+        <location filename="../firmwares/boards.cpp" line="454"/>
         <source>EXT4</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/boards.cpp" line="907"/>
-        <source>S4</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../firmwares/boards.cpp" line="908"/>
-        <source>SL</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../firmwares/boards.cpp" line="909"/>
-        <source>SR</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../firmwares/boards.cpp" line="1018"/>
-        <location filename="../firmwares/boards.cpp" line="1038"/>
-        <location filename="../firmwares/boards.cpp" line="1051"/>
-        <location filename="../firmwares/boards.cpp" line="1288"/>
+        <location filename="../firmwares/boards.cpp" line="567"/>
+        <location filename="../firmwares/boards.cpp" line="704"/>
+        <location filename="../firmwares/boards.cpp" line="734"/>
         <source>None</source>
         <translation type="unfinished">なし</translation>
     </message>
     <message>
-        <location filename="../firmwares/boards.cpp" line="1020"/>
+        <location filename="../firmwares/boards.cpp" line="736"/>
+        <source>Pot</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/boards.cpp" line="738"/>
         <source>Pot with detent</source>
         <translation type="unfinished">ダイヤル (ノッチあり)</translation>
     </message>
     <message>
-        <location filename="../firmwares/boards.cpp" line="1022"/>
-        <source>Multi pos switch</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../firmwares/boards.cpp" line="1024"/>
-        <source>Pot without detent</source>
-        <translation type="unfinished">ダイヤル (ノッチなし)</translation>
-    </message>
-    <message>
-        <location filename="../firmwares/boards.cpp" line="1026"/>
-        <source>slider</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../firmwares/boards.cpp" line="1040"/>
-        <source>Slider with detent</source>
-        <translation type="unfinished">スライダー (ノッチあり)</translation>
-    </message>
-    <message>
-        <location filename="../firmwares/boards.cpp" line="1053"/>
+        <location filename="../firmwares/boards.cpp" line="569"/>
         <source>2 Positions Toggle</source>
         <translation type="unfinished">2 ポジション トグル</translation>
     </message>
     <message>
-        <location filename="../firmwares/boards.cpp" line="1055"/>
+        <location filename="../firmwares/boards.cpp" line="571"/>
         <source>2 Positions</source>
         <translation type="unfinished">2 ポジション</translation>
     </message>
     <message>
-        <location filename="../firmwares/boards.cpp" line="1057"/>
+        <location filename="../firmwares/boards.cpp" line="573"/>
         <source>3 Positions</source>
         <translation type="unfinished">3 ポジション</translation>
     </message>
     <message>
-        <location filename="../firmwares/boards.cpp" line="1290"/>
+        <location filename="../firmwares/boards.cpp" line="575"/>
+        <source>Function</source>
+        <translation type="unfinished">機能</translation>
+    </message>
+    <message>
+        <location filename="../firmwares/boards.cpp" line="706"/>
         <source>Standard</source>
         <translation type="unfinished">標準</translation>
     </message>
     <message>
-        <location filename="../firmwares/boards.cpp" line="1292"/>
+        <location filename="../firmwares/boards.cpp" line="708"/>
         <source>Small</source>
         <translation type="unfinished">小サイズ</translation>
     </message>
     <message>
-        <location filename="../firmwares/boards.cpp" line="1294"/>
+        <location filename="../firmwares/boards.cpp" line="710"/>
         <source>Both</source>
         <translation type="unfinished">両カーブ</translation>
     </message>
@@ -1542,42 +1500,42 @@ Mode 4:
 <context>
     <name>Companion</name>
     <message>
-        <location filename="../constants.h" line="55"/>
+        <location filename="../constants.h" line="61"/>
         <source>Information</source>
         <translation>インフォメーション</translation>
     </message>
     <message>
-        <location filename="../constants.h" line="56"/>
+        <location filename="../constants.h" line="62"/>
         <source>Warning</source>
         <translation>警告</translation>
     </message>
     <message>
-        <location filename="../constants.h" line="57"/>
+        <location filename="../constants.h" line="63"/>
         <source>Error</source>
         <translation>エラー</translation>
     </message>
     <message>
-        <location filename="../constants.h" line="75"/>
+        <location filename="../constants.h" line="81"/>
         <source>Application Settings</source>
         <translation>アプリケーション設定</translation>
     </message>
     <message>
-        <location filename="../constants.h" line="59"/>
+        <location filename="../constants.h" line="65"/>
         <source>files</source>
         <translation>ファイル</translation>
     </message>
     <message>
-        <location filename="../constants.h" line="53"/>
+        <location filename="../constants.h" line="59"/>
         <source>EdgeTX Companion</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../constants.h" line="54"/>
+        <location filename="../constants.h" line="60"/>
         <source>EdgeTX Simulator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../constants.h" line="60"/>
+        <location filename="../constants.h" line="66"/>
         <source>Radio and Models settings</source>
         <translation>送信機と機体モデルの設定</translation>
     </message>
@@ -1617,79 +1575,79 @@ Mode 4:
         <translation>シミュレータ起動中にエラーが発生しました。</translation>
     </message>
     <message>
-        <location filename="../companion.cpp" line="60"/>
+        <location filename="../companion.cpp" line="61"/>
         <source>The saved settings could not be imported, please try again or continue with current settings.</source>
         <translation>保存した設定をインポートできませんでした。もう一度やり直すか、現在の設定を続行してください。</translation>
     </message>
     <message>
-        <location filename="../companion.cpp" line="75"/>
+        <location filename="../companion.cpp" line="76"/>
         <source>Import from File</source>
         <translation>ファイルからインポート</translation>
     </message>
     <message>
-        <location filename="../companion.cpp" line="76"/>
+        <location filename="../companion.cpp" line="77"/>
         <source>Do not import</source>
         <translation>インポートできません</translation>
     </message>
     <message>
-        <location filename="../companion.cpp" line="79"/>
+        <location filename="../companion.cpp" line="80"/>
         <source>We have found possible Companion settings backup file(s).
 Do you want to import settings from a file?</source>
         <translation>利用可能なCompanion設定バックアップファイルが見つかりました。
 ファイルから設定をインポートしますか？</translation>
     </message>
     <message>
-        <location filename="../companion.cpp" line="81"/>
+        <location filename="../companion.cpp" line="82"/>
         <source>Import settings from a file, or start with current values.</source>
         <translation>ファイルから設定をインポートするか、現在値から設定を始めます。</translation>
     </message>
     <message>
-        <location filename="../companion.cpp" line="100"/>
+        <location filename="../companion.cpp" line="101"/>
         <source>Select %1:</source>
         <translation>%1 を選択:</translation>
     </message>
     <message>
-        <location filename="../companion.cpp" line="121"/>
+        <location filename="../companion.cpp" line="122"/>
         <source>Save application settings to file...</source>
         <translation>アプリケーション設定をファイルに保存しています...</translation>
     </message>
     <message>
-        <location filename="../companion.cpp" line="122"/>
+        <location filename="../companion.cpp" line="123"/>
         <source>Load application settings from file or previous version...</source>
         <translation>ファイルまたは以前のバージョンからアプリケーション設定をロードしています...</translation>
     </message>
     <message>
-        <location filename="../companion.cpp" line="123"/>
+        <location filename="../companion.cpp" line="124"/>
         <source>Reset ALL application settings to default and remove radio profiles...</source>
         <translation>すべてのアプリケーション設定を初期値にリセットし、送信機プロファイルを削除します...</translation>
     </message>
     <message>
-        <location filename="../companion.cpp" line="124"/>
+        <location filename="../companion.cpp" line="125"/>
         <source>Exit before settings initialization and application startup.</source>
         <translation>設定の初期化およびアプリケーションの起動前に終了してください。</translation>
     </message>
     <message>
-        <location filename="../companion.cpp" line="125"/>
+        <location filename="../companion.cpp" line="126"/>
         <source>Print version number and exit.</source>
         <translation>バージョン番号を表示して終了します。</translation>
     </message>
     <message>
-        <location filename="../companion.cpp" line="126"/>
+        <location filename="../companion.cpp" line="127"/>
         <source>Print this help text.</source>
         <translation>このヘルプテキストを出力してください。</translation>
     </message>
     <message>
-        <location filename="../companion.cpp" line="174"/>
+        <location filename="../companion.cpp" line="175"/>
         <source>Reset ALL application settings to default values and remove radio profiles, are you sure?</source>
         <translation>すべてのアプリケーション設定を初期値にリセットし、送信機プロファイルを削除します。よろしいですか？</translation>
     </message>
     <message>
-        <location filename="../companion.cpp" line="179"/>
+        <location filename="../companion.cpp" line="180"/>
         <source>Would you like to perform a backup first?</source>
         <translation>最初にバックアップを実行しますか？</translation>
     </message>
     <message>
-        <location filename="../companion.cpp" line="186"/>
+        <location filename="../companion.cpp" line="187"/>
         <source>Application settings were reset and saved.</source>
         <translation>アプリケーション設定がリセットされ、保存されました。</translation>
     </message>
@@ -2105,11 +2063,6 @@ Do you want to import settings from a file?</source>
         <translation>上書き %1</translation>
     </message>
     <message>
-        <location filename="../firmwares/customfunctiondata.cpp" line="67"/>
-        <source>Trainer Sticks</source>
-        <translation>トレーナー Sticks</translation>
-    </message>
-    <message>
         <location filename="../firmwares/customfunctiondata.cpp" line="69"/>
         <source>Trainer RUD</source>
         <translation>トレーナー RUD</translation>
@@ -2329,6 +2282,11 @@ Do you want to import settings from a file?</source>
         <location filename="../firmwares/customfunctiondata.cpp" line="89"/>
         <source>Vario</source>
         <translation>バリオ</translation>
+    </message>
+    <message>
+        <location filename="../firmwares/customfunctiondata.cpp" line="67"/>
+        <source>Trainer Axis</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../firmwares/customfunctiondata.cpp" line="91"/>
@@ -2996,70 +2954,70 @@ Error: %2</source>
 <context>
     <name>EEPROMInterface</name>
     <message>
-        <location filename="../firmwares/eeprominterface.cpp" line="74"/>
+        <location filename="../firmwares/eeprominterface.cpp" line="75"/>
         <source>Possible causes for this:</source>
         <translation>考えられる要因は次のとおりです:</translation>
     </message>
     <message>
-        <location filename="../firmwares/eeprominterface.cpp" line="76"/>
+        <location filename="../firmwares/eeprominterface.cpp" line="77"/>
         <source>- Eeprom is from a newer version of OpenTX</source>
         <translation>- EEPROMはOpenTXの新しいバージョンからのものです</translation>
     </message>
     <message>
-        <location filename="../firmwares/eeprominterface.cpp" line="77"/>
+        <location filename="../firmwares/eeprominterface.cpp" line="78"/>
         <source>- Eeprom is not from OpenTX</source>
         <translation>- EEPROMはOpenTXからのものではありません</translation>
     </message>
     <message>
-        <location filename="../firmwares/eeprominterface.cpp" line="78"/>
+        <location filename="../firmwares/eeprominterface.cpp" line="79"/>
         <source>- Eeprom is not from ErSky9X</source>
         <translation>- EEPROMはErSky9Xからのものではありません</translation>
     </message>
     <message>
-        <location filename="../firmwares/eeprominterface.cpp" line="79"/>
+        <location filename="../firmwares/eeprominterface.cpp" line="80"/>
         <source>- Eeprom size is invalid</source>
         <translation>- EEPROMサイズが無効です</translation>
     </message>
     <message>
-        <location filename="../firmwares/eeprominterface.cpp" line="80"/>
+        <location filename="../firmwares/eeprominterface.cpp" line="81"/>
         <source>- Eeprom file system is invalid</source>
         <translation>- EEPROMファイルシステムが無効です</translation>
     </message>
     <message>
-        <location filename="../firmwares/eeprominterface.cpp" line="81"/>
+        <location filename="../firmwares/eeprominterface.cpp" line="82"/>
         <source>- Eeprom is from a unknown board</source>
         <translation>- EEPROMは不明なボードからのものです</translation>
     </message>
     <message>
-        <location filename="../firmwares/eeprominterface.cpp" line="82"/>
+        <location filename="../firmwares/eeprominterface.cpp" line="83"/>
         <source>- Eeprom is from the wrong board</source>
         <translation>- EEPROMは間違ったボードからのものです</translation>
     </message>
     <message>
-        <location filename="../firmwares/eeprominterface.cpp" line="83"/>
+        <location filename="../firmwares/eeprominterface.cpp" line="84"/>
         <source>- Eeprom backup not supported</source>
         <translation>- EEPROMバックアップはサポートされていません</translation>
     </message>
     <message>
-        <location filename="../firmwares/eeprominterface.cpp" line="85"/>
+        <location filename="../firmwares/eeprominterface.cpp" line="86"/>
         <source>- Something that couldn&apos;t be guessed, sorry</source>
         <translation>- 推測できない問題が起きています。申し訳ありません</translation>
     </message>
     <message>
-        <location filename="../firmwares/eeprominterface.cpp" line="88"/>
+        <location filename="../firmwares/eeprominterface.cpp" line="89"/>
         <source>Warning:</source>
         <translation>警告: </translation>
     </message>
     <message>
-        <location filename="../firmwares/eeprominterface.cpp" line="89"/>
-        <location filename="../firmwares/eeprominterface.cpp" line="108"/>
+        <location filename="../firmwares/eeprominterface.cpp" line="90"/>
+        <location filename="../firmwares/eeprominterface.cpp" line="109"/>
         <source>- Your radio probably uses a wrong firmware,
  eeprom size is 4096 but only the first 2048 are used</source>
         <translation>- この送信機は、おそらく間違ったファームウェアを適用しています。
  EEPROMサイズは4096ですが、最初の2048しか使用されません</translation>
     </message>
     <message>
-        <location filename="../firmwares/eeprominterface.cpp" line="111"/>
+        <location filename="../firmwares/eeprominterface.cpp" line="112"/>
         <source>- Your eeprom is from an old version of OpenTX, upgrading!
  To keep your original file as a backup, please choose File -&gt; Save As specifying a different name.</source>
         <translation>- このEEPROMは古いバージョンのOpenTXでアップグレードしています。
@@ -3602,384 +3560,369 @@ Blank means include all. ?, *, and [...] wildcards accepted.</source>
 <context>
     <name>Firmware</name>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1154"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1149"/>
         <source>No OverrideCH functions available</source>
         <translation>使用可能な上書きチャンネル機能はありません</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1150"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1145"/>
         <source>Possibility to enable FAI MODE (no telemetry) at field</source>
         <translation>フィールドでFAIモード (テレメトリーなし) を有効にする可能性</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1151"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1146"/>
         <source>FAI MODE (no telemetry) always enabled</source>
         <translation>FAIモード (テレメトリーなし) を常に有効</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1167"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1162"/>
         <source>Removes D8 FrSky protocol support which is not legal for use in the EU on radios sold after Jan 1st, 2015</source>
         <translation>2015/01/01以降に販売された送信機に対し、EUでの使用に適さないD8 FrSkyプロトコルサポートを削除</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1168"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1163"/>
         <source>Enable non certified firmwares</source>
         <translation>認定されていないファームウェアを有効にする</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1193"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1232"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1350"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1360"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1382"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1392"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1402"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1435"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1445"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1455"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1466"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1476"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1496"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1188"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1227"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1345"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1355"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1377"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1387"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1397"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1430"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1440"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1450"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1461"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1471"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1491"/>
         <source>Disable HELI menu and cyclic mix support</source>
         <translation>HELIメニューとサイクリックミックスサポートを無効にする</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1194"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1233"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1351"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1361"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1383"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1393"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1403"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1436"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1446"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1456"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1467"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1477"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1497"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1189"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1228"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1346"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1356"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1378"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1388"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1398"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1431"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1441"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1451"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1462"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1472"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1492"/>
         <source>Disable Global variables</source>
         <translation>グローバル変数を無効にする</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1195"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1234"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1352"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1362"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1384"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1394"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1404"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1437"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1447"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1457"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1468"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1478"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1498"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1190"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1229"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1347"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1357"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1379"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1389"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1399"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1432"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1442"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1452"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1463"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1473"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1493"/>
         <source>Enable Lua custom scripts screen</source>
         <translation>Luaカスタムスクリプト画面を有効にする</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1187"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1182"/>
         <source>Use alternative SQT5 font</source>
         <translation>SQT5 代替フォントを使用する</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1209"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1204"/>
         <source>Pots use in menus navigation</source>
         <translation>メニューナビゲーションでダイヤルを使用</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1327"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1322"/>
         <source>FrSky Taranis X9D+</source>
         <translation>FrSky Taranis X9D+</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1320"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1328"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1315"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1323"/>
         <source>Disable RAS (SWR)</source>
         <translation>RAS (SWR)を無効にする</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1334"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1329"/>
         <source>FrSky Taranis X9D+ 2019</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1319"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1314"/>
         <source>FrSky Taranis X9D</source>
         <translation>FrSky Taranis X9D</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1321"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1316"/>
         <source>Haptic module installed</source>
         <translation>バイブレーション対応モジュールをインストール</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1340"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1335"/>
         <source>FrSky Taranis X9E</source>
         <translation>FrSky Taranis X9E</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1341"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1336"/>
         <source>Confirmation before radio shutdown</source>
         <translation>送信機シャットダウン前の確認</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1342"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1337"/>
         <source>Horus gimbals installed (Hall sensors)</source>
         <translation>Horusジンバル (ホールセンサー) をインストール</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1307"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1302"/>
         <source>FrSky Taranis X9-Lite</source>
         <translation>FrSky Taranis X9-Lite</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1313"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1308"/>
         <source>FrSky Taranis X9-Lite S</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1282"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1277"/>
         <source>FrSky Taranis X7 / X7S</source>
         <translation>FrSky Taranis X7 / X7S</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1301"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1296"/>
         <source>FrSky Taranis X-Lite S/PRO</source>
         <translation>FrSky Taranis X-Lite S/PRO</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1294"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1289"/>
         <source>FrSky Taranis X-Lite</source>
         <translation>FrSky Taranis X-Lite</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1261"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1256"/>
         <source>FrSky Horus X10 / X10S</source>
         <translation>FrSky Horus X10 / X10S</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1274"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1269"/>
         <source>FrSky Horus X12S</source>
         <translation>FrSky Horus X12S</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1277"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1272"/>
         <source>Use ONLY with first DEV pcb version</source>
         <translation>初期DEV pcbバージョンでのみ使用</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1405"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1413"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1400"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1408"/>
         <source>Support for MULTI internal module</source>
         <translation>MULTI内部モジュールのサポート</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1358"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1353"/>
         <source>Jumper T-Lite</source>
         <translation>Jumper T-Lite</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1380"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1375"/>
         <source>Jumper T-Pro</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1242"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1249"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1256"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1414"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1421"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1487"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1237"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1244"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1251"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1409"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1416"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1482"/>
         <source>Support for bluetooth module</source>
         <translation>Bluetoothモジュールのサポート</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1464"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1459"/>
         <source>Radiomaster TX12</source>
         <translation>Radiomaster TX12</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1474"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1469"/>
         <source>Radiomaster TX12 Mark II</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1494"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1489"/>
         <source>Radiomaster Zorro</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1428"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1499"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1423"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1494"/>
         <source>Select if internal ELRS module is installed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1390"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1385"/>
         <source>Jumper T-Pro v2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1426"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1421"/>
         <source>Jumper T20</source>
         <translation type="unfinished">Jumper T20</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1433"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1428"/>
         <source>Radiomaster Boxer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1443"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1438"/>
         <source>Radiomaster Pocket</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1453"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1448"/>
         <source>Radiomaster T8</source>
         <translation>Radiomaster T8</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1461"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1456"/>
         <source>Allow bind using bind key</source>
         <translation>バインドキーを使用したバインドを許可</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1484"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1479"/>
         <source>Radiomaster TX16S / SE / Hall / Masterfire</source>
         <translation>Radiomaster TX16S / SE / Hall / Masterfire</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1490"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1485"/>
         <source>Support hardware mod: FlySky Paladin EV Gimbals</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1419"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1414"/>
         <source>Jumper T18</source>
         <translation>Jumper T18</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1240"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1235"/>
         <source>FlySky NV14</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1230"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1225"/>
         <source>BETAFPV LiteRadio3 Pro</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1348"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1343"/>
         <source>iFlight Commando8</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1505"/>
-        <source>Turnigy 9XR-PRO</source>
-        <translation>Turnigy 9XR-PRO</translation>
-    </message>
-    <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1207"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1202"/>
         <source>Enable HELI menu and cyclic mix support</source>
         <translation>HELIメニューとサイクリックミックスのサポートを有効にする</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1169"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1164"/>
         <source>Enable AFHDS2A support</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1170"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1165"/>
         <source>Enable AFHDS3 support</source>
         <translation>AFHDS3サポート 有効</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1208"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1203"/>
         <source>Global variables</source>
         <translation>グローバル変数</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1210"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1205"/>
         <source>In model setup menus automatically set source by moving the control</source>
         <translation>モデル設定メニューでは、コントローラーを動かし自動的に選択元を設定します</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1211"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1206"/>
         <source>In model setup menus automatically set switch by moving the control</source>
         <translation>モデル設定メニューでは、コントローラーを動かし自動的にスイッチを設定します</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1212"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1207"/>
         <source>No graphical check boxes and sliders</source>
         <translation>グラフィカルなチェックボックスとスライダーはありません</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1213"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1208"/>
         <source>Battery graph</source>
         <translation>バッテリーグラフ</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1214"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1209"/>
         <source>Don&apos;t use bold font for highlighting active items</source>
         <translation>有効なアイテムを強調表示するために太字フォントを使用しない</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1247"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1242"/>
         <source>FlySky EL18</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1254"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1249"/>
         <source>FlySky PL18</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1288"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1283"/>
         <source>FrSky Taranis X7 / X7S Access</source>
         <translation>FrSky Taranis X7 / X7S ACCESS</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1263"/>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1276"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1258"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1271"/>
         <source>Support for ACCESS internal module replacement</source>
         <translation>ACCESS内部モジュール変更のサポート</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1217"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1212"/>
         <source>Enable resetting values by pressing up and down at the same time</source>
         <translation>上下に同時に押し、値のリセットを有効にする</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1510"/>
-        <source>9X with AR9X board</source>
-        <translation>9X AR9Xボード</translation>
-    </message>
-    <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1268"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1263"/>
         <source>FrSky Horus X10 Express / X10S Express</source>
         <translation>FrSky Horus X10 Express / X10S Express</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1400"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1395"/>
         <source>Jumper T12 / T12 Pro</source>
         <translation>Jumper T12 / T12 Pro</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1411"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1406"/>
         <source>Jumper T16 / T16+ / T16 Pro</source>
         <translation>Jumper T16 / T16+ / T16 Pro</translation>
     </message>
     <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1488"/>
+        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1483"/>
         <source>Support internal GPS</source>
         <translation>内蔵GPSサポート</translation>
-    </message>
-    <message>
-        <location filename="../firmwares/opentx/opentxinterface.cpp" line="1517"/>
-        <source>9X with Sky9x board</source>
-        <translation>9X Sky9Xボード</translation>
     </message>
 </context>
 <context>
@@ -4393,6 +4336,14 @@ You are currently using:
     </message>
 </context>
 <context>
+    <name>FlexSwitchesItemModel</name>
+    <message>
+        <location filename="../datamodels/compounditemmodels.cpp" line="592"/>
+        <source>None</source>
+        <translation type="unfinished">なし</translation>
+    </message>
+</context>
+<context>
     <name>FlightMode</name>
     <message>
         <location filename="../modeledit/flightmode.ui" line="22"/>
@@ -4447,7 +4398,7 @@ You are currently using:
     <name>FlightModePanel</name>
     <message>
         <location filename="../modeledit/flightmodes.cpp" line="38"/>
-        <location filename="../modeledit/flightmodes.cpp" line="225"/>
+        <location filename="../modeledit/flightmodes.cpp" line="226"/>
         <source>Popup menu available</source>
         <translation>利用可能なポップアップメニュー</translation>
     </message>
@@ -4457,201 +4408,206 @@ You are currently using:
         <translation>トリム 無効</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="116"/>
+        <location filename="../modeledit/flightmodes.cpp" line="113"/>
+        <source>3POS toggle switch</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../modeledit/flightmodes.cpp" line="117"/>
         <source>Own Trim</source>
         <translation>独自トリム</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="119"/>
+        <location filename="../modeledit/flightmodes.cpp" line="120"/>
         <source>Use Trim from Flight mode %1</source>
         <translation>フライトモードからトリムを使用してください %1</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="121"/>
+        <location filename="../modeledit/flightmodes.cpp" line="122"/>
         <source>Use Trim from Flight mode %1 + Own Trim as an offset</source>
         <translation>フライトモードからトリムを使用してください %1＋オフセット独自トリム</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="150"/>
+        <location filename="../modeledit/flightmodes.cpp" line="151"/>
         <source>Rotary Encoder %1</source>
         <translation>ロータリーエンコーダ %1</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="182"/>
+        <location filename="../modeledit/flightmodes.cpp" line="183"/>
         <source>Name</source>
         <translation>名称</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="188"/>
+        <location filename="../modeledit/flightmodes.cpp" line="189"/>
         <source>Value source</source>
         <translation>元値</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="193"/>
+        <location filename="../modeledit/flightmodes.cpp" line="194"/>
         <source>Value</source>
         <translation>値</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="198"/>
+        <location filename="../modeledit/flightmodes.cpp" line="199"/>
         <source>Unit</source>
         <translation>ユニット</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="202"/>
+        <location filename="../modeledit/flightmodes.cpp" line="203"/>
         <source>Prec</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="206"/>
+        <location filename="../modeledit/flightmodes.cpp" line="207"/>
         <source>Min</source>
         <translation>最小</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="210"/>
+        <location filename="../modeledit/flightmodes.cpp" line="211"/>
         <source>Max</source>
         <translation>最大</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="214"/>
+        <location filename="../modeledit/flightmodes.cpp" line="215"/>
         <source>Popup enabled</source>
         <translation>ポップアップ有効</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="222"/>
+        <location filename="../modeledit/flightmodes.cpp" line="223"/>
         <source>GVAR%1</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="386"/>
+        <location filename="../modeledit/flightmodes.cpp" line="387"/>
         <source>0._</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="387"/>
+        <location filename="../modeledit/flightmodes.cpp" line="388"/>
         <source>0.0</source>
         <translation>0.0</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="492"/>
+        <location filename="../modeledit/flightmodes.cpp" line="497"/>
         <source>Warning: Global variable links back to itself. Flight Mode 0 value used.</source>
         <translation>警告: フライトモード0の値を使用するとグローバル変数としてリンクされます。</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="601"/>
+        <location filename="../modeledit/flightmodes.cpp" line="606"/>
         <source>Warning: Rotary encoder links back to itself. Flight Mode 0 value used.</source>
         <translation>警告: フライトモード0の値を使用するとロータリーエンコーダとしてリンクされます。</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="671"/>
-        <location filename="../modeledit/flightmodes.cpp" line="1052"/>
+        <location filename="../modeledit/flightmodes.cpp" line="680"/>
+        <location filename="../modeledit/flightmodes.cpp" line="1061"/>
         <source>Copy</source>
         <translation>コピー</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="672"/>
-        <location filename="../modeledit/flightmodes.cpp" line="1053"/>
+        <location filename="../modeledit/flightmodes.cpp" line="681"/>
+        <location filename="../modeledit/flightmodes.cpp" line="1062"/>
         <source>Cut</source>
         <translation>切り取り</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="673"/>
-        <location filename="../modeledit/flightmodes.cpp" line="1054"/>
+        <location filename="../modeledit/flightmodes.cpp" line="682"/>
+        <location filename="../modeledit/flightmodes.cpp" line="1063"/>
         <source>Paste</source>
         <translation>貼り付け</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="676"/>
-        <location filename="../modeledit/flightmodes.cpp" line="1057"/>
+        <location filename="../modeledit/flightmodes.cpp" line="685"/>
+        <location filename="../modeledit/flightmodes.cpp" line="1066"/>
         <source>Insert</source>
         <translation>挿入</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="677"/>
-        <location filename="../modeledit/flightmodes.cpp" line="1058"/>
+        <location filename="../modeledit/flightmodes.cpp" line="686"/>
+        <location filename="../modeledit/flightmodes.cpp" line="1067"/>
         <source>Delete</source>
         <translation>削除</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="678"/>
-        <location filename="../modeledit/flightmodes.cpp" line="1059"/>
+        <location filename="../modeledit/flightmodes.cpp" line="687"/>
+        <location filename="../modeledit/flightmodes.cpp" line="1068"/>
         <source>Move Up</source>
         <translation>上へ移動</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="679"/>
-        <location filename="../modeledit/flightmodes.cpp" line="1060"/>
+        <location filename="../modeledit/flightmodes.cpp" line="688"/>
+        <location filename="../modeledit/flightmodes.cpp" line="1069"/>
         <source>Move Down</source>
         <translation>下へ移動</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="681"/>
-        <location filename="../modeledit/flightmodes.cpp" line="1062"/>
+        <location filename="../modeledit/flightmodes.cpp" line="690"/>
+        <location filename="../modeledit/flightmodes.cpp" line="1071"/>
         <source>Clear All</source>
         <translation>すべて消去</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="716"/>
+        <location filename="../modeledit/flightmodes.cpp" line="725"/>
         <source>Clear Flight Mode. Are you sure?</source>
         <translation>フライトモードを消去します。よろしいですか？</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="753"/>
+        <location filename="../modeledit/flightmodes.cpp" line="762"/>
         <source>Clear all Flight Modes. Are you sure?</source>
         <translation>フライトモードをすべて消去します。よろしいですか？</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="788"/>
+        <location filename="../modeledit/flightmodes.cpp" line="797"/>
         <source>Cut Flight Mode. Are you sure?</source>
         <translation>フライトモードを切り取ります。よろしいですか？</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="796"/>
+        <location filename="../modeledit/flightmodes.cpp" line="805"/>
         <source>Delete Flight Mode. Are you sure?</source>
         <translation>フライトモードを削除します。よろしいですか？</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="1152"/>
+        <location filename="../modeledit/flightmodes.cpp" line="1161"/>
         <source>Clear Global Variable across all Flight Modes. Are you sure?</source>
         <translation>すべてのフライトモードのグローバル変数を消去します。よろしいですか？</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="1163"/>
+        <location filename="../modeledit/flightmodes.cpp" line="1172"/>
         <source>Clear Global Variable. Are you sure?</source>
         <translation>グローバル変数を消去します。よろしいですか？</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="1239"/>
+        <location filename="../modeledit/flightmodes.cpp" line="1248"/>
         <source>Cut Global Variable across all Flight Modes. Are you sure?</source>
         <translation>すべてのフライトモードのグローバル変数を切り取ります。よろしいですか？</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="1243"/>
+        <location filename="../modeledit/flightmodes.cpp" line="1252"/>
         <source>Cut Global Variable. Are you sure?</source>
         <translation>グローバル変数を切り取ります。よろしいですか？</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="1256"/>
+        <location filename="../modeledit/flightmodes.cpp" line="1265"/>
         <source>Delete Global Variable. Are you sure?</source>
         <translation>グローバル変数を削除します。よろしいですか？</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="1317"/>
+        <location filename="../modeledit/flightmodes.cpp" line="1326"/>
         <source>Paste to selected Global Variable across all Flight Modes. Are you sure?</source>
         <translation>すべてのフライトモードで選択したグローバル変数を貼り付けます。よろしいですか？</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="1176"/>
+        <location filename="../modeledit/flightmodes.cpp" line="1185"/>
         <source>Clear all Global Variables for all Flight Modes. Are you sure?</source>
         <translation>すべてのフライトモードのすべてのグローバル変数を消去します。よろしいですか？</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="1187"/>
+        <location filename="../modeledit/flightmodes.cpp" line="1196"/>
         <source>Clear all Global Variables for this Flight Mode. Are you sure?</source>
         <translation>このフライトモードのすべてのグローバル変数を消去します。よろしいですか？</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="674"/>
-        <location filename="../modeledit/flightmodes.cpp" line="1055"/>
+        <location filename="../modeledit/flightmodes.cpp" line="683"/>
+        <location filename="../modeledit/flightmodes.cpp" line="1064"/>
         <source>Clear</source>
         <translation>消去</translation>
     </message>
@@ -4659,17 +4615,17 @@ You are currently using:
 <context>
     <name>FlightModesPanel</name>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="1422"/>
+        <location filename="../modeledit/flightmodes.cpp" line="1431"/>
         <source>Flight Mode %1</source>
         <translation>フライトモード %1</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="1425"/>
+        <location filename="../modeledit/flightmodes.cpp" line="1434"/>
         <source> (%1)</source>
         <translation> (%1)</translation>
     </message>
     <message>
-        <location filename="../modeledit/flightmodes.cpp" line="1428"/>
+        <location filename="../modeledit/flightmodes.cpp" line="1437"/>
         <source> (default)</source>
         <translation> (初期値)</translation>
     </message>
@@ -5020,27 +4976,27 @@ These will be relevant for all models in the same EEPROM.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../generaledit/generaledit.cpp" line="168"/>
+        <location filename="../generaledit/generaledit.cpp" line="171"/>
         <source>Wrong data in profile, radio calibration was not retrieved</source>
         <translation>プロファイルデータが正しくなく、送信機校正情報が取得できませんでした</translation>
     </message>
     <message>
-        <location filename="../generaledit/generaledit.cpp" line="210"/>
+        <location filename="../generaledit/generaledit.cpp" line="197"/>
         <source>Wrong data in profile, Switch/pot config not retrieved</source>
         <translation>プロファイルデータが正しくなく、スイッチ/ダイヤル構成が取得できませんでした</translation>
     </message>
     <message>
-        <location filename="../generaledit/generaledit.cpp" line="251"/>
+        <location filename="../generaledit/generaledit.cpp" line="238"/>
         <source>Wrong data in profile, hw related parameters were not retrieved</source>
         <translation>プロファイルデータが正しくなく、HW関連パラメーターが取得できませんでした</translation>
     </message>
     <message>
-        <location filename="../generaledit/generaledit.cpp" line="274"/>
+        <location filename="../generaledit/generaledit.cpp" line="261"/>
         <source>Do you want to store calibration in %1 profile&lt;br&gt;overwriting existing calibration?</source>
         <translation>既存の校正情報を上書きして %1 プロファイルに校正情報を保存しますか？</translation>
     </message>
     <message>
-        <location filename="../generaledit/generaledit.cpp" line="328"/>
+        <location filename="../generaledit/generaledit.cpp" line="315"/>
         <source>Calibration and HW parameters saved.</source>
         <translation>校正情報とHWパラメータが保存されました。</translation>
     </message>
@@ -5116,133 +5072,183 @@ These will be relevant for all models in the same EEPROM.</source>
 <context>
     <name>GeneralSettings</name>
     <message>
-        <location filename="../firmwares/generalsettings.cpp" line="384"/>
+        <location filename="../firmwares/generalsettings.cpp" line="424"/>
         <source>Radio Settings</source>
         <translation>送信機設定</translation>
     </message>
     <message>
-        <location filename="../firmwares/generalsettings.cpp" line="492"/>
+        <location filename="../firmwares/generalsettings.cpp" line="426"/>
+        <source>Hardware</source>
+        <translation type="unfinished">ハードウェア</translation>
+    </message>
+    <message>
+        <location filename="../firmwares/generalsettings.cpp" line="427"/>
+        <source>Internal Module</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/generalsettings.cpp" line="442"/>
+        <source>Axis &amp; Pots</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/generalsettings.cpp" line="446"/>
+        <source>Axis</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/generalsettings.cpp" line="446"/>
+        <source>Pot</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/generalsettings.cpp" line="475"/>
+        <source>Switches</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/generalsettings.cpp" line="479"/>
+        <source>Flex Switch</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/generalsettings.cpp" line="480"/>
+        <source>Function Switch</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/generalsettings.cpp" line="480"/>
+        <source>Switch</source>
+        <translation type="unfinished">スイッチ</translation>
+    </message>
+    <message>
+        <location filename="../firmwares/generalsettings.cpp" line="506"/>
+        <source>None</source>
+        <translation type="unfinished">なし</translation>
+    </message>
+    <message>
+        <location filename="../firmwares/generalsettings.cpp" line="561"/>
         <source>Internal</source>
         <translation type="unfinished">内部</translation>
     </message>
     <message>
-        <location filename="../firmwares/generalsettings.cpp" line="494"/>
+        <location filename="../firmwares/generalsettings.cpp" line="563"/>
         <source>Ask</source>
         <translation type="unfinished">確認</translation>
     </message>
     <message>
-        <location filename="../firmwares/generalsettings.cpp" line="496"/>
+        <location filename="../firmwares/generalsettings.cpp" line="565"/>
         <source>Per model</source>
         <translation type="unfinished">Per モデル</translation>
     </message>
     <message>
-        <location filename="../firmwares/generalsettings.cpp" line="499"/>
+        <location filename="../firmwares/generalsettings.cpp" line="568"/>
         <source>Internal + External</source>
         <translation type="unfinished">内部 + 外部</translation>
     </message>
     <message>
-        <location filename="../firmwares/generalsettings.cpp" line="499"/>
+        <location filename="../firmwares/generalsettings.cpp" line="568"/>
         <source>External</source>
         <translation type="unfinished">外部</translation>
     </message>
     <message>
-        <location filename="../firmwares/generalsettings.cpp" line="512"/>
-        <location filename="../firmwares/generalsettings.cpp" line="528"/>
+        <location filename="../firmwares/generalsettings.cpp" line="581"/>
+        <location filename="../firmwares/generalsettings.cpp" line="597"/>
         <source>OFF</source>
         <translation type="unfinished">OFF</translation>
     </message>
     <message>
-        <location filename="../firmwares/generalsettings.cpp" line="515"/>
+        <location filename="../firmwares/generalsettings.cpp" line="584"/>
         <source>Enabled</source>
         <translation type="unfinished">有効</translation>
     </message>
     <message>
-        <location filename="../firmwares/generalsettings.cpp" line="515"/>
+        <location filename="../firmwares/generalsettings.cpp" line="584"/>
         <source>Telemetry</source>
         <translation type="unfinished">テレメトリー</translation>
     </message>
     <message>
-        <location filename="../firmwares/generalsettings.cpp" line="517"/>
+        <location filename="../firmwares/generalsettings.cpp" line="586"/>
         <source>Trainer</source>
         <translation type="unfinished">トレーナー</translation>
     </message>
     <message>
-        <location filename="../firmwares/generalsettings.cpp" line="530"/>
+        <location filename="../firmwares/generalsettings.cpp" line="599"/>
         <source>Telemetry Mirror</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/generalsettings.cpp" line="532"/>
+        <location filename="../firmwares/generalsettings.cpp" line="601"/>
         <source>Telemetry In</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/generalsettings.cpp" line="534"/>
+        <location filename="../firmwares/generalsettings.cpp" line="603"/>
         <source>SBUS Trainer</source>
         <translation type="unfinished">SBUS トレーナー</translation>
     </message>
     <message>
-        <location filename="../firmwares/generalsettings.cpp" line="536"/>
+        <location filename="../firmwares/generalsettings.cpp" line="605"/>
         <source>LUA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/generalsettings.cpp" line="538"/>
+        <location filename="../firmwares/generalsettings.cpp" line="607"/>
         <source>CLI</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/generalsettings.cpp" line="540"/>
+        <location filename="../firmwares/generalsettings.cpp" line="609"/>
         <source>GPS</source>
         <translation type="unfinished">GPS</translation>
     </message>
     <message>
-        <location filename="../firmwares/generalsettings.cpp" line="542"/>
+        <location filename="../firmwares/generalsettings.cpp" line="611"/>
         <source>Debug</source>
         <translation type="unfinished">デバッグ</translation>
     </message>
     <message>
-        <location filename="../firmwares/generalsettings.cpp" line="544"/>
+        <location filename="../firmwares/generalsettings.cpp" line="613"/>
         <source>SpaceMouse</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/generalsettings.cpp" line="546"/>
+        <location filename="../firmwares/generalsettings.cpp" line="615"/>
         <source>External module</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/generalsettings.cpp" line="579"/>
+        <location filename="../firmwares/generalsettings.cpp" line="648"/>
         <source>mA</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/generalsettings.cpp" line="678"/>
+        <location filename="../firmwares/generalsettings.cpp" line="747"/>
         <source>Normal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/generalsettings.cpp" line="680"/>
+        <location filename="../firmwares/generalsettings.cpp" line="749"/>
         <source>OneBit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/generalsettings.cpp" line="725"/>
+        <location filename="../firmwares/generalsettings.cpp" line="794"/>
         <source>Trims only</source>
         <translation type="unfinished">トリムのみ</translation>
     </message>
     <message>
-        <location filename="../firmwares/generalsettings.cpp" line="727"/>
+        <location filename="../firmwares/generalsettings.cpp" line="796"/>
         <source>Keys only</source>
         <translation type="unfinished">キーのみ</translation>
     </message>
     <message>
-        <location filename="../firmwares/generalsettings.cpp" line="729"/>
+        <location filename="../firmwares/generalsettings.cpp" line="798"/>
         <source>Switchable</source>
         <translation type="unfinished">スイッチ</translation>
     </message>
     <message>
-        <location filename="../firmwares/generalsettings.cpp" line="731"/>
+        <location filename="../firmwares/generalsettings.cpp" line="800"/>
         <source>Global</source>
         <translation type="unfinished">すべて</translation>
     </message>
@@ -5300,161 +5306,161 @@ These will be relevant for all models in the same EEPROM.</source>
         <translation>SG</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="730"/>
+        <location filename="../generaledit/generalsetup.ui" line="648"/>
         <source>Stick reverse</source>
         <translation>スティック リバース</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="923"/>
+        <location filename="../generaledit/generalsetup.ui" line="1022"/>
         <source>Country Code</source>
         <translation>地域</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="990"/>
+        <location filename="../generaledit/generalsetup.ui" line="1124"/>
         <source>If you enable FAI, only RSSI and RxBt sensors will keep working. This function cannot be disabled by the radio.</source>
         <translation>FAIを有効にすると、RSSIとRxBtセンサーのみが機能し続けます。この機能を送信機側で無効にすることはできません。</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="964"/>
+        <location filename="../generaledit/generalsetup.ui" line="1098"/>
         <source>FAI Mode</source>
         <translation>FAIモード</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="935"/>
+        <location filename="../generaledit/generalsetup.ui" line="1069"/>
         <source>Automatically adjust the radio&apos;s clock if a GPS is connected to telemetry.</source>
         <translation>GPSがテレメトリーに接続されている場合、自動的に送信機側の内蔵時計を調整します。</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="941"/>
+        <location filename="../generaledit/generalsetup.ui" line="1075"/>
         <source>Adjust RTC</source>
         <translation>内蔵時計調整</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1052"/>
+        <location filename="../generaledit/generalsetup.ui" line="844"/>
         <source>Speaker Volume</source>
         <translation>スピーカー音量</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="794"/>
-        <location filename="../generaledit/generalsetup.ui" line="971"/>
+        <location filename="../generaledit/generalsetup.ui" line="953"/>
+        <location filename="../generaledit/generalsetup.ui" line="1105"/>
         <source> Hz</source>
         <translation>Hz</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1107"/>
+        <location filename="../generaledit/generalsetup.ui" line="803"/>
         <source>Vario pitch at max</source>
         <translation>バリオピッチ 最大</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="754"/>
+        <location filename="../generaledit/generalsetup.ui" line="1029"/>
         <source>Backlight Switch</source>
         <translation>バックライトスイッチ</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1009"/>
+        <location filename="../generaledit/generalsetup.ui" line="1143"/>
         <source>Color 1</source>
         <translation>カラー 1</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1029"/>
+        <location filename="../generaledit/generalsetup.ui" line="1163"/>
         <source>Color 2</source>
         <translation>カラー 2</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="570"/>
+        <location filename="../generaledit/generalsetup.ui" line="1186"/>
         <source>Sound Mode</source>
         <translation>サウンドモード</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="907"/>
+        <location filename="../generaledit/generalsetup.ui" line="1048"/>
         <source>If this value is not 0, any keypress will turn on the backlight and turn it off after the specified number of seconds.</source>
         <translation>この値が0以外の場合、キーを押すとバックライトが点灯し、指定秒数を経過すると消灯します。</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="910"/>
-        <location filename="../generaledit/generalsetup.ui" line="1712"/>
-        <location filename="../generaledit/generalsetup.ui" line="1722"/>
+        <location filename="../generaledit/generalsetup.ui" line="1051"/>
+        <location filename="../generaledit/generalsetup.ui" line="1631"/>
+        <location filename="../generaledit/generalsetup.ui" line="2437"/>
         <source> sec</source>
         <translation>秒</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1000"/>
+        <location filename="../generaledit/generalsetup.ui" line="1134"/>
         <source>Backlight color</source>
         <translation>バックライトカラー</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1045"/>
+        <location filename="../generaledit/generalsetup.ui" line="1172"/>
         <source>Speaker Pitch (spkr only)</source>
         <translation>再生ピッチ (対応機のみ)</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="701"/>
+        <location filename="../generaledit/generalsetup.ui" line="619"/>
         <source>Beeper</source>
         <translation>ビープ</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="706"/>
+        <location filename="../generaledit/generalsetup.ui" line="624"/>
         <source>Speaker</source>
         <translation>スピーカー</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="711"/>
+        <location filename="../generaledit/generalsetup.ui" line="629"/>
         <source>BeeperVoice</source>
         <translation>ビープ音声</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="716"/>
+        <location filename="../generaledit/generalsetup.ui" line="634"/>
         <source>SpeakerVoice</source>
         <translation>スピーカー音声</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="579"/>
+        <location filename="../generaledit/generalsetup.ui" line="664"/>
         <source>Beep volume</source>
         <translation>ビープ音量</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="602"/>
+        <location filename="../generaledit/generalsetup.ui" line="687"/>
         <source>Wav volume</source>
         <translation>WAV音量</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="625"/>
+        <location filename="../generaledit/generalsetup.ui" line="710"/>
         <source>Vario volume</source>
         <translation>バリオVOL</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="648"/>
+        <location filename="../generaledit/generalsetup.ui" line="733"/>
         <source>Background volume</source>
         <translation>バックグランドVOL</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="826"/>
-        <location filename="../generaledit/generalsetup.ui" line="1631"/>
+        <location filename="../generaledit/generalsetup.ui" line="920"/>
+        <location filename="../generaledit/generalsetup.ui" line="1655"/>
         <source> ms</source>
         <translation> ms</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1100"/>
+        <location filename="../generaledit/generalsetup.ui" line="775"/>
         <source>Backlight flash on alarm</source>
         <translation>アラーム時ライト点滅</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="787"/>
+        <location filename="../generaledit/generalsetup.ui" line="939"/>
         <source>Vario pitch at zero</source>
         <translation>バリオピッチ ゼロ</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1121"/>
+        <location filename="../generaledit/generalsetup.ui" line="796"/>
         <source>Vario repeat at zero</source>
         <translation>バリオリピート ゼロ</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="950"/>
+        <location filename="../generaledit/generalsetup.ui" line="1091"/>
         <source>Backlight  Auto OFF after</source>
         <translation>バックライト 自動消灯</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="883"/>
+        <location filename="../generaledit/generalsetup.ui" line="1010"/>
         <source>This is the switch selectrion for turning on the backlight (if installed).
 
 </source>
@@ -5463,8 +5469,8 @@ These will be relevant for all models in the same EEPROM.</source>
 </translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1065"/>
-        <location filename="../generaledit/generalsetup.ui" line="1623"/>
+        <location filename="../generaledit/generalsetup.ui" line="823"/>
+        <location filename="../generaledit/generalsetup.ui" line="1647"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -5479,49 +5485,49 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;値は20～45です&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="780"/>
+        <location filename="../generaledit/generalsetup.ui" line="946"/>
         <source>RotEnc Navigation</source>
         <translation>Rot Enc ナビゲーション</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1114"/>
+        <location filename="../generaledit/generalsetup.ui" line="789"/>
         <source>Backlight Brightness</source>
         <translation>バックライト 明るさ</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="762"/>
+        <location filename="../generaledit/generalsetup.ui" line="902"/>
         <source>America</source>
         <translation>アメリカ</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="767"/>
+        <location filename="../generaledit/generalsetup.ui" line="907"/>
         <source>Japan</source>
         <translation>日本</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="772"/>
+        <location filename="../generaledit/generalsetup.ui" line="912"/>
         <source>Europe</source>
         <translation>ヨーロッパ</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1128"/>
+        <location filename="../generaledit/generalsetup.ui" line="765"/>
         <source>Voice Language</source>
         <translation>音声言語</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="560"/>
+        <location filename="../generaledit/generalsetup.ui" line="758"/>
         <source>Timeshift from UTC</source>
         <translation>UTC 時差</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="680"/>
+        <location filename="../generaledit/generalsetup.ui" line="574"/>
         <source>Backlight OFF Brightness</source>
         <translation>バックライトOFF 明るさ</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1346"/>
-        <location filename="../generaledit/generalsetup.ui" line="1400"/>
-        <location filename="../generaledit/generalsetup.ui" line="2321"/>
+        <location filename="../generaledit/generalsetup.ui" line="1331"/>
+        <location filename="../generaledit/generalsetup.ui" line="1442"/>
+        <location filename="../generaledit/generalsetup.ui" line="2203"/>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
@@ -5546,12 +5552,12 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;サイレントモード警告 - ビープ音が消音(0)に設定されていると警告します&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1454"/>
+        <location filename="../generaledit/generalsetup.ui" line="1366"/>
         <source>RSSI Poweroff Warning</source>
         <translation>RSSI 信号切断 警告</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1565"/>
+        <location filename="../generaledit/generalsetup.ui" line="1711"/>
         <source>Beeper volume
 
 0 - Quiet.  No beeps at all.
@@ -5568,461 +5574,531 @@ p, li { white-space: pre-wrap; }
 4  - より大きい音量。</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1575"/>
-        <location filename="../generaledit/generalsetup.ui" line="1767"/>
+        <location filename="../generaledit/generalsetup.ui" line="1721"/>
+        <location filename="../generaledit/generalsetup.ui" line="2482"/>
         <source>Quiet</source>
         <translation>消音</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1580"/>
+        <location filename="../generaledit/generalsetup.ui" line="1726"/>
         <source>Alarms Only</source>
         <translation>アラームのみ</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1585"/>
-        <location filename="../generaledit/generalsetup.ui" line="1777"/>
+        <location filename="../generaledit/generalsetup.ui" line="1731"/>
+        <location filename="../generaledit/generalsetup.ui" line="2492"/>
         <source>No Keys</source>
         <translation>キーなし</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1590"/>
-        <location filename="../generaledit/generalsetup.ui" line="1782"/>
+        <location filename="../generaledit/generalsetup.ui" line="1736"/>
+        <location filename="../generaledit/generalsetup.ui" line="2497"/>
         <source>All</source>
         <translation>すべて</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1327"/>
+        <location filename="../generaledit/generalsetup.ui" line="1404"/>
         <source>Beeper Mode</source>
         <translation>ビープ モード</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2167"/>
+        <location filename="../generaledit/generalsetup.ui" line="2049"/>
         <source>Jack Mode</source>
         <translation>Jackモード</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1191"/>
+        <location filename="../generaledit/generalsetup.ui" line="1485"/>
         <source>Audio</source>
         <translation>音声</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1196"/>
+        <location filename="../generaledit/generalsetup.ui" line="1490"/>
         <source>Trainer</source>
         <translation>トレーナー</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1519"/>
-        <location filename="../generaledit/generalsetup.ui" line="2376"/>
+        <location filename="../generaledit/generalsetup.ui" line="1757"/>
+        <location filename="../generaledit/generalsetup.ui" line="2258"/>
         <source>X-Short</source>
         <translation>より短い</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1524"/>
-        <location filename="../generaledit/generalsetup.ui" line="2381"/>
+        <location filename="../generaledit/generalsetup.ui" line="1762"/>
+        <location filename="../generaledit/generalsetup.ui" line="2263"/>
         <source>Short</source>
         <translation>短い</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1529"/>
-        <location filename="../generaledit/generalsetup.ui" line="2386"/>
+        <location filename="../generaledit/generalsetup.ui" line="1767"/>
+        <location filename="../generaledit/generalsetup.ui" line="2268"/>
         <source>Normal</source>
         <translation>通常</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1534"/>
-        <location filename="../generaledit/generalsetup.ui" line="2391"/>
+        <location filename="../generaledit/generalsetup.ui" line="1772"/>
+        <location filename="../generaledit/generalsetup.ui" line="2273"/>
         <source>Long</source>
         <translation>長い</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1539"/>
-        <location filename="../generaledit/generalsetup.ui" line="2396"/>
+        <location filename="../generaledit/generalsetup.ui" line="1777"/>
+        <location filename="../generaledit/generalsetup.ui" line="2278"/>
         <source>X-Long</source>
         <translation>より長い</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2356"/>
+        <location filename="../generaledit/generalsetup.ui" line="2238"/>
         <source>Beeper Length</source>
         <translation>ビープ音の長さ</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1473"/>
+        <location filename="../generaledit/generalsetup.ui" line="1567"/>
         <source>Haptic Mode</source>
         <translation>バイブレーションモード</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1698"/>
+        <location filename="../generaledit/generalsetup.ui" line="1785"/>
         <source>Measurement Units</source>
         <translation>計量単位</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2076"/>
+        <location filename="../generaledit/generalsetup.ui" line="1958"/>
         <source>Play Delay (switch mid position)</source>
         <translation>遅延動作 (スイッチ中央)</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1288"/>
+        <location filename="../generaledit/generalsetup.ui" line="1471"/>
         <source>NMEA</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1205"/>
+        <location filename="../generaledit/generalsetup.ui" line="1512"/>
         <source>4800 Baud</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1210"/>
+        <location filename="../generaledit/generalsetup.ui" line="1517"/>
         <source>9600 Baud</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1215"/>
+        <location filename="../generaledit/generalsetup.ui" line="1522"/>
         <source>14400 Baud</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1220"/>
+        <location filename="../generaledit/generalsetup.ui" line="1527"/>
         <source>19200 Baud</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1225"/>
+        <location filename="../generaledit/generalsetup.ui" line="1532"/>
         <source>38400 Baud</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1230"/>
+        <location filename="../generaledit/generalsetup.ui" line="1537"/>
         <source>57600 Baud</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1235"/>
+        <location filename="../generaledit/generalsetup.ui" line="1542"/>
         <source>76800 Baud</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1240"/>
+        <location filename="../generaledit/generalsetup.ui" line="1547"/>
         <source>115200 Baud</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2160"/>
+        <location filename="../generaledit/generalsetup.ui" line="2042"/>
         <source>Power On Delay</source>
         <translation>起動時間</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2413"/>
+        <location filename="../generaledit/generalsetup.ui" line="2295"/>
         <source>---</source>
         <translation>---</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2418"/>
+        <location filename="../generaledit/generalsetup.ui" line="2300"/>
         <source>2s</source>
         <translation>2秒</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2423"/>
+        <location filename="../generaledit/generalsetup.ui" line="2305"/>
         <source>3s</source>
         <translation>3秒</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2428"/>
+        <location filename="../generaledit/generalsetup.ui" line="2310"/>
         <source>4s</source>
         <translation>4秒</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2433"/>
+        <location filename="../generaledit/generalsetup.ui" line="2315"/>
         <source>6s</source>
         <translation>6秒</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2438"/>
+        <location filename="../generaledit/generalsetup.ui" line="2320"/>
         <source>8s</source>
         <translation>8秒</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2443"/>
+        <location filename="../generaledit/generalsetup.ui" line="2325"/>
         <source>10s</source>
         <translation>10秒</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2448"/>
+        <location filename="../generaledit/generalsetup.ui" line="2330"/>
         <source>15s</source>
         <translation>15秒</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1848"/>
+        <location filename="../generaledit/generalsetup.ui" line="2424"/>
         <source>If not zero will sound beeps if the transmitter has been left without inputs for the specified number of minutes.</source>
         <translation>指定された時間(分)入力がないまま送信機が放置されると、ゼロでない場合はビープ音が鳴ります。</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1851"/>
+        <location filename="../generaledit/generalsetup.ui" line="2427"/>
         <source> min</source>
         <translation>分</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1493"/>
+        <location filename="../generaledit/generalsetup.ui" line="1618"/>
         <source>Standard</source>
         <translation>標準</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1498"/>
+        <location filename="../generaledit/generalsetup.ui" line="1623"/>
         <source>Optrex</source>
         <translation>オプトレックス(京セラ)</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1772"/>
+        <location filename="../generaledit/generalsetup.ui" line="2487"/>
         <source>Only Alarms</source>
         <translation>アラームのみ</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2180"/>
+        <location filename="../generaledit/generalsetup.ui" line="2062"/>
         <source>MAVLink Baud Rate</source>
         <translation>MAVLink ボーレート</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1308"/>
+        <location filename="../generaledit/generalsetup.ui" line="1423"/>
         <source>Haptic Length</source>
         <translation>バイブレーション時間</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2215"/>
+        <location filename="../generaledit/generalsetup.ui" line="2097"/>
         <source>Battery Warning</source>
         <translation>バッテリー警告</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1823"/>
+        <location filename="../generaledit/generalsetup.ui" line="2399"/>
         <source>&quot;No Sound&quot; Warning</source>
         <translation>【無音】警告</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1927"/>
+        <location filename="../generaledit/generalsetup.ui" line="2578"/>
         <source>LCD Display Type</source>
         <translation>液晶ディスプレイタイプ</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2234"/>
+        <location filename="../generaledit/generalsetup.ui" line="2116"/>
         <source>Haptic Strength</source>
         <translation>バイブレーション強度</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1381"/>
+        <location filename="../generaledit/generalsetup.ui" line="1385"/>
         <source>Battery Meter Range</source>
         <translation>バッテリーメーター範囲</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1747"/>
+        <location filename="../generaledit/generalsetup.ui" line="2462"/>
         <source>Contrast</source>
         <translation>コントラスト</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1610"/>
+        <location filename="../generaledit/generalsetup.ui" line="1686"/>
         <source>Show Splash Screen on Startup</source>
         <translation>起動時、起動イメージ表示</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1435"/>
+        <location filename="../generaledit/generalsetup.ui" line="1312"/>
         <source>Low EEPROM Warning</source>
         <translation>EEPROM 残量警告</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2470"/>
+        <location filename="../generaledit/generalsetup.ui" line="2352"/>
         <source>Inactivity Timer</source>
         <translation>非アクティブタイマー</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2243"/>
+        <location filename="../generaledit/generalsetup.ui" line="2125"/>
         <source>Min</source>
         <translation>最小</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2250"/>
-        <location filename="../generaledit/generalsetup.ui" line="2279"/>
+        <location filename="../generaledit/generalsetup.ui" line="2132"/>
+        <location filename="../generaledit/generalsetup.ui" line="2161"/>
         <source>v</source>
         <translation>v</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2272"/>
+        <location filename="../generaledit/generalsetup.ui" line="2154"/>
         <source>Max</source>
         <translation>最大</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1790"/>
+        <location filename="../generaledit/generalsetup.ui" line="2505"/>
         <source>GPS Coordinates</source>
         <translation>GPS座標</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2193"/>
+        <location filename="../generaledit/generalsetup.ui" line="2075"/>
         <source>Default Channel Order</source>
         <translation>初期チャンネルマップ</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1798"/>
+        <location filename="../generaledit/generalsetup.ui" line="2374"/>
         <source>Metric</source>
         <translation>メートル法</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1803"/>
+        <location filename="../generaledit/generalsetup.ui" line="2379"/>
         <source>Imperial</source>
         <translation>ヤード・ポンド法</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1650"/>
+        <location filename="../generaledit/generalsetup.ui" line="1598"/>
         <source>Stick Mode</source>
         <translation>スティックモード</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1940"/>
+        <location filename="../generaledit/generalsetup.ui" line="1822"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Channel order&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;Defines the order of the default mixes created on a new model.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;チャンネルマップ&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;モデル作成された際の初期チャンネルマッピングを定義します&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1038"/>
+        <location filename="../generaledit/generalsetup.ui" line="851"/>
         <source>Owner Registration ID</source>
         <translation>オーナー登録ID</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1086"/>
+        <location filename="../generaledit/generalsetup.ui" line="1193"/>
         <source>Keys Backlight</source>
         <translation>キー バックライト</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1138"/>
+        <location filename="../generaledit/generalsetup.ui" line="861"/>
         <source>Rotary Encoder Mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1148"/>
+        <location filename="../generaledit/generalsetup.ui" line="560"/>
+        <source>Label selection mode</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../generaledit/generalsetup.ui" line="567"/>
+        <source>Label matching</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../generaledit/generalsetup.ui" line="595"/>
+        <source>Large image (2 columns)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../generaledit/generalsetup.ui" line="600"/>
+        <source>Small image (3 columns)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../generaledit/generalsetup.ui" line="605"/>
+        <source>Name only (2 columns)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../generaledit/generalsetup.ui" line="610"/>
+        <source>Name only (1 column)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../generaledit/generalsetup.ui" line="810"/>
+        <source>Manage Models layout</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../generaledit/generalsetup.ui" line="871"/>
         <source>Model quick select</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1155"/>
+        <location filename="../generaledit/generalsetup.ui" line="878"/>
         <source>Enable this to quickly change model on the model select page (a long press can then be used to open the model edit menu).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1947"/>
+        <location filename="../generaledit/generalsetup.ui" line="1210"/>
+        <source>Favorites matching</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../generaledit/generalsetup.ui" line="1218"/>
+        <source>Multi select</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../generaledit/generalsetup.ui" line="1223"/>
+        <source>Single select</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../generaledit/generalsetup.ui" line="1232"/>
+        <source>Match all</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../generaledit/generalsetup.ui" line="1237"/>
+        <source>Match any</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../generaledit/generalsetup.ui" line="1246"/>
+        <source>Must match</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../generaledit/generalsetup.ui" line="1251"/>
+        <source>Optional match</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../generaledit/generalsetup.ui" line="1829"/>
         <source>R E T A</source>
         <translation>↔RUD ↕ELE ↕THR ↔AIL&#x3000;[R E T A]</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1952"/>
+        <location filename="../generaledit/generalsetup.ui" line="1834"/>
         <source>R E A T</source>
         <translation>↔RUD ↕ELE ↔AIL ↕THR&#x3000;[R E A T]</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1957"/>
+        <location filename="../generaledit/generalsetup.ui" line="1839"/>
         <source>R T E A</source>
         <translation>↔RUD ↕THR ↕ELE ↔AIL&#x3000;[R T E A]</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1962"/>
+        <location filename="../generaledit/generalsetup.ui" line="1844"/>
         <source>R T A E</source>
         <translation>↔RUD ↕THR ↔AIL ↕ELE&#x3000;[R T A E]</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1967"/>
+        <location filename="../generaledit/generalsetup.ui" line="1849"/>
         <source>R A E T</source>
         <translation>↔RUD ↔AIL ↕ELE ↕THR&#x3000;[R A E T]</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1972"/>
+        <location filename="../generaledit/generalsetup.ui" line="1854"/>
         <source>R A T E</source>
         <translation>↔RUD ↔AIL ↕THR ↕ELE&#x3000;[R A T E]</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1977"/>
+        <location filename="../generaledit/generalsetup.ui" line="1859"/>
         <source>E R T A</source>
         <translation>↕ELE ↔RUD ↕THR ↔AIL&#x3000;[E R T A]</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1982"/>
+        <location filename="../generaledit/generalsetup.ui" line="1864"/>
         <source>E R A T</source>
         <translation>↕ELE ↔RUD ↔AIL ↕THR&#x3000;[E R A T]</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1987"/>
+        <location filename="../generaledit/generalsetup.ui" line="1869"/>
         <source>E T R A</source>
         <translation>↕ELE ↕THR ↔RUD ↔AIL&#x3000;[E T R A]</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1992"/>
+        <location filename="../generaledit/generalsetup.ui" line="1874"/>
         <source>E T A R</source>
         <translation>↕ELE ↕THR ↔AIL ↔RUD&#x3000;[E T A R]</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1997"/>
+        <location filename="../generaledit/generalsetup.ui" line="1879"/>
         <source>E A R T</source>
         <translation>↕ELE ↔AIL ↔RUD ↕THR&#x3000;[E A R T]</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2002"/>
+        <location filename="../generaledit/generalsetup.ui" line="1884"/>
         <source>E A T R</source>
         <translation>↕ELE ↔AIL ↕THR ↔RUD&#x3000;[E A T R]</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2007"/>
+        <location filename="../generaledit/generalsetup.ui" line="1889"/>
         <source>T R E A</source>
         <translation>↕THR ↔RUD ↕ELE ↔AIL&#x3000;[T R E A]</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2012"/>
+        <location filename="../generaledit/generalsetup.ui" line="1894"/>
         <source>T R A E</source>
         <translation>↕THR ↔RUD ↔AIL ↕ELE&#x3000;[T R A E]</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2017"/>
+        <location filename="../generaledit/generalsetup.ui" line="1899"/>
         <source>T E R A</source>
         <translation>↕THR ↕ELE ↔RUD ↔AIL&#x3000;[T E R A]</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2022"/>
+        <location filename="../generaledit/generalsetup.ui" line="1904"/>
         <source>T E A R</source>
         <translation>↕THR ↕ELE ↔AIL ↔RUD&#x3000;[T E A R]</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2027"/>
+        <location filename="../generaledit/generalsetup.ui" line="1909"/>
         <source>T A R E</source>
         <translation>↕THR ↔AIL ↔RUD ↕ELE&#x3000;[T A R E]</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2032"/>
+        <location filename="../generaledit/generalsetup.ui" line="1914"/>
         <source>T A E R</source>
         <translation>↕THR ↔AIL ↕ELE ↔RUD&#x3000;[T A E R]</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2037"/>
+        <location filename="../generaledit/generalsetup.ui" line="1919"/>
         <source>A R E T</source>
         <translation>↔AIL ↔RUD ↕ELE ↕THR&#x3000;[A R E T]</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2042"/>
+        <location filename="../generaledit/generalsetup.ui" line="1924"/>
         <source>A R T E</source>
         <translation>↔AIL ↔RUD ↕THR ↕ELE&#x3000;[A R T E]</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2047"/>
+        <location filename="../generaledit/generalsetup.ui" line="1929"/>
         <source>A E R T</source>
         <translation>↔AIL ↕ELE ↔RUD ↕THR&#x3000;[A E R T]</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2052"/>
+        <location filename="../generaledit/generalsetup.ui" line="1934"/>
         <source>A E T R</source>
         <translation>↔AIL ↕ELE ↕THR ↔RUD&#x3000;[A E T R]</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2057"/>
+        <location filename="../generaledit/generalsetup.ui" line="1939"/>
         <source>A T R E</source>
         <translation>↔AIL ↕THR ↔RUD ↕ELE&#x3000;[A T R E]</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2062"/>
+        <location filename="../generaledit/generalsetup.ui" line="1944"/>
         <source>A T E R</source>
         <translation>↔AIL ↕THR ↕ELE ↔RUD&#x3000;[A T E R]</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2101"/>
+        <location filename="../generaledit/generalsetup.ui" line="1983"/>
         <source>Battery warning voltage.
 This is the threshold where the battery warning sounds.
 
@@ -6032,38 +6108,38 @@ Acceptable values are 3v..12v</source>
 許容値は3～12vです</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2477"/>
+        <location filename="../generaledit/generalsetup.ui" line="2359"/>
         <source>Play Startup Sound</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2491"/>
+        <location filename="../generaledit/generalsetup.ui" line="2585"/>
         <source>PPM Units</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2498"/>
-        <location filename="../generaledit/generalsetup.ui" line="2502"/>
+        <location filename="../generaledit/generalsetup.ui" line="2592"/>
+        <location filename="../generaledit/generalsetup.ui" line="2596"/>
         <source>0.--</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2507"/>
+        <location filename="../generaledit/generalsetup.ui" line="2601"/>
         <source>0.0</source>
         <translation type="unfinished">0.0</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="2512"/>
+        <location filename="../generaledit/generalsetup.ui" line="2606"/>
         <source>us</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1705"/>
+        <location filename="../generaledit/generalsetup.ui" line="1792"/>
         <source>Power Off Delay</source>
         <translation>終了時間</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1867"/>
+        <location filename="../generaledit/generalsetup.ui" line="2518"/>
         <source>Mode selection:
 
 Mode 1:
@@ -6104,58 +6180,58 @@ Mode 4:
 </translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1892"/>
+        <location filename="../generaledit/generalsetup.ui" line="2543"/>
         <source>Mode 1 (RUD ELE THR AIL)</source>
         <translation>モード1&#x3000;(左:エレベーター・ラダー&#x3000;右:スロットル・エルロン)</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1897"/>
+        <location filename="../generaledit/generalsetup.ui" line="2548"/>
         <source>Mode 2 (RUD THR ELE AIL)</source>
         <translation>モード2&#x3000;(左:スロットル・ラダー&#x3000;右:エレベーター・エルロン)</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1902"/>
+        <location filename="../generaledit/generalsetup.ui" line="2553"/>
         <source>Mode 3 (AIL ELE THR RUD)</source>
         <translation>モード3&#x3000;(左:エレベーター・エルロン&#x3000;右:スロットル・ラダー)</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1907"/>
+        <location filename="../generaledit/generalsetup.ui" line="2558"/>
         <source>Mode 4 (AIL THR ELE RUD)</source>
         <translation>モード4&#x3000;(左:スロットル・エルロン&#x3000;右:エレベーター・ラダー)</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1283"/>
+        <location filename="../generaledit/generalsetup.ui" line="1466"/>
         <source>DMS</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1657"/>
+        <location filename="../generaledit/generalsetup.ui" line="1809"/>
         <source>USB Mode</source>
         <translation>USBモード</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1186"/>
-        <location filename="../generaledit/generalsetup.ui" line="1665"/>
+        <location filename="../generaledit/generalsetup.ui" line="1480"/>
+        <location filename="../generaledit/generalsetup.ui" line="1575"/>
         <source>Ask on Connect</source>
         <translation>接続毎に確認</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1670"/>
+        <location filename="../generaledit/generalsetup.ui" line="1580"/>
         <source>Joystick (HID)</source>
         <translation>ジョイスティック (HID)</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1675"/>
+        <location filename="../generaledit/generalsetup.ui" line="1585"/>
         <source>USB Mass Storage</source>
         <translation>USBストレージ</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1680"/>
+        <location filename="../generaledit/generalsetup.ui" line="1590"/>
         <source>USB Serial (CDC)</source>
         <translation>USBシリアル （CDC)</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.ui" line="1688"/>
+        <location filename="../generaledit/generalsetup.ui" line="1802"/>
         <source>Hats Mode</source>
         <translation>アナログスティック</translation>
     </message>
@@ -6193,77 +6269,77 @@ Mode 4:
         <translation>ON</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.cpp" line="377"/>
+        <location filename="../generaledit/generalsetup.cpp" line="383"/>
         <source>English</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.cpp" line="377"/>
+        <location filename="../generaledit/generalsetup.cpp" line="382"/>
         <source>Dutch</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.cpp" line="377"/>
+        <location filename="../generaledit/generalsetup.cpp" line="384"/>
         <source>French</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.cpp" line="377"/>
+        <location filename="../generaledit/generalsetup.cpp" line="388"/>
         <source>Italian</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.cpp" line="377"/>
+        <location filename="../generaledit/generalsetup.cpp" line="385"/>
         <source>German</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.cpp" line="378"/>
+        <location filename="../generaledit/generalsetup.cpp" line="380"/>
         <source>Czech</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.cpp" line="378"/>
+        <location filename="../generaledit/generalsetup.cpp" line="393"/>
         <source>Slovak</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.cpp" line="378"/>
+        <location filename="../generaledit/generalsetup.cpp" line="394"/>
         <source>Spanish</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.cpp" line="378"/>
+        <location filename="../generaledit/generalsetup.cpp" line="390"/>
         <source>Polish</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.cpp" line="378"/>
+        <location filename="../generaledit/generalsetup.cpp" line="391"/>
         <source>Portuguese</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.cpp" line="378"/>
+        <location filename="../generaledit/generalsetup.cpp" line="392"/>
         <source>Russian</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.cpp" line="379"/>
+        <location filename="../generaledit/generalsetup.cpp" line="395"/>
         <source>Swedish</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.cpp" line="379"/>
+        <location filename="../generaledit/generalsetup.cpp" line="387"/>
         <source>Hungarian</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.cpp" line="533"/>
+        <location filename="../generaledit/generalsetup.cpp" line="579"/>
         <source>Normal, Edit Inverted</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.cpp" line="377"/>
+        <location filename="../generaledit/generalsetup.cpp" line="381"/>
         <source>Danish</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6273,47 +6349,52 @@ Mode 4:
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.cpp" line="379"/>
+        <location filename="../generaledit/generalsetup.cpp" line="389"/>
         <source>Japanese</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.cpp" line="379"/>
+        <location filename="../generaledit/generalsetup.cpp" line="386"/>
         <source>Hebrew</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.cpp" line="455"/>
+        <location filename="../generaledit/generalsetup.cpp" line="396"/>
+        <source>Ukrainian</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../generaledit/generalsetup.cpp" line="468"/>
         <source>No</source>
         <translation>いいえ</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.cpp" line="455"/>
+        <location filename="../generaledit/generalsetup.cpp" line="468"/>
         <source>RotEnc A</source>
         <translation>Rot Enc A</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.cpp" line="455"/>
+        <location filename="../generaledit/generalsetup.cpp" line="468"/>
         <source>Rot Enc B</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.cpp" line="455"/>
+        <location filename="../generaledit/generalsetup.cpp" line="468"/>
         <source>Rot Enc C</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.cpp" line="455"/>
+        <location filename="../generaledit/generalsetup.cpp" line="468"/>
         <source>Rot Enc D</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.cpp" line="455"/>
+        <location filename="../generaledit/generalsetup.cpp" line="468"/>
         <source>Rot Enc E</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.cpp" line="515"/>
+        <location filename="../generaledit/generalsetup.cpp" line="561"/>
         <source>If you enable FAI, only RSSI and RxBt sensors will keep working.
 This function cannot be disabled by the radio.
 Are you sure ?</source>
@@ -6322,22 +6403,22 @@ Are you sure ?</source>
 よろしいですか？</translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.cpp" line="533"/>
+        <location filename="../generaledit/generalsetup.cpp" line="579"/>
         <source>Normal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.cpp" line="533"/>
+        <location filename="../generaledit/generalsetup.cpp" line="579"/>
         <source>Inverted</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.cpp" line="533"/>
+        <location filename="../generaledit/generalsetup.cpp" line="579"/>
         <source>Vertical Inverted, Horizontal Normal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../generaledit/generalsetup.cpp" line="533"/>
+        <location filename="../generaledit/generalsetup.cpp" line="579"/>
         <source>Vertical Inverted, Horizontal Alternate</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6363,123 +6444,118 @@ Are you sure ?</source>
 <context>
     <name>HardwarePanel</name>
     <message>
-        <location filename="../generaledit/hardware.cpp" line="116"/>
-        <source>Sticks</source>
-        <translation type="unfinished">スティック</translation>
-    </message>
-    <message>
-        <location filename="../generaledit/hardware.cpp" line="126"/>
+        <location filename="../generaledit/hardware.cpp" line="147"/>
         <source>Dead zone</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../generaledit/hardware.cpp" line="137"/>
+        <location filename="../generaledit/hardware.cpp" line="158"/>
         <source>Pots</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../generaledit/hardware.cpp" line="145"/>
-        <source>Sliders</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../generaledit/hardware.cpp" line="153"/>
+        <location filename="../generaledit/hardware.cpp" line="172"/>
         <source>Switches</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../generaledit/hardware.cpp" line="162"/>
+        <location filename="../generaledit/hardware.cpp" line="188"/>
         <source>RTC Battery Check</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../generaledit/hardware.cpp" line="186"/>
+        <location filename="../generaledit/hardware.cpp" line="212"/>
         <source>Bluetooth</source>
         <translation type="unfinished">Bluetooth</translation>
     </message>
     <message>
-        <location filename="../generaledit/hardware.cpp" line="194"/>
+        <location filename="../generaledit/hardware.cpp" line="220"/>
         <source>Device Name:</source>
         <translation type="unfinished">デバイス名:</translation>
     </message>
     <message>
-        <location filename="../generaledit/hardware.cpp" line="248"/>
+        <location filename="../generaledit/hardware.cpp" line="274"/>
         <source>Sample Mode</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../generaledit/hardware.cpp" line="261"/>
+        <location filename="../generaledit/hardware.cpp" line="287"/>
         <source>Serial ports</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../generaledit/hardware.cpp" line="273"/>
-        <location filename="../generaledit/hardware.cpp" line="292"/>
+        <location filename="../generaledit/hardware.cpp" line="299"/>
+        <location filename="../generaledit/hardware.cpp" line="318"/>
         <source>Power</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../generaledit/hardware.cpp" line="302"/>
+        <location filename="../generaledit/hardware.cpp" line="328"/>
         <source>USB-VCP</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../generaledit/hardware.cpp" line="170"/>
+        <location filename="../generaledit/hardware.cpp" line="196"/>
         <source>ADC Filter</source>
         <translation type="unfinished">ADCフィルター</translation>
     </message>
     <message>
-        <location filename="../generaledit/hardware.cpp" line="178"/>
+        <location filename="../generaledit/hardware.cpp" line="137"/>
+        <source>Axis</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../generaledit/hardware.cpp" line="204"/>
         <source>Mute if no sound</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../generaledit/hardware.cpp" line="206"/>
+        <location filename="../generaledit/hardware.cpp" line="232"/>
         <source>Internal RF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../generaledit/hardware.cpp" line="207"/>
+        <location filename="../generaledit/hardware.cpp" line="233"/>
         <source>Type</source>
         <translation type="unfinished">タイプ</translation>
     </message>
     <message>
-        <location filename="../generaledit/hardware.cpp" line="216"/>
+        <location filename="../generaledit/hardware.cpp" line="242"/>
         <source>Baudrate:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../generaledit/hardware.cpp" line="230"/>
+        <location filename="../generaledit/hardware.cpp" line="256"/>
         <source>Antenna:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../generaledit/hardware.cpp" line="247"/>
+        <location filename="../generaledit/hardware.cpp" line="273"/>
         <source>External RF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../generaledit/hardware.cpp" line="264"/>
+        <location filename="../generaledit/hardware.cpp" line="290"/>
         <source>AUX1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../generaledit/hardware.cpp" line="283"/>
+        <location filename="../generaledit/hardware.cpp" line="309"/>
         <source>AUX2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../generaledit/hardware.cpp" line="314"/>
+        <location filename="../generaledit/hardware.cpp" line="340"/>
         <source>S.Port Power</source>
         <translation type="unfinished">S.Port 出力</translation>
     </message>
     <message>
-        <location filename="../generaledit/hardware.cpp" line="322"/>
+        <location filename="../generaledit/hardware.cpp" line="348"/>
         <source>Current Offset</source>
         <translation type="unfinished">現在のオフセット</translation>
     </message>
     <message>
-        <location filename="../generaledit/hardware.cpp" line="344"/>
+        <location filename="../generaledit/hardware.cpp" line="370"/>
         <source>Warning: Changing the Internal module may invalidate the internal module protocol of the models!</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6803,91 +6879,91 @@ Are you sure ?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../storage/labeled.cpp" line="79"/>
+        <location filename="../storage/labeled.cpp" line="82"/>
         <source>Cannot extract RADIO/models.txt</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../storage/labeled.cpp" line="114"/>
+        <location filename="../storage/labeled.cpp" line="117"/>
         <source>Cannot extract %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../storage/labeled.cpp" line="121"/>
+        <location filename="../storage/labeled.cpp" line="124"/>
         <source>Error loading models</source>
         <translation type="unfinished">機体モデル読み込みエラー</translation>
     </message>
     <message>
-        <location filename="../storage/labeled.cpp" line="142"/>
-        <location filename="../storage/labeled.cpp" line="316"/>
+        <location filename="../storage/labeled.cpp" line="145"/>
+        <location filename="../storage/labeled.cpp" line="319"/>
         <source>Favorites</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../storage/labeled.cpp" line="179"/>
+        <location filename="../storage/labeled.cpp" line="182"/>
         <source>Cannot find %1/RADIO/radio.yml</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../storage/labeled.cpp" line="181"/>
+        <location filename="../storage/labeled.cpp" line="184"/>
         <source>Found %1/RADIO/radio.yml</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../storage/labeled.cpp" line="184"/>
+        <location filename="../storage/labeled.cpp" line="187"/>
         <source>Cannot find %1/MODELS/models.yml</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../storage/labeled.cpp" line="186"/>
+        <location filename="../storage/labeled.cpp" line="189"/>
         <source>Found %1/MODELS/models.yml</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../storage/labeled.cpp" line="190"/>
+        <location filename="../storage/labeled.cpp" line="193"/>
         <source>Cannot find %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../storage/labeled.cpp" line="192"/>
+        <location filename="../storage/labeled.cpp" line="195"/>
         <source>Found %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../storage/labeled.cpp" line="197"/>
+        <location filename="../storage/labeled.cpp" line="200"/>
         <source>Cannot extract RADIO/radio.yml</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../storage/labeled.cpp" line="203"/>
-        <location filename="../storage/labeled.cpp" line="207"/>
+        <location filename="../storage/labeled.cpp" line="206"/>
+        <location filename="../storage/labeled.cpp" line="210"/>
         <source>Cannot load RADIO/radio.yml</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../storage/labeled.cpp" line="225"/>
         <location filename="../storage/labeled.cpp" line="228"/>
+        <location filename="../storage/labeled.cpp" line="231"/>
         <source>Can&apos;t load MODELS/labels.yml</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../storage/labeled.cpp" line="279"/>
+        <location filename="../storage/labeled.cpp" line="282"/>
         <source>Cannot extract </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../storage/labeled.cpp" line="290"/>
-        <location filename="../storage/labeled.cpp" line="294"/>
+        <location filename="../storage/labeled.cpp" line="293"/>
+        <location filename="../storage/labeled.cpp" line="297"/>
         <source>Cannot load </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../storage/labeled.cpp" line="340"/>
+        <location filename="../storage/labeled.cpp" line="343"/>
         <source>Cannot list files</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../storage/labeled.cpp" line="351"/>
+        <location filename="../storage/labeled.cpp" line="354"/>
         <source>Error deleting files</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7343,7 +7419,7 @@ The columns for altitude &quot;GAlt&quot; and for speed &quot;GSpd&quot; are opt
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="378"/>
-        <location filename="../mainwindow.cpp" line="818"/>
+        <location filename="../mainwindow.cpp" line="817"/>
         <source>Open Models and Settings file</source>
         <translation>機体モデルと設定ファイルを開く</translation>
     </message>
@@ -7364,7 +7440,7 @@ Do you wish to continue?</source>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="501"/>
-        <location filename="../mainwindow.cpp" line="836"/>
+        <location filename="../mainwindow.cpp" line="835"/>
         <source>Synchronize SD</source>
         <translation>SDカードを同期する</translation>
     </message>
@@ -7390,13 +7466,13 @@ Do you wish to continue?</source>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="563"/>
-        <location filename="../mainwindow.cpp" line="834"/>
+        <location filename="../mainwindow.cpp" line="833"/>
         <source>Read Firmware from Radio</source>
         <translation>送信機からファームウェアを読み込み</translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="573"/>
-        <location filename="../mainwindow.cpp" line="840"/>
+        <location filename="../mainwindow.cpp" line="839"/>
         <source>Read Models and Settings from Radio</source>
         <translation>送信機から機体モデルや設定を読み込み</translation>
     </message>
@@ -7427,198 +7503,198 @@ Do you wish to continue?</source>
         <translation>このプログラムが役に立つと感じた場合は、&lt;a href=&apos;%1&apos;&gt;寄付&lt;/a&gt;でのサポートをお願いします</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="676"/>
+        <location filename="../mainwindow.cpp" line="675"/>
         <source>About Companion</source>
         <translation>Companionについて</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="817"/>
+        <location filename="../mainwindow.cpp" line="816"/>
         <source>New</source>
         <translation>新規</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="817"/>
+        <location filename="../mainwindow.cpp" line="816"/>
         <source>Create a new Models and Settings file</source>
         <translation>新規モデルと設定ファイルを作成します</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="818"/>
+        <location filename="../mainwindow.cpp" line="817"/>
         <source>Open...</source>
         <translation>開く...</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="819"/>
+        <location filename="../mainwindow.cpp" line="818"/>
         <source>Save</source>
         <translation>保存</translation>
     </message>
     <message>
+        <location filename="../mainwindow.cpp" line="818"/>
         <location filename="../mainwindow.cpp" line="819"/>
-        <location filename="../mainwindow.cpp" line="820"/>
         <source>Save Models and Settings file</source>
         <translation>機体モデルと設定ファイルを保存します</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="820"/>
+        <location filename="../mainwindow.cpp" line="819"/>
         <source>Save As...</source>
         <translation>名前を付けて保存...</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="821"/>
+        <location filename="../mainwindow.cpp" line="820"/>
         <source>Close</source>
         <translation>閉じる</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="821"/>
+        <location filename="../mainwindow.cpp" line="820"/>
         <source>Close Models and Settings file</source>
         <translation>機体モデルと設定ファイルを閉じます</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="822"/>
+        <location filename="../mainwindow.cpp" line="821"/>
         <source>Exit</source>
         <translation>終了</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="822"/>
+        <location filename="../mainwindow.cpp" line="821"/>
         <source>Exit the application</source>
         <translation>アプリケーションを終了します</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="823"/>
+        <location filename="../mainwindow.cpp" line="822"/>
         <source>Show the application&apos;s About box</source>
         <translation>アプリケーションのバージョン情報を表示します</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="825"/>
+        <location filename="../mainwindow.cpp" line="824"/>
         <source>Recent Files</source>
         <translation>最近使用したファイル</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="825"/>
+        <location filename="../mainwindow.cpp" line="824"/>
         <source>List of recently used files</source>
         <translation>最近使用したファイルを一覧表示</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="826"/>
+        <location filename="../mainwindow.cpp" line="825"/>
         <source>Radio Profiles</source>
         <translation>送信機プロファイル</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="826"/>
+        <location filename="../mainwindow.cpp" line="825"/>
         <source>Create or Select Radio Profiles</source>
         <translation>送信機プロファイルを作成または選択します</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="827"/>
+        <location filename="../mainwindow.cpp" line="826"/>
         <source>View Log File...</source>
         <translation>ログファイルを表示...</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="827"/>
+        <location filename="../mainwindow.cpp" line="826"/>
         <source>Open and view log file</source>
         <translation>ログファイルを開いて表示します</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="828"/>
+        <location filename="../mainwindow.cpp" line="827"/>
         <source>Settings...</source>
         <translation>設定...</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="828"/>
+        <location filename="../mainwindow.cpp" line="827"/>
         <source>Edit Settings</source>
         <translation>設定を編集します</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="831"/>
+        <location filename="../mainwindow.cpp" line="830"/>
         <source>Release notes...</source>
         <translation>リリースノート...</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="831"/>
+        <location filename="../mainwindow.cpp" line="830"/>
         <source>Show release notes</source>
         <translation>リリースノートを表示します</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="832"/>
+        <location filename="../mainwindow.cpp" line="831"/>
         <source>Compare Models...</source>
         <translation>機体モデルを比較...</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="832"/>
+        <location filename="../mainwindow.cpp" line="831"/>
         <source>Compare models</source>
         <translation>機体モデルを比較します</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="833"/>
+        <location filename="../mainwindow.cpp" line="832"/>
         <source>Edit Radio Splash Image...</source>
         <translation>送信機の起動イメージを編集...</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="833"/>
+        <location filename="../mainwindow.cpp" line="832"/>
         <source>Edit the splash image of your Radio</source>
         <translation>送信機の起動イメージを編集します</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="834"/>
+        <location filename="../mainwindow.cpp" line="833"/>
         <source>Read firmware from Radio</source>
         <translation>送信機からファームウェアを読み込み</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="835"/>
+        <location filename="../mainwindow.cpp" line="834"/>
         <source>Write Firmware to Radio</source>
         <translation>送信機にファームウェアを書き込み</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="835"/>
+        <location filename="../mainwindow.cpp" line="834"/>
         <source>Write firmware to Radio</source>
         <translation>送信機にファームウェアを書き込み</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="836"/>
+        <location filename="../mainwindow.cpp" line="835"/>
         <source>SD card synchronization</source>
         <translation>SDカードの同期</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="839"/>
+        <location filename="../mainwindow.cpp" line="838"/>
         <source>Write Models and Settings To Radio</source>
         <translation>機体モデルと設定を送信機に書き込み</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="839"/>
+        <location filename="../mainwindow.cpp" line="838"/>
         <source>Write Models and Settings to Radio</source>
         <translation>機体モデルと設定を送信機に書き込み</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="840"/>
+        <location filename="../mainwindow.cpp" line="839"/>
         <source>Read Models and Settings From Radio</source>
         <translation>送信機から機体モデルや設定を読み込み</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="841"/>
+        <location filename="../mainwindow.cpp" line="840"/>
         <source>Configure Communications...</source>
         <translation>送信機疎通を設定...</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="841"/>
+        <location filename="../mainwindow.cpp" line="840"/>
         <source>Configure software for communicating with the Radio</source>
         <translation>送信機と疎通するためのソフトウェアを設定します</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="842"/>
+        <location filename="../mainwindow.cpp" line="841"/>
         <source>Write Backup to Radio</source>
         <translation>送信機からバックアップを書き出す</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="842"/>
+        <location filename="../mainwindow.cpp" line="841"/>
         <source>Write Backup from file to Radio</source>
         <translation>送信機ファイルからバックアップを書き出します</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="843"/>
+        <location filename="../mainwindow.cpp" line="842"/>
         <source>Backup Radio to File</source>
         <translation>ファイルを送信機にバックアップ</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="843"/>
+        <location filename="../mainwindow.cpp" line="842"/>
         <source>Save a complete backup file of all settings and model data in the Radio</source>
         <translation>すべての設定とモデルデータの完全なバックアップファイルを送信機に保存します</translation>
     </message>
@@ -7659,410 +7735,410 @@ Do you wish to continue?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="748"/>
+        <location filename="../mainwindow.cpp" line="747"/>
         <source>EdgeTX Companion %1 - Radio: %2 - Profile: %3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="823"/>
+        <location filename="../mainwindow.cpp" line="822"/>
         <source>About Companion...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="829"/>
+        <location filename="../mainwindow.cpp" line="828"/>
         <source>Download components...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="829"/>
+        <location filename="../mainwindow.cpp" line="828"/>
         <source>Download EdgeTX components and supporting resources</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="830"/>
+        <location filename="../mainwindow.cpp" line="829"/>
         <source>Check for updates...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="830"/>
+        <location filename="../mainwindow.cpp" line="829"/>
         <source>Check for updates to EdgeTX and supporting resources</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="845"/>
+        <location filename="../mainwindow.cpp" line="844"/>
         <source>Add Radio Profile</source>
         <translation>送信機プロファイルの追加</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="845"/>
+        <location filename="../mainwindow.cpp" line="844"/>
         <source>Create a new Radio Settings Profile</source>
         <translation>新しい送信機設定プロファイルを作成します</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="846"/>
+        <location filename="../mainwindow.cpp" line="845"/>
         <source>Copy Current Radio Profile</source>
         <translation>現在の送信機プロファイルをコピー</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="846"/>
+        <location filename="../mainwindow.cpp" line="845"/>
         <source>Duplicate current Radio Settings Profile</source>
         <translation>現在の送信機設定プロファイルを複製します</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="847"/>
+        <location filename="../mainwindow.cpp" line="846"/>
         <source>Delete Current Radio Profile...</source>
         <translation>現在の送信機プロファイルを削除...</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="847"/>
+        <location filename="../mainwindow.cpp" line="846"/>
         <source>Delete the current Radio Settings Profile</source>
         <translation>現在の送信機設定プロファイルを削除します</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="849"/>
+        <location filename="../mainwindow.cpp" line="848"/>
         <source>Export Application Settings..</source>
         <translation>アプリケーション設定のエクスポート..</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="849"/>
+        <location filename="../mainwindow.cpp" line="848"/>
         <source>Save all the current %1 and Simulator settings (including radio profiles) to a file.</source>
         <translation>現在のすべての%1およびシミュレータ設定(送信機プロファイル含)をファイルに保存します。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="850"/>
+        <location filename="../mainwindow.cpp" line="849"/>
         <source>Import Application Settings..</source>
         <translation>アプリケーション設定をインポート..</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="850"/>
+        <location filename="../mainwindow.cpp" line="849"/>
         <source>Load %1 and Simulator settings from a prevously exported settings file.</source>
         <translation>以前にエクスポートした設定ファイルから%1とシミュレーション設定を読み込みます。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="852"/>
+        <location filename="../mainwindow.cpp" line="851"/>
         <source>Tabbed Windows</source>
         <translation>タブ付きウィンドウ</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="852"/>
+        <location filename="../mainwindow.cpp" line="851"/>
         <source>Use tabs to arrange open windows.</source>
         <translation>開いているウィンドウを並べ替えるのにタブを使用します。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="853"/>
+        <location filename="../mainwindow.cpp" line="852"/>
         <source>Tile Windows</source>
         <translation>ウィンドウのタイトル</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="853"/>
+        <location filename="../mainwindow.cpp" line="852"/>
         <source>Arrange open windows across all the available space.</source>
         <translation>利用可能なすべてのスペースに開いているウィンドウを配置します。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="854"/>
+        <location filename="../mainwindow.cpp" line="853"/>
         <source>Cascade Windows</source>
         <translation>ウィンドウを重ねる</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="854"/>
+        <location filename="../mainwindow.cpp" line="853"/>
         <source>Arrange all open windows in a stack.</source>
         <translation>開いているウィンドウをすべて重ねて配置します。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="855"/>
+        <location filename="../mainwindow.cpp" line="854"/>
         <source>Close All Windows</source>
         <translation>すべてのウィンドウを閉じる</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="855"/>
+        <location filename="../mainwindow.cpp" line="854"/>
         <source>Closes all open files (prompts to save if necessary.</source>
         <translation>開いているファイルをすべて閉じます (必要に応じ保存を求められます)。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="857"/>
-        <location filename="../mainwindow.cpp" line="867"/>
+        <location filename="../mainwindow.cpp" line="856"/>
+        <location filename="../mainwindow.cpp" line="866"/>
         <source>Edit</source>
         <translation>編集</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="858"/>
-        <location filename="../mainwindow.cpp" line="866"/>
+        <location filename="../mainwindow.cpp" line="857"/>
+        <location filename="../mainwindow.cpp" line="865"/>
         <source>File</source>
         <translation>ファイル</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="859"/>
+        <location filename="../mainwindow.cpp" line="858"/>
         <source>Settings</source>
         <translation>設定</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="860"/>
+        <location filename="../mainwindow.cpp" line="859"/>
         <source>Set Icon Theme</source>
         <translation>アイコンテーマ設定</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="861"/>
+        <location filename="../mainwindow.cpp" line="860"/>
         <source>Set Icon Size</source>
         <translation>アイコンサイズ設定</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="862"/>
+        <location filename="../mainwindow.cpp" line="861"/>
         <source>Read/Write</source>
         <translation>読み込み/書き込み</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="863"/>
+        <location filename="../mainwindow.cpp" line="862"/>
         <source>Window</source>
         <translation>ウィンドウ</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="864"/>
-        <location filename="../mainwindow.cpp" line="869"/>
+        <location filename="../mainwindow.cpp" line="863"/>
+        <location filename="../mainwindow.cpp" line="868"/>
         <source>Help</source>
         <translation>ヘルプ</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="868"/>
+        <location filename="../mainwindow.cpp" line="867"/>
         <source>Write</source>
         <translation>書き込み</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="874"/>
+        <location filename="../mainwindow.cpp" line="873"/>
         <source>Some text will not be translated until the next time you start Companion. Please note that some translations may not be complete.</source>
         <translation>次にCompanionを起動するまで一部のテキストは翻訳されません。いくつかの翻訳は完全ではないかもしれませんのでご注意ください。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="882"/>
+        <location filename="../mainwindow.cpp" line="881"/>
         <source>Ctrl+Shift+S</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="886"/>
+        <location filename="../mainwindow.cpp" line="885"/>
         <source>Ctrl+Alt+L</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="888"/>
+        <location filename="../mainwindow.cpp" line="887"/>
         <source>Ctrl+Alt+D</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="889"/>
+        <location filename="../mainwindow.cpp" line="888"/>
         <source>Ctrl+Alt+R</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="959"/>
+        <location filename="../mainwindow.cpp" line="958"/>
         <source>Classical</source>
         <translation>クラシック</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="959"/>
+        <location filename="../mainwindow.cpp" line="958"/>
         <source>The classic companion9x icon theme</source>
         <translation>クラシック Companion9x アイコンテーマ</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="960"/>
+        <location filename="../mainwindow.cpp" line="959"/>
         <source>Yerico</source>
         <translation>イェリコ</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="960"/>
+        <location filename="../mainwindow.cpp" line="959"/>
         <source>Yellow round honey sweet icon theme</source>
         <translation>Yellow round honey sweet アイコンテーマ</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="961"/>
+        <location filename="../mainwindow.cpp" line="960"/>
         <source>Monochrome</source>
         <translation>モノクローム</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="961"/>
+        <location filename="../mainwindow.cpp" line="960"/>
         <source>A monochrome black icon theme</source>
         <translation>A monochrome black アイコンテーマ</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="962"/>
+        <location filename="../mainwindow.cpp" line="961"/>
         <source>MonoBlue</source>
         <translation>モノブルー</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="962"/>
+        <location filename="../mainwindow.cpp" line="961"/>
         <source>A monochrome blue icon theme</source>
         <translation>A monochrome blue アイコンテーマ</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="963"/>
+        <location filename="../mainwindow.cpp" line="962"/>
         <source>MonoWhite</source>
         <translation>モノホワイト</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="963"/>
+        <location filename="../mainwindow.cpp" line="962"/>
         <source>A monochrome white icon theme</source>
         <translation>A monochrome white アイコンテーマ</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="969"/>
+        <location filename="../mainwindow.cpp" line="968"/>
         <source>Small</source>
         <translation>小サイズ</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="969"/>
+        <location filename="../mainwindow.cpp" line="968"/>
         <source>Use small toolbar icons</source>
         <translation>小サイズのツールバーアイコンを使用</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="970"/>
+        <location filename="../mainwindow.cpp" line="969"/>
         <source>Normal</source>
         <translation>標準サイズ</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="970"/>
+        <location filename="../mainwindow.cpp" line="969"/>
         <source>Use normal size toolbar icons</source>
         <translation>標準サイズのツールバーアイコンを使用</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="971"/>
+        <location filename="../mainwindow.cpp" line="970"/>
         <source>Big</source>
         <translation>大サイズ</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="971"/>
+        <location filename="../mainwindow.cpp" line="970"/>
         <source>Use big toolbar icons</source>
         <translation>大サイズのツールバーアイコンを使用</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="972"/>
+        <location filename="../mainwindow.cpp" line="971"/>
         <source>Huge</source>
         <translation>特大サイズ</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="972"/>
+        <location filename="../mainwindow.cpp" line="971"/>
         <source>Use huge toolbar icons</source>
         <translation>特大サイズのツールバーアイコンを使用</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1092"/>
+        <location filename="../mainwindow.cpp" line="1091"/>
         <source>Set Menu Language</source>
         <translation>メニュー言語を設定</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1096"/>
+        <location filename="../mainwindow.cpp" line="1095"/>
         <source>System language</source>
         <translation>システム言語</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1096"/>
+        <location filename="../mainwindow.cpp" line="1095"/>
         <source>Use default system language.</source>
         <translation>デフォルトのシステム言語を使用します。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1100"/>
+        <location filename="../mainwindow.cpp" line="1099"/>
         <source>Use %1 language (some translations may not be complete).</source>
         <translation>%1言語を使用します （一部の翻訳が不完全な場合あり)。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1112"/>
+        <location filename="../mainwindow.cpp" line="1111"/>
         <source>Ready</source>
         <translation>準備完了</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1165"/>
+        <location filename="../mainwindow.cpp" line="1164"/>
         <source>%2</source>
         <translation>%2</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1193"/>
+        <location filename="../mainwindow.cpp" line="1192"/>
         <source>Alt+%1</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1264"/>
+        <location filename="../mainwindow.cpp" line="1263"/>
         <source>Cannot add profile</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1264"/>
+        <location filename="../mainwindow.cpp" line="1263"/>
         <source>There is no space left to add a new profile. Delete an exsting profile before adding a new one.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1294"/>
+        <location filename="../mainwindow.cpp" line="1293"/>
         <source> - Copy</source>
         <translation> - コピー</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1303"/>
+        <location filename="../mainwindow.cpp" line="1302"/>
         <source>Companion :: Open files warning</source>
         <translation>Companion :: ファイルを開くときの警告</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1303"/>
+        <location filename="../mainwindow.cpp" line="1302"/>
         <source>Please save or close modified file(s) before deleting the active profile.</source>
         <translation>有効なプロファイルを削除する前に、変更したファイルを保存するか閉じてください。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1311"/>
+        <location filename="../mainwindow.cpp" line="1310"/>
         <source>Not possible to remove profile</source>
         <translation>プロファイルを削除できません</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1311"/>
+        <location filename="../mainwindow.cpp" line="1310"/>
         <source>The default profile can not be removed.</source>
         <translation>デフォルトプロファイルは削除できません。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1316"/>
+        <location filename="../mainwindow.cpp" line="1315"/>
         <source>Confirm Delete Profile</source>
         <translation>プロファイル削除の確認</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1317"/>
+        <location filename="../mainwindow.cpp" line="1316"/>
         <source>Are you sure you wish to delete the &quot;%1&quot; radio profile? There is no way to undo this action!</source>
         <translation>『%1』送信機プロファイルを削除してもよろしいですか？この操作を元に戻すことはできません！</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1339"/>
+        <location filename="../mainwindow.cpp" line="1338"/>
         <source>Please save or close all modified files before importing settings</source>
         <translation>設定をインポートする前に、変更したファイルをすべて保存するか閉じてください</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1342"/>
+        <location filename="../mainwindow.cpp" line="1341"/>
         <source>&lt;html&gt;&lt;p&gt;%1 and Simulator settings can be imported (restored) from a previosly saved export (backup) file. This will replace current settings with any settings found in the file.&lt;/p&gt;&lt;p&gt;An automatic backup of the current settings will be attempted. But if the current settings are useful then it is recommended that you make a manual backup first.&lt;/p&gt;&lt;p&gt;For best results when importing settings, &lt;b&gt;close any other %1 windows you may have open, and make sure the standalone Simulator application is not running.&lt;/p&gt;&lt;p&gt;Do you wish to continue?&lt;/p&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;p&gt;%1とシミュレータの設定は、以前に保存したエクスポート(バックアップ)ファイルからインポート(復元)できます。これにより、現在の設定がファイル内の設定に置き換えられます。&lt;/p&gt;&lt;p&gt;現在の設定の自動バックアップが実行されます。ただし、現在の設定が便利な場合は、まず手動バックアップを作成することをお勧めします。&lt;/p&gt;&lt;p&gt;設定をインポートし最良の結果を得るには、&lt;b&gt;開いている%1ウィンドウをすべて閉じます。スタンドアロンのシミュレーターアプリケーションが実行されていません。&lt;/p&gt;&lt;p&gt;続行しますか？&lt;/p&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1350"/>
+        <location filename="../mainwindow.cpp" line="1349"/>
         <source>Confirm Settings Import</source>
         <translation>設定のインポートの確認</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1355"/>
+        <location filename="../mainwindow.cpp" line="1354"/>
         <source>Select %1:</source>
         <translation>%1を選択:</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1360"/>
+        <location filename="../mainwindow.cpp" line="1359"/>
         <source>backup</source>
         <translation>バックアップ</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1362"/>
+        <location filename="../mainwindow.cpp" line="1361"/>
         <source>Press the &apos;Ignore&apos; button to continue anyway.</source>
         <translation>とにかく続行するには『無視』ボタンを押してください。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1372"/>
+        <location filename="../mainwindow.cpp" line="1371"/>
         <source>The settings could not be imported.</source>
         <translation>設定をインポートできませんでした。</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1375"/>
+        <location filename="../mainwindow.cpp" line="1374"/>
         <source>&lt;html&gt;&lt;p&gt;New settings have been imported from:&lt;br&gt; %1.&lt;/p&gt;&lt;p&gt;%2 will now re-initialize.&lt;/p&gt;&lt;p&gt;Note that you may need to close and restart %2 before some settings like language and icon theme take effect.&lt;/p&gt;</source>
         <translation>&lt;html&gt;&lt;p&gt;新しい設定は次の場所からインポートされました。&lt;br&gt;%1.&lt;/p&gt;&lt;p&gt;%2は再初期化されます。&lt;/p&gt;&lt;p&gt;場合によっては閉じて再起動する必要があります。言語やアイコンテーマなどの設定が有効になる前に%2が発生しました。&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="1382"/>
+        <location filename="../mainwindow.cpp" line="1381"/>
         <source>&lt;p&gt;The previous settings were backed up to:&lt;br&gt; %1&lt;/p&gt;</source>
         <translation>&lt;p&gt;以前の設定は次の場所にバックアップされました:&lt;br&gt; %1&lt;/p&gt;</translation>
     </message>
@@ -8893,27 +8969,27 @@ If blank then the mix is considered to be &quot;ON&quot; all the time.</source>
 空白の場合、ミックスは常に『オン』と見なします。</translation>
     </message>
     <message>
-        <location filename="../modeledit/mixerdialog.cpp" line="49"/>
+        <location filename="../modeledit/mixerdialog.cpp" line="51"/>
         <source>DEST -&gt; %1</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../modeledit/mixerdialog.cpp" line="112"/>
+        <location filename="../modeledit/mixerdialog.cpp" line="114"/>
         <source>Click to access popup menu</source>
         <translation>クリックしてポップアップメニューにアクセス</translation>
     </message>
     <message>
-        <location filename="../modeledit/mixerdialog.cpp" line="235"/>
+        <location filename="../modeledit/mixerdialog.cpp" line="237"/>
         <source>Clear All</source>
         <translation>すべて消去</translation>
     </message>
     <message>
-        <location filename="../modeledit/mixerdialog.cpp" line="236"/>
+        <location filename="../modeledit/mixerdialog.cpp" line="238"/>
         <source>Set All</source>
         <translation>すべて設定</translation>
     </message>
     <message>
-        <location filename="../modeledit/mixerdialog.cpp" line="237"/>
+        <location filename="../modeledit/mixerdialog.cpp" line="239"/>
         <source>Invert All</source>
         <translation>すべてリバース</translation>
     </message>
@@ -9091,82 +9167,82 @@ If blank then the mix is considered to be &quot;ON&quot; all the time.</source>
         <translation>スロットル値</translation>
     </message>
     <message>
-        <location filename="../firmwares/modeldata.cpp" line="1508"/>
+        <location filename="../firmwares/modeldata.cpp" line="1507"/>
         <source>THR</source>
         <translation>THR</translation>
     </message>
     <message>
-        <location filename="../firmwares/modeldata.cpp" line="1621"/>
+        <location filename="../firmwares/modeldata.cpp" line="1620"/>
         <source>OFF</source>
         <translation type="unfinished">OFF</translation>
     </message>
     <message>
-        <location filename="../firmwares/modeldata.cpp" line="1623"/>
+        <location filename="../firmwares/modeldata.cpp" line="1622"/>
         <source>Master/Jack</source>
         <translation type="unfinished">マスター/Jack</translation>
     </message>
     <message>
-        <location filename="../firmwares/modeldata.cpp" line="1625"/>
+        <location filename="../firmwares/modeldata.cpp" line="1624"/>
         <source>Slave/Jack</source>
         <translation type="unfinished">スレーブ/Jack</translation>
     </message>
     <message>
-        <location filename="../firmwares/modeldata.cpp" line="1627"/>
+        <location filename="../firmwares/modeldata.cpp" line="1626"/>
         <source>Master/SBUS Module</source>
         <translation type="unfinished">マスター/SBUSモジュール</translation>
     </message>
     <message>
-        <location filename="../firmwares/modeldata.cpp" line="1629"/>
+        <location filename="../firmwares/modeldata.cpp" line="1628"/>
         <source>Master/CPPM Module</source>
         <translation type="unfinished">マスター/CPPMモジュール</translation>
     </message>
     <message>
-        <location filename="../firmwares/modeldata.cpp" line="1631"/>
+        <location filename="../firmwares/modeldata.cpp" line="1630"/>
         <source>Master/Serial</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/modeldata.cpp" line="1633"/>
+        <location filename="../firmwares/modeldata.cpp" line="1632"/>
         <source>Master/Bluetooth</source>
         <translation type="unfinished">マスター/Bluetooth</translation>
     </message>
     <message>
-        <location filename="../firmwares/modeldata.cpp" line="1635"/>
+        <location filename="../firmwares/modeldata.cpp" line="1634"/>
         <source>Slave/Bluetooth</source>
         <translation type="unfinished">スレーブ/Bluetooth</translation>
     </message>
     <message>
-        <location filename="../firmwares/modeldata.cpp" line="1637"/>
+        <location filename="../firmwares/modeldata.cpp" line="1636"/>
         <source>Master/Multi</source>
         <translation type="unfinished">マスター/Multi</translation>
     </message>
     <message>
-        <location filename="../firmwares/modeldata.cpp" line="1725"/>
+        <location filename="../firmwares/modeldata.cpp" line="1724"/>
         <source>NONE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/modeldata.cpp" line="1727"/>
+        <location filename="../firmwares/modeldata.cpp" line="1726"/>
         <source>TOGGLE</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/modeldata.cpp" line="1729"/>
+        <location filename="../firmwares/modeldata.cpp" line="1728"/>
         <source>2POS</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/modeldata.cpp" line="1802"/>
+        <location filename="../firmwares/modeldata.cpp" line="1801"/>
         <source>Inactive</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/modeldata.cpp" line="1804"/>
+        <location filename="../firmwares/modeldata.cpp" line="1803"/>
         <source>Active</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/modeldata.cpp" line="1806"/>
+        <location filename="../firmwares/modeldata.cpp" line="1805"/>
         <source>Restore</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9378,7 +9454,7 @@ If blank then the mix is considered to be &quot;ON&quot; all the time.</source>
     <message>
         <location filename="../modelprinter.cpp" line="149"/>
         <location filename="../modelprinter.cpp" line="289"/>
-        <location filename="../modelprinter.cpp" line="784"/>
+        <location filename="../modelprinter.cpp" line="798"/>
         <source>OFF</source>
         <translation>OFF</translation>
     </message>
@@ -9419,7 +9495,7 @@ If blank then the mix is considered to be &quot;ON&quot; all the time.</source>
     </message>
     <message>
         <location filename="../modelprinter.cpp" line="194"/>
-        <location filename="../modelprinter.cpp" line="776"/>
+        <location filename="../modelprinter.cpp" line="778"/>
         <source>Mode</source>
         <translation>モード</translation>
     </message>
@@ -9453,13 +9529,13 @@ If blank then the mix is considered to be &quot;ON&quot; all the time.</source>
     </message>
     <message>
         <location filename="../modelprinter.cpp" line="215"/>
-        <location filename="../modelprinter.cpp" line="620"/>
+        <location filename="../modelprinter.cpp" line="634"/>
         <source>Delay</source>
         <translation>遅延</translation>
     </message>
     <message>
         <location filename="../modelprinter.cpp" line="220"/>
-        <location filename="../modelprinter.cpp" line="831"/>
+        <location filename="../modelprinter.cpp" line="845"/>
         <source>Receiver</source>
         <translation>受信機</translation>
     </message>
@@ -9516,54 +9592,54 @@ If blank then the mix is considered to be &quot;ON&quot; all the time.</source>
     </message>
     <message>
         <location filename="../modelprinter.cpp" line="281"/>
-        <location filename="../modelprinter.cpp" line="488"/>
-        <location filename="../modelprinter.cpp" line="759"/>
-        <location filename="../modelprinter.cpp" line="987"/>
-        <location filename="../modelprinter.cpp" line="1017"/>
+        <location filename="../modelprinter.cpp" line="490"/>
+        <location filename="../modelprinter.cpp" line="772"/>
+        <location filename="../modelprinter.cpp" line="1004"/>
+        <location filename="../modelprinter.cpp" line="1034"/>
         <source>None</source>
         <translation>なし</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="297"/>
-        <location filename="../modelprinter.cpp" line="319"/>
-        <location filename="../modelprinter.cpp" line="333"/>
+        <location filename="../modelprinter.cpp" line="299"/>
+        <location filename="../modelprinter.cpp" line="321"/>
+        <location filename="../modelprinter.cpp" line="335"/>
         <source>FM%1</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="301"/>
+        <location filename="../modelprinter.cpp" line="303"/>
         <source>FM%1%2</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="303"/>
+        <location filename="../modelprinter.cpp" line="305"/>
         <source>FM%1+%2</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="428"/>
+        <location filename="../modelprinter.cpp" line="430"/>
         <source>NoTrim</source>
         <translation>トリムなし</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="387"/>
-        <location filename="../modelprinter.cpp" line="435"/>
+        <location filename="../modelprinter.cpp" line="389"/>
+        <location filename="../modelprinter.cpp" line="437"/>
         <source>Offset(%1)</source>
         <translation>オフセット(%1)</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="416"/>
+        <location filename="../modelprinter.cpp" line="418"/>
         <source>MULT!</source>
         <translation>複数!</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="433"/>
+        <location filename="../modelprinter.cpp" line="435"/>
         <source>No DR/Expo</source>
         <translation>DR/Expoなし</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="367"/>
-        <location filename="../modelprinter.cpp" line="418"/>
+        <location filename="../modelprinter.cpp" line="369"/>
+        <location filename="../modelprinter.cpp" line="420"/>
         <source>Weight(%1)</source>
         <translation>ウェイト(%1)</translation>
     </message>
@@ -9573,93 +9649,93 @@ If blank then the mix is considered to be &quot;ON&quot; all the time.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="364"/>
+        <location filename="../modelprinter.cpp" line="366"/>
         <source>Scale(%1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="376"/>
-        <location filename="../modelprinter.cpp" line="425"/>
+        <location filename="../modelprinter.cpp" line="378"/>
+        <location filename="../modelprinter.cpp" line="427"/>
         <source>Switch(%1)</source>
         <translation>スイッチ(%1)</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="381"/>
+        <location filename="../modelprinter.cpp" line="383"/>
         <source>No Trim</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="442"/>
+        <location filename="../modelprinter.cpp" line="444"/>
         <source>Delay(u%1:d%2)</source>
         <translation>遅延(u%1:d%2)</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="444"/>
+        <location filename="../modelprinter.cpp" line="446"/>
         <source>Slow(u%1:d%2)</source>
         <translation>速度低下(u%1:d%2)</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="446"/>
+        <location filename="../modelprinter.cpp" line="448"/>
         <source>Warn(%1)</source>
         <translation>警告(%1)</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="467"/>
+        <location filename="../modelprinter.cpp" line="469"/>
         <source>Disabled in all flight modes</source>
         <translation>すべてのフライトモードを無効</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="476"/>
+        <location filename="../modelprinter.cpp" line="478"/>
         <source>Flight modes</source>
         <translation>フライトモード</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="476"/>
+        <location filename="../modelprinter.cpp" line="478"/>
         <source>Flight mode</source>
         <translation>フライトモード</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="501"/>
+        <location filename="../modelprinter.cpp" line="503"/>
         <source>All</source>
         <translation>すべて</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="519"/>
+        <location filename="../modelprinter.cpp" line="523"/>
         <source>Edge</source>
         <translation>Edge:端</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="519"/>
+        <location filename="../modelprinter.cpp" line="524"/>
         <source>instant</source>
         <translation>簡易</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="522"/>
+        <location filename="../modelprinter.cpp" line="529"/>
         <source>Sticky</source>
         <translation>Sticky:追尾</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="525"/>
+        <location filename="../modelprinter.cpp" line="532"/>
         <source>Timer</source>
         <translation>タイマー</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="552"/>
+        <location filename="../modelprinter.cpp" line="559"/>
         <source> missing</source>
         <translation>間違い</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="618"/>
+        <location filename="../modelprinter.cpp" line="632"/>
         <source>Duration</source>
         <translation>期間</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="827"/>
+        <location filename="../modelprinter.cpp" line="841"/>
         <source>Custom</source>
         <translation>カスタム</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="727"/>
+        <location filename="../modelprinter.cpp" line="741"/>
         <source>Extended Limits</source>
         <translation>拡張制限</translation>
     </message>
@@ -9674,227 +9750,237 @@ If blank then the mix is considered to be &quot;ON&quot; all the time.</source>
         <translation type="unfinished">タイプ</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="729"/>
+        <location filename="../modelprinter.cpp" line="291"/>
+        <source>3POS</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../modelprinter.cpp" line="524"/>
+        <source>infinite</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../modelprinter.cpp" line="743"/>
         <source>Display Checklist</source>
         <translation>ディスプレイ チェックリスト</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="731"/>
+        <location filename="../modelprinter.cpp" line="745"/>
         <source>Global Functions</source>
         <translation>グローバルファンクション</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="786"/>
+        <location filename="../modelprinter.cpp" line="800"/>
         <source>Manual</source>
         <translation>手動</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="788"/>
+        <location filename="../modelprinter.cpp" line="802"/>
         <source>Auto</source>
         <translation>自動</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="798"/>
+        <location filename="../modelprinter.cpp" line="812"/>
         <source>Failsafe Mode</source>
         <translation>フェイルセーフモード</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="811"/>
         <location filename="../modelprinter.cpp" line="825"/>
+        <location filename="../modelprinter.cpp" line="839"/>
         <source>Hold</source>
         <translation>ホールド</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="813"/>
+        <location filename="../modelprinter.cpp" line="827"/>
         <source>No Pulse</source>
         <translation>パルスなし</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="823"/>
+        <location filename="../modelprinter.cpp" line="837"/>
         <source>Not set</source>
         <translation>セットなし</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="829"/>
+        <location filename="../modelprinter.cpp" line="843"/>
         <source>No pulses</source>
         <translation>パルスなし</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="840"/>
+        <location filename="../modelprinter.cpp" line="854"/>
         <source>Step</source>
         <translation>ステップ</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="841"/>
+        <location filename="../modelprinter.cpp" line="855"/>
         <source>Display</source>
         <translation>ディスプレイ</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="842"/>
+        <location filename="../modelprinter.cpp" line="856"/>
         <source>Extended</source>
         <translation>拡張</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="845"/>
+        <location filename="../modelprinter.cpp" line="859"/>
         <source>Hats Mode</source>
         <translation type="unfinished">アナログスティック</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="866"/>
+        <location filename="../modelprinter.cpp" line="883"/>
         <source>Never</source>
         <translation>なし</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="868"/>
+        <location filename="../modelprinter.cpp" line="885"/>
         <source>On Change</source>
         <translation>変更</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="870"/>
+        <location filename="../modelprinter.cpp" line="887"/>
         <source>Always</source>
         <translation>常に</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="880"/>
+        <location filename="../modelprinter.cpp" line="897"/>
         <source>Trims only</source>
         <translation type="unfinished">トリムのみ</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="882"/>
+        <location filename="../modelprinter.cpp" line="899"/>
         <source>Keys only</source>
         <translation type="unfinished">キーのみ</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="884"/>
+        <location filename="../modelprinter.cpp" line="901"/>
         <source>Switchable</source>
         <translation type="unfinished">スイッチ</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="886"/>
+        <location filename="../modelprinter.cpp" line="903"/>
         <source>Global</source>
         <translation type="unfinished">すべて</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="908"/>
-        <location filename="../modelprinter.cpp" line="1039"/>
-        <location filename="../modelprinter.cpp" line="1049"/>
+        <location filename="../modelprinter.cpp" line="925"/>
+        <location filename="../modelprinter.cpp" line="1056"/>
+        <location filename="../modelprinter.cpp" line="1066"/>
         <source>Source</source>
         <translation>選択元</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="909"/>
+        <location filename="../modelprinter.cpp" line="926"/>
         <source>Trim idle only</source>
         <translation>トリムアイドルのみ</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="910"/>
+        <location filename="../modelprinter.cpp" line="927"/>
         <source>Warning</source>
         <translation>警告</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="911"/>
+        <location filename="../modelprinter.cpp" line="928"/>
         <source>Reversed</source>
         <translation>リバース</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="925"/>
+        <location filename="../modelprinter.cpp" line="942"/>
         <source>FrSky S.PORT</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="927"/>
+        <location filename="../modelprinter.cpp" line="944"/>
         <source>FrSky D</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="929"/>
+        <location filename="../modelprinter.cpp" line="946"/>
         <source>FrSky D (cable)</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="944"/>
+        <location filename="../modelprinter.cpp" line="961"/>
         <source>Alti</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="946"/>
+        <location filename="../modelprinter.cpp" line="963"/>
         <source>Alti+</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="948"/>
+        <location filename="../modelprinter.cpp" line="965"/>
         <source>VSpeed</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="950"/>
         <location filename="../modelprinter.cpp" line="967"/>
-        <location filename="../modelprinter.cpp" line="989"/>
+        <location filename="../modelprinter.cpp" line="984"/>
+        <location filename="../modelprinter.cpp" line="1006"/>
         <source>A1</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="952"/>
         <location filename="../modelprinter.cpp" line="969"/>
-        <location filename="../modelprinter.cpp" line="991"/>
+        <location filename="../modelprinter.cpp" line="986"/>
+        <location filename="../modelprinter.cpp" line="1008"/>
         <source>A2</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="971"/>
-        <location filename="../modelprinter.cpp" line="993"/>
+        <location filename="../modelprinter.cpp" line="988"/>
+        <location filename="../modelprinter.cpp" line="1010"/>
         <source>A3</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="973"/>
-        <location filename="../modelprinter.cpp" line="995"/>
+        <location filename="../modelprinter.cpp" line="990"/>
+        <location filename="../modelprinter.cpp" line="1012"/>
         <source>A4</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="975"/>
-        <location filename="../modelprinter.cpp" line="997"/>
+        <location filename="../modelprinter.cpp" line="992"/>
+        <location filename="../modelprinter.cpp" line="1014"/>
         <source>FAS</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="977"/>
+        <location filename="../modelprinter.cpp" line="994"/>
         <source>Cells</source>
         <translation>セル</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="1049"/>
+        <location filename="../modelprinter.cpp" line="1066"/>
         <source>Min</source>
         <translation>最小</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="1049"/>
+        <location filename="../modelprinter.cpp" line="1066"/>
         <source>Max</source>
         <translation>最大</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="1019"/>
+        <location filename="../modelprinter.cpp" line="1036"/>
         <source>Numbers</source>
         <translation>ナンバー</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="1021"/>
+        <location filename="../modelprinter.cpp" line="1038"/>
         <source>Bars</source>
         <translation>バー</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="1023"/>
+        <location filename="../modelprinter.cpp" line="1040"/>
         <source>Script</source>
         <translation>スクリプト</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="1070"/>
+        <location filename="../modelprinter.cpp" line="1087"/>
         <source>Filename</source>
         <translation>ファイル名</translation>
     </message>
     <message>
-        <location filename="../modelprinter.cpp" line="1080"/>
+        <location filename="../modelprinter.cpp" line="1097"/>
         <source>Error: Unable to open or read file!</source>
         <translation>エラー: ファイルを開けないか、読み取れません！</translation>
     </message>
@@ -11377,12 +11463,12 @@ If blank then the mix is considered to be &quot;ON&quot; all the time.</source>
 <context>
     <name>RadioKnobWidget</name>
     <message>
-        <location filename="../simulation/widgets/radioknobwidget.h" line="59"/>
+        <location filename="../simulation/widgets/radioknobwidget.h" line="58"/>
         <source>&lt;p&gt;Value (input): &lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</source>
         <translation>p&gt;値 (入力): &lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="../simulation/widgets/radioknobwidget.h" line="61"/>
+        <location filename="../simulation/widgets/radioknobwidget.h" line="60"/>
         <source>Right-double-click to reset to center.</source>
         <translation>右ダブルクリックして中央にリセットします。</translation>
     </message>
@@ -11618,49 +11704,44 @@ X
         <translation>エンコーダ再生b</translation>
     </message>
     <message>
-        <location filename="../firmwares/rawsource.cpp" line="164"/>
+        <location filename="../firmwares/rawsource.cpp" line="166"/>
         <source>I</source>
         <comment>as in Input</comment>
         <translation></translation>
     </message>
     <message>
-        <location filename="../firmwares/rawsource.cpp" line="168"/>
+        <location filename="../firmwares/rawsource.cpp" line="170"/>
         <source>LUA%1%2</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../firmwares/rawsource.cpp" line="190"/>
+        <location filename="../firmwares/rawsource.cpp" line="185"/>
         <source>MIN</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/rawsource.cpp" line="193"/>
+        <location filename="../firmwares/rawsource.cpp" line="188"/>
         <source>MAX</source>
         <translation>最大</translation>
     </message>
     <message>
-        <location filename="../firmwares/rawsource.cpp" line="206"/>
-        <source>SW%1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../firmwares/rawsource.cpp" line="213"/>
+        <location filename="../firmwares/rawsource.cpp" line="210"/>
         <source>CYC%1</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../firmwares/rawsource.cpp" line="216"/>
+        <location filename="../firmwares/rawsource.cpp" line="213"/>
         <source>TR</source>
         <comment>as in Trainer</comment>
         <translation></translation>
     </message>
     <message>
-        <location filename="../firmwares/rawsource.cpp" line="255"/>
+        <location filename="../firmwares/rawsource.cpp" line="254"/>
         <source>sm%1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/rawsource.cpp" line="382"/>
+        <location filename="../firmwares/rawsource.cpp" line="356"/>
         <source>SRC</source>
         <translation></translation>
     </message>
@@ -11668,104 +11749,24 @@ X
 <context>
     <name>RawSwitch</name>
     <message>
-        <location filename="../constants.h" line="82"/>
+        <location filename="../constants.h" line="88"/>
         <source>↑</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../constants.h" line="83"/>
+        <location filename="../constants.h" line="89"/>
         <source>↓</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../constants.h" line="84"/>
+        <location filename="../constants.h" line="90"/>
         <source>-</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../constants.h" line="85"/>
+        <location filename="../constants.h" line="91"/>
         <source>!</source>
         <translation></translation>
-    </message>
-    <message>
-        <location filename="../firmwares/rawswitch.cpp" line="40"/>
-        <source>RudTrim Left</source>
-        <translation>RUDトリム 左</translation>
-    </message>
-    <message>
-        <location filename="../firmwares/rawswitch.cpp" line="40"/>
-        <source>RudTrim Right</source>
-        <translation>RUDトリム 右</translation>
-    </message>
-    <message>
-        <location filename="../firmwares/rawswitch.cpp" line="41"/>
-        <source>EleTrim Down</source>
-        <translation>ELEトリム 下</translation>
-    </message>
-    <message>
-        <location filename="../firmwares/rawswitch.cpp" line="41"/>
-        <source>EleTrim Up</source>
-        <translation>ELEトリム 上</translation>
-    </message>
-    <message>
-        <location filename="../firmwares/rawswitch.cpp" line="42"/>
-        <source>ThrTrim Down</source>
-        <translation>THRトリム 下</translation>
-    </message>
-    <message>
-        <location filename="../firmwares/rawswitch.cpp" line="42"/>
-        <source>ThrTrim Up</source>
-        <translation>THRトリム 上</translation>
-    </message>
-    <message>
-        <location filename="../firmwares/rawswitch.cpp" line="43"/>
-        <source>AilTrim Left</source>
-        <translation>AILトリム 左</translation>
-    </message>
-    <message>
-        <location filename="../firmwares/rawswitch.cpp" line="43"/>
-        <source>AilTrim Right</source>
-        <translation>AILトリム 右</translation>
-    </message>
-    <message>
-        <location filename="../firmwares/rawswitch.cpp" line="44"/>
-        <source>Trim 5 Down</source>
-        <translation>トリム5 下</translation>
-    </message>
-    <message>
-        <location filename="../firmwares/rawswitch.cpp" line="44"/>
-        <source>Trim 5 Up</source>
-        <translation>トリム5 上</translation>
-    </message>
-    <message>
-        <location filename="../firmwares/rawswitch.cpp" line="45"/>
-        <source>Trim 6 Down</source>
-        <translation>トリム6 下</translation>
-    </message>
-    <message>
-        <location filename="../firmwares/rawswitch.cpp" line="45"/>
-        <source>Trim 6 Up</source>
-        <translation>トリム6 上</translation>
-    </message>
-    <message>
-        <location filename="../firmwares/rawswitch.cpp" line="46"/>
-        <source>Trim 7 Down</source>
-        <translation type="unfinished">トリム7 下</translation>
-    </message>
-    <message>
-        <location filename="../firmwares/rawswitch.cpp" line="46"/>
-        <source>Trim 7 Up</source>
-        <translation type="unfinished">トリム7 上</translation>
-    </message>
-    <message>
-        <location filename="../firmwares/rawswitch.cpp" line="47"/>
-        <source>Trim 8 Down</source>
-        <translation type="unfinished">トリム8 下</translation>
-    </message>
-    <message>
-        <location filename="../firmwares/rawswitch.cpp" line="47"/>
-        <source>Trim 8 Up</source>
-        <translation type="unfinished">トリム8 上</translation>
     </message>
     <message>
         <location filename="../firmwares/rawswitch.cpp" line="51"/>
@@ -11798,19 +11799,94 @@ X
         <translation>エンコーダ再生b</translation>
     </message>
     <message>
-        <location filename="../firmwares/rawswitch.cpp" line="102"/>
-        <source>SW%1</source>
+        <location filename="../firmwares/rawswitch.cpp" line="40"/>
+        <source>Rud-</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/rawswitch.cpp" line="40"/>
+        <source>Rud+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/rawswitch.cpp" line="41"/>
+        <source>Ele-</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/rawswitch.cpp" line="41"/>
+        <source>Ele+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/rawswitch.cpp" line="42"/>
+        <source>Thr-</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/rawswitch.cpp" line="42"/>
+        <source>Thr+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/rawswitch.cpp" line="43"/>
+        <source>Ail-</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/rawswitch.cpp" line="43"/>
+        <source>Ail+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/rawswitch.cpp" line="44"/>
+        <source>T5-</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/rawswitch.cpp" line="44"/>
+        <source>T5+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/rawswitch.cpp" line="45"/>
+        <source>T6-</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/rawswitch.cpp" line="45"/>
+        <source>T6+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/rawswitch.cpp" line="46"/>
+        <source>T7-</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/rawswitch.cpp" line="46"/>
+        <source>T7+</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/rawswitch.cpp" line="47"/>
+        <source>T8-</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../firmwares/rawswitch.cpp" line="47"/>
+        <source>T8+</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../firmwares/rawswitch.cpp" line="56"/>
-        <location filename="../firmwares/rawswitch.cpp" line="125"/>
+        <location filename="../firmwares/rawswitch.cpp" line="126"/>
         <source>OFF</source>
         <translation>OFF</translation>
     </message>
     <message>
         <location filename="../firmwares/rawswitch.cpp" line="56"/>
-        <location filename="../firmwares/rawswitch.cpp" line="122"/>
+        <location filename="../firmwares/rawswitch.cpp" line="123"/>
         <source>ON</source>
         <translation>ON</translation>
     </message>
@@ -11830,32 +11906,32 @@ X
         <translation></translation>
     </message>
     <message>
-        <location filename="../firmwares/rawswitch.cpp" line="128"/>
+        <location filename="../firmwares/rawswitch.cpp" line="129"/>
         <source>One</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../firmwares/rawswitch.cpp" line="131"/>
+        <location filename="../firmwares/rawswitch.cpp" line="132"/>
         <source>Act</source>
         <translation>Act</translation>
     </message>
     <message>
-        <location filename="../firmwares/rawswitch.cpp" line="140"/>
+        <location filename="../firmwares/rawswitch.cpp" line="141"/>
         <source>----</source>
         <translation></translation>
     </message>
     <message>
-        <location filename="../firmwares/rawswitch.cpp" line="152"/>
+        <location filename="../firmwares/rawswitch.cpp" line="153"/>
         <source>Telemetry</source>
         <translation>テレメトリー</translation>
     </message>
     <message>
-        <location filename="../firmwares/rawswitch.cpp" line="155"/>
+        <location filename="../firmwares/rawswitch.cpp" line="156"/>
         <source>Trn</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/rawswitch.cpp" line="205"/>
+        <location filename="../firmwares/rawswitch.cpp" line="209"/>
         <source>SW</source>
         <translation></translation>
     </message>
@@ -12253,11 +12329,6 @@ X
         <translation>OFF</translation>
     </message>
     <message>
-        <location filename="../modeledit/setup.ui" line="396"/>
-        <source>Manual</source>
-        <translation>手動</translation>
-    </message>
-    <message>
         <location filename="../modeledit/setup.ui" line="401"/>
         <source>Auto</source>
         <translation>自動</translation>
@@ -12321,6 +12392,11 @@ X
         <location filename="../modeledit/setup.ui" line="381"/>
         <source>Pot/Slider Warnings</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../modeledit/setup.ui" line="396"/>
+        <source>ON</source>
+        <translation type="unfinished">ON</translation>
     </message>
     <message>
         <location filename="../modeledit/setup.ui" line="484"/>
@@ -12445,77 +12521,77 @@ If this is checked the throttle will be reversed.  Idle will be forward, trim wi
         <translation>タイマー %1</translation>
     </message>
     <message>
-        <location filename="../modeledit/setup.cpp" line="2070"/>
+        <location filename="../modeledit/setup.cpp" line="2069"/>
         <source>Profile Settings</source>
         <translation>プロファイル設定</translation>
     </message>
     <message>
-        <location filename="../modeledit/setup.cpp" line="2070"/>
+        <location filename="../modeledit/setup.cpp" line="2069"/>
         <source>SD structure path not specified or invalid</source>
         <translation>SDカード保存先パスが指定されていないか無効です</translation>
     </message>
     <message>
-        <location filename="../modeledit/setup.cpp" line="2085"/>
+        <location filename="../modeledit/setup.cpp" line="2084"/>
         <source>Copy</source>
         <translation>コピー</translation>
     </message>
     <message>
-        <location filename="../modeledit/setup.cpp" line="2086"/>
+        <location filename="../modeledit/setup.cpp" line="2085"/>
         <source>Cut</source>
         <translation>切り取り</translation>
     </message>
     <message>
-        <location filename="../modeledit/setup.cpp" line="2087"/>
+        <location filename="../modeledit/setup.cpp" line="2086"/>
         <source>Paste</source>
         <translation>貼り付け</translation>
     </message>
     <message>
-        <location filename="../modeledit/setup.cpp" line="2088"/>
+        <location filename="../modeledit/setup.cpp" line="2087"/>
         <source>Clear</source>
         <translation>消去</translation>
     </message>
     <message>
-        <location filename="../modeledit/setup.cpp" line="2090"/>
+        <location filename="../modeledit/setup.cpp" line="2089"/>
         <source>Insert</source>
         <translation>挿入</translation>
     </message>
     <message>
-        <location filename="../modeledit/setup.cpp" line="2091"/>
+        <location filename="../modeledit/setup.cpp" line="2090"/>
         <source>Delete</source>
         <translation>削除</translation>
     </message>
     <message>
-        <location filename="../modeledit/setup.cpp" line="2092"/>
+        <location filename="../modeledit/setup.cpp" line="2091"/>
         <source>Move Up</source>
         <translation>上へ移動</translation>
     </message>
     <message>
-        <location filename="../modeledit/setup.cpp" line="2093"/>
+        <location filename="../modeledit/setup.cpp" line="2092"/>
         <source>Move Down</source>
         <translation>下へ移動</translation>
     </message>
     <message>
-        <location filename="../modeledit/setup.cpp" line="2095"/>
+        <location filename="../modeledit/setup.cpp" line="2094"/>
         <source>Clear All</source>
         <translation>すべて消去</translation>
     </message>
     <message>
-        <location filename="../modeledit/setup.cpp" line="2130"/>
+        <location filename="../modeledit/setup.cpp" line="2129"/>
         <source>Clear Timer. Are you sure?</source>
         <translation>タイマーを消去します。よろしいですか？</translation>
     </message>
     <message>
-        <location filename="../modeledit/setup.cpp" line="2142"/>
+        <location filename="../modeledit/setup.cpp" line="2141"/>
         <source>Clear all Timers. Are you sure?</source>
         <translation>タイマーをすべて消去します。よろしいですか？</translation>
     </message>
     <message>
-        <location filename="../modeledit/setup.cpp" line="2164"/>
+        <location filename="../modeledit/setup.cpp" line="2163"/>
         <source>Cut Timer. Are you sure?</source>
         <translation>タイマーを切り取ります。よろしいですか？</translation>
     </message>
     <message>
-        <location filename="../modeledit/setup.cpp" line="2172"/>
+        <location filename="../modeledit/setup.cpp" line="2171"/>
         <source>Delete Timer. Are you sure?</source>
         <translation>タイマーを削除します。よろしいですか？</translation>
     </message>
@@ -12736,115 +12812,115 @@ If this is checked the throttle will be reversed.  Idle will be forward, trim wi
 <context>
     <name>SimulatorMain</name>
     <message>
-        <location filename="../simulator.cpp" line="64"/>
+        <location filename="../simulator.cpp" line="65"/>
         <source>EdgeTx Simulator</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../simulator.cpp" line="73"/>
+        <location filename="../simulator.cpp" line="74"/>
         <source>Available profiles:</source>
         <translation>利用可能なプロファイル:</translation>
     </message>
     <message>
-        <location filename="../simulator.cpp" line="77"/>
+        <location filename="../simulator.cpp" line="78"/>
         <source>ID: </source>
         <translation>ID:</translation>
     </message>
     <message>
-        <location filename="../simulator.cpp" line="77"/>
+        <location filename="../simulator.cpp" line="78"/>
         <source>Name: </source>
         <translation>名称:</translation>
     </message>
     <message>
-        <location filename="../simulator.cpp" line="80"/>
+        <location filename="../simulator.cpp" line="81"/>
         <source>Available radios:</source>
         <translation>利用可能な送信機:</translation>
     </message>
     <message>
-        <location filename="../simulator.cpp" line="115"/>
+        <location filename="../simulator.cpp" line="116"/>
         <source>Radio profile ID or Name to use for simulator.</source>
         <translation>シミュレータに使用する送信機プロファイルIDまたは名称。</translation>
     </message>
     <message>
-        <location filename="../simulator.cpp" line="116"/>
+        <location filename="../simulator.cpp" line="117"/>
         <source>profile</source>
         <translation>プロファイル</translation>
     </message>
     <message>
-        <location filename="../simulator.cpp" line="119"/>
+        <location filename="../simulator.cpp" line="120"/>
         <source>Radio type to simulate (usually defined in profile).</source>
         <translation>シミュレートする送信機タイプ(通常はプロファイルで定義)。</translation>
     </message>
     <message>
-        <location filename="../simulator.cpp" line="120"/>
+        <location filename="../simulator.cpp" line="121"/>
         <source>radio</source>
         <translation>送信機</translation>
     </message>
     <message>
-        <location filename="../simulator.cpp" line="123"/>
+        <location filename="../simulator.cpp" line="124"/>
         <source>Directory containing the SD card image to use. The default is configured in the chosen Radio Profile.</source>
         <translation>使用するSDカードイメージを含むディレクトリ。デフォルトは選択した送信機プロファイルで設定されます。</translation>
     </message>
     <message>
-        <location filename="../simulator.cpp" line="124"/>
+        <location filename="../simulator.cpp" line="125"/>
         <source>path</source>
         <translation>パス</translation>
     </message>
     <message>
-        <location filename="../simulator.cpp" line="127"/>
+        <location filename="../simulator.cpp" line="128"/>
         <source>Data source type to use. One of:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../simulator.cpp" line="354"/>
+        <location filename="../simulator.cpp" line="362"/>
         <source>Unknown error during Simulator startup.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../simulator.cpp" line="128"/>
+        <location filename="../simulator.cpp" line="129"/>
         <source>type</source>
         <translation>タイプ</translation>
     </message>
     <message>
-        <location filename="../simulator.cpp" line="130"/>
+        <location filename="../simulator.cpp" line="131"/>
         <source>data-source</source>
         <translation>データ元</translation>
     </message>
     <message>
-        <location filename="../simulator.cpp" line="131"/>
+        <location filename="../simulator.cpp" line="132"/>
         <source>Radio data (.bin/.eeprom/.etx) image file to use OR data folder path (for Horus-style radios).
 NOTE: any existing EEPROM data incompatible with the selected radio type may be overwritten!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../simulator.cpp" line="133"/>
+        <location filename="../simulator.cpp" line="134"/>
         <source>[data-source]</source>
         <translation>[データ元]</translation>
     </message>
     <message>
-        <location filename="../simulator.cpp" line="171"/>
+        <location filename="../simulator.cpp" line="172"/>
         <source>Error: Profile ID %1 was not found.</source>
         <translation>エラー: プロファイル ID %1 が見つかりません。</translation>
     </message>
     <message>
-        <location filename="../simulator.cpp" line="219"/>
+        <location filename="../simulator.cpp" line="220"/>
         <source>Unrecognized startup data source type: %1</source>
         <translation>認識されないスタートアップデータ元タイプ: %1</translation>
     </message>
     <message>
-        <location filename="../simulator.cpp" line="275"/>
+        <location filename="../simulator.cpp" line="276"/>
         <source>WARNING: couldn&apos;t initialize SDL:
 %1</source>
         <translation>警告: SDLを初期化できませんでした。
 %1</translation>
     </message>
     <message>
-        <location filename="../simulator.cpp" line="284"/>
+        <location filename="../simulator.cpp" line="287"/>
         <source>ERROR: No simulator libraries available.</source>
         <translation>エラー: 利用可能なシミュレータライブラリがありません。</translation>
     </message>
     <message>
-        <location filename="../simulator.cpp" line="329"/>
+        <location filename="../simulator.cpp" line="332"/>
         <source>ERROR: Couldn&apos;t start simulator, missing radio/profile/data file/folder.
   Profile ID: [%1]; Radio ID: [%2];
 Data File: [%3]</source>
@@ -12853,7 +12929,7 @@ Data File: [%3]</source>
 データファイル: [%3]</translation>
     </message>
     <message>
-        <location filename="../simulator.cpp" line="335"/>
+        <location filename="../simulator.cpp" line="338"/>
         <source>ERROR: Radio profile or simulator firmware not found.
 Profile ID: [%1]; Radio ID: [%2]</source>
         <translation>エラー: 送信機プロファイルまたはシミュレータのファームウェアが見つかりません。
@@ -13299,17 +13375,17 @@ The default is configured in the chosen Radio Profile.</source>
         <translation>データ保存 エラー</translation>
     </message>
     <message>
-        <location filename="../simulation/simulatorwidget.cpp" line="711"/>
+        <location filename="../simulation/simulatorwidget.cpp" line="710"/>
         <source>Cannot open joystick, joystick disabled</source>
         <translation>スティックが接続不可、もしくはスティックが無効です</translation>
     </message>
     <message>
-        <location filename="../simulation/simulatorwidget.cpp" line="809"/>
+        <location filename="../simulation/simulatorwidget.cpp" line="808"/>
         <source>Radio firmware error: %1</source>
         <translation>送信機 ファームウェア エラー: %1</translation>
     </message>
     <message>
-        <location filename="../simulation/simulatorwidget.cpp" line="814"/>
+        <location filename="../simulation/simulatorwidget.cpp" line="813"/>
         <source> - Flight Mode %1 (#%2)</source>
         <translation> - フライトモード %1 (#%2)</translation>
     </message>
@@ -14797,22 +14873,22 @@ hh:mm:ss</source>
 <context>
     <name>TrainerMix</name>
     <message>
-        <location filename="../firmwares/generalsettings.cpp" line="783"/>
+        <location filename="../firmwares/generalsettings.cpp" line="924"/>
         <source>OFF</source>
         <translation type="unfinished">OFF</translation>
     </message>
     <message>
-        <location filename="../firmwares/generalsettings.cpp" line="785"/>
+        <location filename="../firmwares/generalsettings.cpp" line="926"/>
         <source>+= (Sum)</source>
         <translation type="unfinished">+= (合計)</translation>
     </message>
     <message>
-        <location filename="../firmwares/generalsettings.cpp" line="787"/>
+        <location filename="../firmwares/generalsettings.cpp" line="928"/>
         <source>:= (Replace)</source>
         <translation type="unfinished">:= (置換)</translation>
     </message>
     <message>
-        <location filename="../firmwares/generalsettings.cpp" line="796"/>
+        <location filename="../firmwares/generalsettings.cpp" line="937"/>
         <source>CH%1</source>
         <translation type="unfinished">CH%1</translation>
     </message>
@@ -14820,27 +14896,27 @@ hh:mm:ss</source>
 <context>
     <name>TrainerPanel</name>
     <message>
-        <location filename="../generaledit/trainer.cpp" line="49"/>
+        <location filename="../generaledit/trainer.cpp" line="48"/>
         <source>Mode</source>
         <translation type="unfinished">モード</translation>
     </message>
     <message>
-        <location filename="../generaledit/trainer.cpp" line="50"/>
+        <location filename="../generaledit/trainer.cpp" line="49"/>
         <source>Weight</source>
         <translation type="unfinished">ウェイト</translation>
     </message>
     <message>
-        <location filename="../generaledit/trainer.cpp" line="51"/>
+        <location filename="../generaledit/trainer.cpp" line="50"/>
         <source>Source</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">選択元</translation>
     </message>
     <message>
-        <location filename="../generaledit/trainer.cpp" line="77"/>
+        <location filename="../generaledit/trainer.cpp" line="76"/>
         <source>Multiplier</source>
         <translation type="unfinished">乗算</translation>
     </message>
     <message>
-        <location filename="../generaledit/trainer.cpp" line="91"/>
+        <location filename="../generaledit/trainer.cpp" line="90"/>
         <source>Calibration</source>
         <translation type="unfinished">校正</translation>
     </message>
@@ -16160,7 +16236,7 @@ Process now?</source>
 <context>
     <name>YamlGeneralSettings</name>
     <message>
-        <location filename="../firmwares/edgetx/yaml_generalsettings.cpp" line="365"/>
+        <location filename="../firmwares/edgetx/yaml_generalsettings.cpp" line="348"/>
         <source>Warning: Radio settings file version %1 is not supported by this version of Companion!
 
 Model and radio settings may be corrupted if you continue.
@@ -16169,7 +16245,7 @@ I acknowledge and accept the consequences.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/edgetx/yaml_generalsettings.cpp" line="397"/>
+        <location filename="../firmwares/edgetx/yaml_generalsettings.cpp" line="379"/>
         <source>Warning: Radio settings file is missing the board entry!
 
 Current firmware profile board will be used.
@@ -16178,7 +16254,7 @@ Do you wish to continue?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../firmwares/edgetx/yaml_generalsettings.cpp" line="408"/>
+        <location filename="../firmwares/edgetx/yaml_generalsettings.cpp" line="390"/>
         <source>Settings file board (%1) does not match current profile board (%2).
 
 Do you wish to continue?</source>
@@ -16342,70 +16418,70 @@ v4.1ボード用m2560</translation>
         <translation>OK</translation>
     </message>
     <message>
-        <location filename="../simulation/joystickdialog.cpp" line="159"/>
-        <location filename="../simulation/joystickdialog.cpp" line="193"/>
+        <location filename="../simulation/joystickdialog.cpp" line="157"/>
+        <location filename="../simulation/joystickdialog.cpp" line="183"/>
         <source>Not Assigned</source>
         <translation>割り当てなし</translation>
     </message>
     <message>
-        <location filename="../simulation/joystickdialog.cpp" line="227"/>
+        <location filename="../simulation/joystickdialog.cpp" line="217"/>
         <source>No joysticks found</source>
         <translation>スティックが認識できません</translation>
     </message>
     <message>
-        <location filename="../simulation/joystickdialog.cpp" line="265"/>
+        <location filename="../simulation/joystickdialog.cpp" line="255"/>
         <source>Cannot open joystick.</source>
         <translation>スティックを接続することができません。</translation>
     </message>
     <message>
-        <location filename="../simulation/joystickdialog.cpp" line="310"/>
+        <location filename="../simulation/joystickdialog.cpp" line="300"/>
         <source>Press the Start button to start the stick range calibration procedure.
 You may change the channel assignments or inversion at any time.</source>
         <translation>スタートボタンを押すと、スティックレンジのキャリブレーション手順が始まります。
 チャンネル割り当てやリバース設定はいつでも変更することができます。</translation>
     </message>
     <message>
-        <location filename="../simulation/joystickdialog.cpp" line="320"/>
+        <location filename="../simulation/joystickdialog.cpp" line="310"/>
         <source>Move sticks and pots in every direction making full movement
 Press Next when finished</source>
         <translation>スティックとダイヤルをあらゆる方向に末端まで動かします
 終了したら『次へ』を押してください</translation>
     </message>
     <message>
-        <location filename="../simulation/joystickdialog.cpp" line="321"/>
+        <location filename="../simulation/joystickdialog.cpp" line="311"/>
         <source>Next</source>
         <translation>次へ</translation>
     </message>
     <message>
-        <location filename="../simulation/joystickdialog.cpp" line="325"/>
+        <location filename="../simulation/joystickdialog.cpp" line="315"/>
         <source>Place sticks and pots in middle position.
 Press Next when done</source>
         <translation>スティックとダイヤルを中央に合わせます。
 完了したら『次へ』を押してください</translation>
     </message>
     <message>
-        <location filename="../simulation/joystickdialog.cpp" line="337"/>
+        <location filename="../simulation/joystickdialog.cpp" line="327"/>
         <source>Map joystick channels to controls using comboboxes.
 Press Next when done.</source>
         <translation>コンボボックスを使用してスティックチャンネルをマッピングします。
 完了したら『次へ』を押してください。</translation>
     </message>
     <message>
-        <location filename="../simulation/joystickdialog.cpp" line="341"/>
+        <location filename="../simulation/joystickdialog.cpp" line="331"/>
         <source>Check inversion checkbox to if necessary to reverse direction.
 Press Next when done.</source>
         <translation>方向を逆にする必要がある場合は、『リバース』チェックボックスをオンにします。
 完了したら『次へ』を押してください。</translation>
     </message>
     <message>
-        <location filename="../simulation/joystickdialog.cpp" line="345"/>
+        <location filename="../simulation/joystickdialog.cpp" line="335"/>
         <source>Press OK to save configuration
 Press Cancel to abort joystick calibration without saving.</source>
         <translation>OKを押して設定を保存します
 保存せずにスティックキャリブレーションを中止するには、『キャンセル』を押します。</translation>
     </message>
     <message>
-        <location filename="../simulation/joystickdialog.cpp" line="386"/>
+        <location filename="../simulation/joystickdialog.cpp" line="376"/>
         <source>Calibration not complete, save anyway?</source>
         <translation>キャリブレーションが完了していません。そのまま保存しますか？</translation>
     </message>
