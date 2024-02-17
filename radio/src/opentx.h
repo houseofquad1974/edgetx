@@ -634,14 +634,14 @@ constexpr uint8_t OPENTX_START_NO_CALIBRATION = 0x02;
 constexpr uint8_t OPENTX_START_NO_CHECKS = 0x04;
 
 #if defined(STATUS_LEDS)
-  #define LED_ERROR_BEGIN()            ledRed()
+  #define LED_ERROR_BEGIN()            ledBlue()
 // Green is preferred "ready to use" color for these radios
 #if defined(MANUFACTURER_RADIOMASTER) || defined(MANUFACTURER_JUMPER) || defined(RADIO_COMMANDO8)
 #define LED_ERROR_END() ledGreen()
-#define LED_BIND() ledBlue()
+#define LED_BIND() ledRed()
 #else
 // Either green is not an option, or blue is preferred "ready to use" color
-  #define LED_ERROR_END()              ledBlue()
+  #define LED_ERROR_END()              ledRed()
 #endif
 #else
   #define LED_ERROR_BEGIN()
